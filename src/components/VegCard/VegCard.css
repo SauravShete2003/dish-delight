@@ -9,6 +9,8 @@
     position: relative;
     margin: 0 auto;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
   }
   
   .card-container:hover {
