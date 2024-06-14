@@ -1,0 +1,22 @@
+.footer-container{
+    background-color: black;
+    color: white;
+    height: 230px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    
+    .contact-info-div{
+        height: 140px;
+        width: 180px;
+        padding: 10px;
+        background-color: aqua;
+        color: black;
+    }
+    
+    .get-latest-food-receipe-inbox-container{
+        background-color: aquamarine;
+        height: 80px;
+    }
