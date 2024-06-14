@@ -1,10 +1,10 @@
-import React from 'react'
+import CategoriesSection from "./CategoriesSection/CategoriesSection"
 
 function HomeCategories() {
   return (
-    <div>
-      
-    </div>
+<>
+<CategoriesSection />
+</>
   )
 }
 
