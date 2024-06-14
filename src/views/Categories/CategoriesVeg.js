@@ -34,28 +34,30 @@ function VegCard() {
               <div className="time-container">
                 <img src={ImgClock} className="img-clock" />
                 <span className="time">{time}</span>
-                <Button text={"Know More"}/>
 
-                {/* <span className="categories-name">{categories} </span> */}
+
+                 {/* <span className="categories-name">{categories} </span>  */}
               </div>
-              
 
-            </div>
+              <div className="category-card-button">
+                <Button text={"Know More"} />
+                </div>
 
 
+              </div>
 
-          )
+              )
         })}
-      </div>
+            </div>
 
 
 
 
     </>
-  )
+      )
 }
 
 
 
-export default VegCard
+      export default VegCard
 

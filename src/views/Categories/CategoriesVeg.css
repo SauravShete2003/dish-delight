@@ -66,10 +66,12 @@ body{
     font-weight: bold;
     
   }
-  .categories-name{
-    font-family: sans-serif;
-    font-weight: bold;
-    margin-left: 140px;
-    
+
   
+  .category-card-button{
+    font-size: 18px;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+
   }

@@ -1,11 +1,12 @@
 .btn{
     padding: 7px 20px;
-    border-radius: 10px;
+    border-radius: 15px;
     color: white;
     background-color:rgb(14, 13, 13) ;
+    font-weight: bold;
 }
 .btn:hover{
     cursor: pointer;
     color: black;
-    background-color:white
+    background-color: aquamarine;
 }
