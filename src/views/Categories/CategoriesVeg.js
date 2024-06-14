@@ -2,6 +2,7 @@ import "./CategoriesVeg.css"
 import Data from "../../data/CategoriesVegData/CategoriesVesdata"
 import ImgLike1 from "../../assets/CategoriesVeg/heart.png"
 import ImgClock from "../../assets/CategoriesVeg/clock.png"
+import Button from "../../components/Button/Button"
 
 function VegCard() {
 
@@ -16,7 +17,7 @@ function VegCard() {
             Image,
             Discription,
             time,
-            categories
+            // categories
           } = blogObject
 
 
@@ -28,18 +29,16 @@ function VegCard() {
 
               <h1 className="card-title">{title}</h1>
 
-
-
               <p className="card-disciption">{Discription.substring(0, 150)}...</p>
 
               <div className="time-container">
                 <img src={ImgClock} className="img-clock" />
                 <span className="time">{time}</span>
-                <span className="categories-name">{categories} </span>
+                <Button text={"Know More"}/>
+
+                {/* <span className="categories-name">{categories} </span> */}
               </div>
               
-
-
 
             </div>
 
