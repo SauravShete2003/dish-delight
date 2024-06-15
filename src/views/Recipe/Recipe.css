@@ -2,11 +2,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.recipe-img{
-    width: 50%;
-    height: 70vh;
-
-}
 
 .recipe-description{
     font-size: 30px;
@@ -32,4 +27,10 @@
     font-size: 20px;
     margin: 10px 200px;
     font-family:monospace ;
+}
+
+.recipe{
+
+    margin: 20px 200px;
+    font-size: 20px;
 }
