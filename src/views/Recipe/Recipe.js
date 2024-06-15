@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Recipe.css"
-import "./../../index.css"
+import Navbar from '../../components/Navbar/Navbar'
 import { useParams } from 'react-router-dom'
 
 import DataCard from '../../data/CategoriesVegData/CategoriesVesdata'
@@ -12,6 +12,7 @@ function Recipe() {
   const selectedData = DataCard.find((dataObject) => dataObject.id === id)
 
   return (<>
+  <Navbar/>
     <div>
       <h1 className='title text-center '>{selectedData.title}</h1>
       <img src={selectedData.image} className="recipe-img w-50 h-50 mx-auto d-block rounded-3 img-fluid" />
