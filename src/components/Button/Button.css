@@ -1,0 +1,14 @@
+.btn{
+    padding: 8px 22px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(31, 28, 28); 
+
+    font-weight: bold;
+}
+.btn:hover{
+    cursor: pointer;
+    /* color: rgb(31, 28, 28); */
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+}
