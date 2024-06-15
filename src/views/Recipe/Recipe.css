@@ -1,13 +1,11 @@
 .title{
-    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .recipe-img{
     width: 50%;
     height: 70vh;
-    display: block;
-    margin: 10px auto;
+
 }
 
 .recipe-description{
