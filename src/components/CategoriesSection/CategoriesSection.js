@@ -5,6 +5,7 @@ import "./CategoriesSection.css"
 function CategoriesSection({ name, image, timing }) {
 
   return (
+    <>
     <div className="categories-section">
       
       <div className="categories-container">
@@ -13,7 +14,8 @@ function CategoriesSection({ name, image, timing }) {
         <span className="category-timing">{timing}</span>
       </div>
     </div>
+    </>
   );
 }
-    
+
 export default CategoriesSection;
