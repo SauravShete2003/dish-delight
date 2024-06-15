@@ -15,5 +15,5 @@ function CategoriesSection({ name, image, timing }) {
     </div>
   );
 }
-
+    
 export default CategoriesSection;
