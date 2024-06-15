@@ -1,15 +1,18 @@
 import React from 'react'
 import "./Footer.css"
-import LogoImage from "./../../Assets/logo3.jpg"
-import MobileImg from "./../../Assets/footer-img/mobile (1).png"
-import EmailImg from "./../../Assets/footer-img/gmail.png"
-import Address from "./../../Assets/footer-img/location.png"
+import LogoImage from "./../../assets"
+import MobileImg from "./../../assets/footer-img/mobile (1).png"
+import EmailImg from "./../../assets/footer-img/gmail.png"
+import Address from "./../../assets/footer-img/location.png"
 
 function Footer() {
   return (
     <div className='footer-container'>
     
-        <div className='contact-info-div'></div>
+        <div className='contact-info-div'>
+        <img src={LogoImage}  className='logo-image'/>
+
+        </div>
         <div className='contact-info-div'>
           <p>About</p>
           <p>Dish Delight, Tilak ward main road new Delhi,
@@ -28,7 +31,7 @@ function Footer() {
           <img src= {EmailImg} className='contact-logo align-items-start'/><span>delight@gmail.com</span><br></br>
           <img src= {Address} className='contact-logo align-items-start'/><span>1234 delight Building,New Delhi,12002700</span>
         </div>
-        
+
         <div className='contact-info-div'>
           <p>Opening Hours</p>
           <p>Monday Thusday<br></br>
