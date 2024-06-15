@@ -3,7 +3,7 @@
 const DataCard = [
 
     {
-   
+      id :"daltadka",
       title : "Dal Tadka",
    
       image:"https://www.masalabox.com/wp-content/uploads/2023/01/image-22.png",
