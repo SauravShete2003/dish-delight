@@ -10,10 +10,7 @@
    
 }
 
-.categories-main-container{
-   display: inline-block;
-    margin: 20px;
-}
+
 
 .categories-container{
     width: 260px;
@@ -50,6 +47,12 @@
 } */
 
 
+
+
 .categories-container{
     background-color: tomato;
+    width: 260px;
+    height: 300px;
+    border-radius: 20px;
+    margin-bottom: 10px;
 }
