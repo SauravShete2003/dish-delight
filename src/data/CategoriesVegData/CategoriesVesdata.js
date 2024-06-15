@@ -1,7 +1,7 @@
 
 
 const DataCard = [
-<<<<<<< HEAD
+
   {
 
     title: "Dal Tadka",
@@ -50,7 +50,7 @@ const DataCard = [
 ]
 
 export default DataCard
-=======
+
     {
    
       title : "Dal Tadka",
@@ -108,4 +108,3 @@ export default DataCard
 
    
    export default DataCard
->>>>>>> 2d00bb36f71269ab1037ceb843bec56890e77914

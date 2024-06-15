@@ -17,6 +17,9 @@ const selectedData = DataCard.find((dataObject)=>dataObject.id===id)
       <p className='recipe-description'>{selectedData.Discription}</p>
       <h4 className='category'>Category:{selectedData.categories}</h4>
       <h1 className='category'>Proccess: {selectedData.title}</h1>
+      <div>
+        {}
+      </div>
     </div>
   </>
   )
