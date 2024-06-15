@@ -13,8 +13,8 @@ const selectedData = DataCard.find((dataObject)=>dataObject.id===id)
   return (<>
     <div>
       <h1 className='title text-center '>Recipe: {selectedData.title}</h1>
-      <img src={selectedData.Image} className="recipe-img  mx-auto d-block " />
-      <p className='recipe-description'>{selectedData.Discription}</p>
+      <img src={selectedData.image} className="recipe-img  mx-auto d-block " />
+      <p className='recipe-description'>{selectedData.description}</p>
       <h4 className='category'>Category:{selectedData.categories}</h4>
       <h1 className='category'>Proccess: {selectedData.title}</h1>
       <div>
