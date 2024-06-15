@@ -20,6 +20,9 @@ function Footer() {
         </div>
         <div className='contact-info-div'>
           <p>Contact Info</p>
+          <img src= {MobileImg} className='contact-logo align-items-start' /><span>+9922868597</span><br></br>
+          <img src= {EmailImg} className='contact-logo align-items-start'/><span>delight@gmail.com</span><br></br>
+          <img src= {Address} className='contact-logo align-items-start'/><span>1234 delight Building,New Delhi,12002700</span>
         </div>
         <div className='contact-info-div'>
           <p>Opening Hours</p>
