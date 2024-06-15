@@ -1,6 +1,5 @@
 .navbar-container{
-    padding: 0;
-    margin: 0;
+    height: 100px;
     background-color: #0093E9;
     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
     color: white;
@@ -8,6 +7,8 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
+    z-index: 100; 
 }
 
 
@@ -17,7 +18,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     height: 80px;
-    position: sticky;
+  
     width: 800px;
 
 }
