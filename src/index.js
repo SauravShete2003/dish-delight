@@ -8,7 +8,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Navbar from "../src/components/Navbar/Navbar"
 import Recipe from "../src/views/Recipe/Recipe"
-import HomeCategories from '../src/views/Home/Home';
+import HomeCategories from './components/HomeCategories/HomeCategories';
+
 
 
 
@@ -35,7 +36,7 @@ const router = createBrowserRouter([
         element: <VegCard />,
     },
     {
-        path: "/recipe",
+        path: "/recipe/:id",
         element: <Recipe />
     },
 
