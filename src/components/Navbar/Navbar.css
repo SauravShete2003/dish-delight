@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Orbitron:wght@400..900&display=swap');
+
+/*  font-family: "Orbitron", sans-serif; */
+/* font-family: "Montserrat Alternates", sans-serif; */
+
 .navbar-container{
-    height: 100px;
+    height: 90px;
     background-color: #0093E9;
     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
     color: white;
@@ -9,6 +14,7 @@
     justify-content: space-between;
     position: sticky;
     z-index: 100; 
+    font-family: "Montserrat Alternates", sans-serif;
 }
 
 
@@ -23,12 +29,12 @@
 
 }
 .navbar-logo{
-    height: 80px;
-    margin-left:20px;
+    height: 85px;
+    margin-left:15px;
     
 }
 .navbar-items{
-    font-size: 18px;
+    font-size: 17px;
     background-color: black;
     padding: 6px 20px;
     border-radius: 15px;
@@ -36,6 +42,11 @@
     text-align: center;
     margin: 5px;
     cursor: pointer;
+}
+.navbar-items:hover{
+    font-size: 18px;
+    background-color: rgb(61, 52, 52);
+    
 }
 .mr-20{
     margin-right: 20px;
