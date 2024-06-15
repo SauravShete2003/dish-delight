@@ -1,0 +1,23 @@
+.title{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.recipe-img{
+    width: 50%;
+    height: 70vh;
+    display: block;
+    margin: 10px auto;
+}
+
+.recipe-description{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px 100px;
+}
+
+.category{
+    text-align: center;
+
+}
+
