@@ -6,17 +6,50 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+   
     }
     
     .contact-info-div{
         height: 140px;
         width: 180px;
         padding: 10px;
-        background-color: aqua;
-        color: black;
+        /* background-color: aqua; */
+        color: white;
     }
     
     .get-latest-food-receipe-inbox-container{
         background-color: aquamarine;
         height: 80px;
     }
+
+    .logo-image{
+        height: 130px;
+        width: 130px;
+        border-radius: 50%;
+       
+    }
+    
+    .contact-logo{
+        height: 15px;
+        width:15px;
+        margin: 4px;
+        padding: 0;
+    }
+    
+    .align-items-start{
+        align-items: start;
+    }
+    .contact-info-heading{
+        margin-bottom: 10px;
+        padding: 0;
+    }
+    .font-size-sm{
+        font-size: 14px;
+
+    }
+
+    .contact-info-width{
+        width: 250px;
+
+    }
+    
