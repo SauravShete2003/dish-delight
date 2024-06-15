@@ -18,6 +18,7 @@ function HomeCategories() {
           />
         ))}
       </div>
+      <h1>popular Food recipe</h1>
     </>
   );
 }

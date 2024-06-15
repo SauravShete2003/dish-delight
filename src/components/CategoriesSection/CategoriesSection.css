@@ -1,5 +1,9 @@
 .categories-section {
     margin: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    /* border: 3px solid rgb(3, 171, 3); */
   }
   
   .categories-container {
@@ -9,12 +13,16 @@
   }
   
   .category-image {
-    width: 100px;
-    height: 100px;
+    width: 220px;
+    height: 220px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
   }
   
+  .category-image:hover{
+    transform: scale(1.1);
+  }
   .category-name {
     font-size: 1.2em;
     margin-top: 10px;
