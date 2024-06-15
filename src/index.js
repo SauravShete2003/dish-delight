@@ -34,14 +34,13 @@ const router = createBrowserRouter([
         path: "/vegcard",
         element: <VegCard />,
     },
-
-    {
-        path: "/1",
-        element: <HomeCategories />
-    },
     {
         path: "/recipe",
         element: <Recipe />
+    },
+    {
+        path: "/homecategories",
+        element: <HomeCategories />
     }
 
 
