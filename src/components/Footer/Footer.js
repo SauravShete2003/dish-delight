@@ -1,5 +1,9 @@
 import React from 'react'
 import "./Footer.css"
+import LogoImage from "./../../Assets/logo3.jpg"
+import MobileImg from "./../../Assets/footer-img/mobile (1).png"
+import EmailImg from "./../../Assets/footer-img/gmail.png"
+import Address from "./../../Assets/footer-img/location.png"
 
 function Footer() {
   return (
@@ -24,6 +28,7 @@ function Footer() {
           <img src= {EmailImg} className='contact-logo align-items-start'/><span>delight@gmail.com</span><br></br>
           <img src= {Address} className='contact-logo align-items-start'/><span>1234 delight Building,New Delhi,12002700</span>
         </div>
+        
         <div className='contact-info-div'>
           <p>Opening Hours</p>
           <p>Monday Thusday<br></br>
