@@ -14,7 +14,7 @@ function Navbar() {
           <span className='navbar-items'>About</span>
         </div>
         <div >
-        <span className='navbar-items'>Log in</span>
+        <span className='navbar-items mr-20'>Log in</span>
         </div>
 
       </div>

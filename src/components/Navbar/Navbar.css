@@ -17,7 +17,6 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     height: 80px;
-   
     position: sticky;
     width: 800px;
 
@@ -28,12 +27,15 @@
     
 }
 .navbar-items{
-    font-size: 20px;
+    font-size: 18px;
     background-color: black;
-    padding: 7px 20px;
+    padding: 6px 20px;
     border-radius: 15px;
-    width: 100px;
+    width: 130px;
     text-align: center;
     margin: 5px;
     cursor: pointer;
+}
+.mr-20{
+    margin-right: 20px;
 }
