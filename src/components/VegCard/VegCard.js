@@ -10,7 +10,7 @@ function VegCard({ id,title, image, description, time }) {
     const [liked, setLiked] = useState(false)
 
     return (
-        <div className="card-container" to={`/recipe/${id}`}>
+        <div className="card-container">
             <img 
                 src={liked ? ImgHeartFilled : ImgHeartUnfilled} 
                 className="like-image" id="like" 
@@ -29,7 +29,8 @@ function VegCard({ id,title, image, description, time }) {
                 <span className="time">{time}</span>
             </div>
 
-            <Link className="category-card-button" to={`/recipe/${id}`}>
+            <Link className="category-card-button" to={`/recipe/${id}`} >
+            
                 <Button text={"Know More"} />
             </Link>
         </div>

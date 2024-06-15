@@ -2,7 +2,6 @@
 
 const DataCard = [
 
-
     {
    
       title : "Dal Tadka",
