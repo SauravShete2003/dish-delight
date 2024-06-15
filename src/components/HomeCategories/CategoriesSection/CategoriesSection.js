@@ -1,32 +1,36 @@
 import "./CategoriesSection.css"
-import HomeCategories from "../HomeCategories";
+import BreakFast from "../../../assets/BreakFast.jpg"
+import Veg from "../../../assets/veg-img.jpeg"
+import NonVeg from "../../../assets/NonVeg.jpeg"
+import FastFood from "../../../assets/fast-food.jpg"
 // import { useParams } from "react-router-dom";
 
+  
+function CategoriesSection({name , image , timing}) {
 
-function CategoriesSection() {
+  const homeImage= {
+     "BreakFast" : BreakFast,
+     "Veg" : Veg,
+     "Non-Veg" : NonVeg,
+     "FastFood" : FastFood
+  }
 
-  // const {id} = useParams()
-  // const selecetedData = HomeCategories.find((HomeObject)=>HomeObject.id == id)
   return (
 
   <>
-
-
-  <div className='home-container'>
+ <div className="categories-section">
+  <h2>Explore Categories</h2>
   <div className="categories-container">
-        <div className="categories-img-container">
-          <img src="" className="categories-img" />
+    <img src={homeImage[Image]} className=""/>
+    <span>{name}</span>
+    <span>{timing}</span>
 
-        </div>
-
-        <span className="categories-name">{}</span>
-        <span className="categories-time">{}</span>
-      </div>
-    <div>
-
-    </div>
   </div>
+ </div>
+
   
+
+      
   </>
   )
 }
