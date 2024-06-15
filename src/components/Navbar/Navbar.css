@@ -4,7 +4,7 @@
 /* font-family: "Montserrat Alternates", sans-serif; */
 
 .navbar-container{
-    height: 90px;
+    padding: 5px;
     background-color: #0093E9;
     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
     color: white;
@@ -42,6 +42,8 @@
     text-align: center;
     margin: 5px;
     cursor: pointer;
+    text-decoration: none;
+    color:white;
 }
 .navbar-items:hover{
     font-size: 18px;
