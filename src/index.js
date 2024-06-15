@@ -9,7 +9,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Navbar from "../src/components/Navbar/Navbar"
 import Recipe from "../src/views/Recipe/Recipe"
 import HomeCategories from './components/HomeCategories/HomeCategories';
-
+import "./index.css"
 
 
 
