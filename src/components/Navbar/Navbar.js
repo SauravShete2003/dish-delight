@@ -1,5 +1,6 @@
 import "./Navbar.css"
 import logo from "./../../assets/logo.png"
+import {Link} from 'react-router-dom';
 
 
 function Navbar() {
@@ -8,13 +9,13 @@ function Navbar() {
       <div className="navbar-container" >
         <div className='navbar-items-container'>
           <img src={logo} className="navbar-logo" />
-          <span className='navbar-items'>Home</span>
-          <span className='navbar-items'>Categories</span>
-          <span className='navbar-items'>Blog</span>
-          <span className='navbar-items'>About</span>
+          <Link to={"/"}className='navbar-items'>Home</Link>
+          <Link to={"/vegcard"} className='navbar-items'>Categories</Link>
+          <Link to={"/blog"}className='navbar-items'>Blog</Link>
+          <Link to={"/about"} className='navbar-items'>About</Link>
         </div>
         <div >
-        <span className='navbar-items mr-20'>Log in</span>
+        <Link to={"/login"} className='navbar-items mr-20'>Log in</Link>
         </div>
 
       </div>
