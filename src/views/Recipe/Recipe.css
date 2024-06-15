@@ -19,3 +19,17 @@
 
 }
 
+.ingredients-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ingredient-list{
+   font-size: 15px;
+}
+
+.steps{
+    font-size: 20px;
+    margin: 10px 200px;
+    font-family:monospace ;
+}
