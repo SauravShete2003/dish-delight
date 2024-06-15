@@ -12,15 +12,40 @@ const selectedData = DataCard.find((dataObject)=>dataObject.id===id)
 
   return (<>
     <div>
-      <h1 className='title text-center '>Recipe: {selectedData.title}</h1>
-      <img src={selectedData.image} className="recipe-img  mx-auto d-block " />
-      <p className='recipe-description'>{selectedData.description}</p>
-      <h4 className='category'>Category:{selectedData.categories}</h4>
-      <h1 className='category'>Proccess: {selectedData.title}</h1>
-      <div>
+      <h1 className='title text-center '>{selectedData.title}</h1>
+      <img src={selectedData.image}  className="recipe-img  mx-auto d-block rounded-3 img-fluid" />
+      <p className='recipe-description '>{selectedData.description}</p>
+      <h1 className='category bg-success py-2 mx-2 rounded-4 '>Ingredients </h1>
+      
+      <div className='ingredients-container my-5'>
+        <div className='ingredient-list bg-success p-4 rounded-4'>
+        {selectedData.ingredients.map((element, i)=>{
         
+          return <ul key={i}>
+            <b><li className='ingrients'>{element}</li></b>
+          </ul>
+        })}
+         </div>
+        <img src={selectedData.ingredientImg} className='ingredient-img rounded-3 img-fluid'/>
+        </div>
+
+        <div>
+
+        <h2 className='directions text-center  py-2 roundedy-5 '>Direction  {selectedData.recipeName}</h2>
+        {selectedData.steps.map((element, i)=>{
+       
+        return <p className='steps '>
+          <ul><li >{element}</li></ul>
+        </p>
+
+      })}
+        </div>
       </div>
-    </div>
+    
+      
+      
+      
+   
   </>
   )
 }
