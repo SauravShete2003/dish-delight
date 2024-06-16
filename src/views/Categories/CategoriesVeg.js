@@ -1,62 +1,35 @@
 import "./CategoriesVeg.css"
 import Data from "../../data/CategoriesVegData/CategoriesVesdata"
-import ImgLike1 from "../../assets/CategoriesVeg/heart.png"
-import ImgClock from "../../assets/CategoriesVeg/clock.png"
+import VegCard from "../../components/VegCard/VegCard"
+import headerimg from "./header-img.jpg"
+import Navbar from "../../components/Navbar/Navbar"
 
-function VegCard() {
+function CategoriesVeg() {
 
   return (
     <>
+    <Navbar/>
+    <img src={ headerimg} className="header-img"/>
 
       <div className="veg-container">
 
         {Data.map((blogObject, i) => {
           const {
+            id,
             title,
-            Image,
-            Discription,
-            time,
-            categories
+            image,
+            description,
+            time
+          
           } = blogObject
 
-
-          return (
-            <div className="card-container">
-
-              <img src={ImgLike1} className="like-image" />
-              <img src={Image} className="card-image" />
-
-              <h1 className="card-title">{title}</h1>
-
-
-
-              <p className="card-disciption">{Discription.substring(0, 150)}...</p>
-
-              <div className="time-container">
-                <img src={ImgClock} className="img-clock" />
-                <span className="time">{time}</span>
-                <span className="categories-name">{categories} </span>
-              </div>
-              
-
-
-
-            </div>
-
-
-
-          )
+          return (<VegCard title={title} image={image} description={description} time={time} id={id}/>)
         })}
       </div>
-
-
-
 
     </>
   )
 }
 
-
-
-export default VegCard
+export default CategoriesVeg
 

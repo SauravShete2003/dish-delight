@@ -1,0 +1,37 @@
+.categories-section {
+    margin: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    /* border: 3px solid rgb(3, 171, 3); */
+  }
+  
+  .categories-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 230px;
+    padding: 5px;
+  }
+  
+  .category-image {
+    width: 210px;
+    height: 210px;
+    /* object-fit: cover; */
+    border-radius: 15px;
+  }
+  
+  .category-image:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+  }
+  .category-name {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  .category-timing {
+    color: gray;
+    margin-top: 5px;
+  }

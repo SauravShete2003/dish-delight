@@ -1,12 +1,19 @@
-import React from 'react'
-import "./Home.css"
+import React from 'react';
+import Navbar from '../../components/Navbar/Navbar'; 
+import HomeCategories from '../../components/HomeCategories/HomeCategories';
 
-function Home() {
+
+
+
+function HomeCategory() {
   return (
-    <div>
-      <h1>Dish delight</h1>
-    </div>
-  )
+    <>
+
+    <Navbar/>
+    <HomeCategories/>
+   
+    </>
+  );
 }
 
-export default Home
+export default HomeCategory;
