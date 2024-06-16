@@ -129,6 +129,88 @@ const DataCard = [
         ],
         ingredientImg: "https://example.com/vegetable-biryani-ingredients.jpg"
     },
+    {
+      id: "Paneer Tikka Masala",
+      title: "Paneer Tikka Masala",
+      image: "https://example.com/paneer-tikka-masala.jpg",
+      description: "Paneer Tikka Masala is a popular Indian dish made with marinated paneer (Indian cottage cheese) cooked in a creamy tomato-based gravy with spices.",
+      time: "45 mins",
+      categories: "Veg",
+      recipeName: "Paneer Tikka Masala",
+      descriptiontitle: "ABOUT PANEER TIKKA MASALA RECIPE",
+      recipe: "Paneer Tikka Masala combines the flavors of marinated paneer and a rich tomato-based gravy with spices like garam masala and kasuri methi. Here's how you can make it:",
+      ingredientTitle: "INGREDIENTS FOR PANEER TIKKA MASALA",
+      ingredients: [
+          "250g paneer, cut into cubes",
+          "1 cup plain yogurt",
+          "1 onion, chopped",
+          "2 tomatoes, pureed",
+          "1 inch piece of ginger, grated",
+          "4-5 garlic cloves, minced",
+          "1 green chili, chopped (optional)",
+          "2 tbsp oil or ghee",
+          "1 tsp cumin seeds",
+          "1/2 tsp turmeric powder",
+          "1 tsp red chili powder",
+          "1 tsp garam masala powder",
+          "1 tsp kasuri methi (dried fenugreek leaves), crushed",
+          "Salt to taste",
+          "Fresh coriander leaves for garnish"
+      ],
+      steps: [
+          "Marinate paneer cubes in yogurt, turmeric powder, red chili powder, and salt for 30 minutes.",
+          "Heat oil or ghee in a pan. Add cumin seeds and let them splutter.",
+          "Add chopped onions and sauté until golden brown.",
+          "Add grated ginger, minced garlic, and chopped green chili. Sauté for 2 minutes.",
+          "Add tomato puree and cook until oil separates from the masala.",
+          "Add marinated paneer cubes and cook for 5-7 minutes, stirring gently.",
+          "Add garam masala powder and crushed kasuri methi. Mix well.",
+          "Add water to adjust consistency, if needed. Simmer for 5 minutes.",
+          "Garnish with fresh coriander leaves and serve hot with naan or rice."
+      ],
+      ingredientImg: "https://example.com/paneer-tikka-masala-ingredients.jpg"
+  },
+  {
+      id: "Aloo Gobi",
+      title: "Aloo Gobi",
+      image: "https://example.com/aloo-gobi.jpg",
+      description: "Aloo Gobi is a North Indian vegetarian dish made with potatoes (aloo) and cauliflower (gobi) cooked with aromatic spices.",
+      time: "30 mins",
+      categories: "Veg",
+      recipeName: "Aloo Gobi Recipe",
+      descriptiontitle: "ABOUT ALOO GOBI RECIPE",
+      recipe: "Aloo Gobi is a simple yet flavorful dish where potatoes and cauliflower are stir-fried with spices like turmeric, cumin, and coriander. Here's how you can make it:",
+      ingredientTitle: "INGREDIENTS FOR ALOO GOBI",
+      ingredients: [
+          "2 potatoes, peeled and cut into cubes",
+          "1 small cauliflower, cut into florets",
+          "1 onion, finely chopped",
+          "2 tomatoes, chopped",
+          "1 inch piece of ginger, grated",
+          "2-3 garlic cloves, minced",
+          "1 green chili, chopped (optional)",
+          "2 tbsp oil or ghee",
+          "1 tsp cumin seeds",
+          "1/2 tsp turmeric powder",
+          "1 tsp cumin powder",
+          "1 tsp coriander powder",
+          "1/2 tsp red chili powder",
+          "Salt to taste",
+          "Fresh coriander leaves for garnish"
+      ],
+      steps: [
+          "Heat oil or ghee in a pan. Add cumin seeds and let them splutter.",
+          "Add chopped onions and sauté until translucent.",
+          "Add grated ginger, minced garlic, and chopped green chili. Sauté for 2 minutes.",
+          "Add chopped tomatoes and cook until they turn mushy.",
+          "Add turmeric powder, cumin powder, coriander powder, red chili powder, and salt. Mix well.",
+          "Add potatoes and cauliflower florets. Mix gently to coat them with the masala.",
+          "Cover and cook on low heat for 15-20 minutes or until potatoes and cauliflower are tender, stirring occasionally.",
+          "Garnish with fresh coriander leaves and serve hot with chapati or rice."
+      ],
+      ingredientImg: "https://example.com/aloo-gobi-ingredients.jpg"
+  },
+ 
    
 ];
 
