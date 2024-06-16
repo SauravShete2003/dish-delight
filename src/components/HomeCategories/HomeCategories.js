@@ -7,7 +7,7 @@
     function HomeCategories() {
         return (
             <>
-                <h2 className="bg-primary flex-column mx-auto my-3 text-black px-1 py-3 rounded text-center w-50">
+                <h2 className="bg-primary flex-column mx-auto my-3 text-black px-1 py-2 rounded text-center w-50">
                     Categories Section
                 </h2>
                 <div className="d-flex justify-content-evenly align-items-center">
@@ -22,7 +22,7 @@
                 </div>
 
                 <div>
-                    <h2 className="text-center mx-auto my-3 px-1 py-3 rounded bg-info">
+                    <h2 className="text-center mx-auto my-3 px-1 py-2 rounded bg-info w-50">
                         India`s Popular Foods
                     </h2>
                     <div className="hero-section-container">
