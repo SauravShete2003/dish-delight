@@ -10,6 +10,9 @@ import Navbar from "../src/components/Navbar/Navbar"
 import Recipe from "../src/views/Recipe/Recipe"
 import Footer from './components/Footer/Footer';
 import Login from "./views/Login/Login"
+import HomeCategories from './components/HomeCategories/HomeCategories';
+import "./index.css"
+
 
 
 
@@ -36,7 +39,7 @@ const router = createBrowserRouter([
         element: <VegCard />,
     },
     {
-        path: "/recipe",
+        path: "/recipe/:id",
         element: <Recipe />
     },
 
@@ -50,8 +53,10 @@ const router = createBrowserRouter([
         element: <Login/>
     },
 
-
-
+   {
+    path: "/homecategories",
+    element: <HomeCategories />
+   }
 
 
 ])
