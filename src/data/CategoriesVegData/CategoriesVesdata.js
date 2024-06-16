@@ -336,6 +336,89 @@ const DataCard = [
     ],
     ingredientImg: "https://example.com/chana-masala-ingredients.jpg"
 },
+{
+  id: "Dum Aloo",
+  title: "Dum Aloo",
+  image: "https://example.com/dum-aloo.jpg",
+  description: "Dum Aloo is a flavorful North Indian dish made with baby potatoes (aloo) cooked in a spicy and tangy tomato-based gravy.",
+  time: "45 mins",
+  categories: "Veg",
+  recipeName: "Dum Aloo Recipe",
+  descriptiontitle: "ABOUT DUM ALOO RECIPE",
+  recipe: "Dum Aloo is a delightful dish where baby potatoes are simmered in a rich and creamy tomato-based gravy with aromatic spices. Here's how you can make it:",
+  ingredientTitle: "INGREDIENTS FOR DUM ALOO",
+  ingredients: [
+      "15-20 baby potatoes, boiled and peeled",
+      "1 onion, chopped",
+      "2 tomatoes, chopped",
+      "1 inch piece of ginger, grated",
+      "4-5 garlic cloves, minced",
+      "1 green chili, chopped (optional)",
+      "2 tbsp oil or ghee",
+      "1 tsp cumin seeds",
+      "1 tsp cumin powder",
+      "1 tsp coriander powder",
+      "1/2 tsp turmeric powder",
+      "1/2 tsp red chili powder",
+      "1/2 tsp garam masala powder",
+      "Salt to taste",
+      "Fresh coriander leaves for garnish"
+  ],
+  steps: [
+      "Heat oil or ghee in a pan. Add cumin seeds and let them splutter.",
+      "Add chopped onions and sauté until translucent.",
+      "Add grated ginger, minced garlic, and chopped green chili. Sauté for 2 minutes.",
+      "Add chopped tomatoes and cook until they turn mushy.",
+      "Add turmeric powder, cumin powder, coriander powder, red chili powder, and salt. Mix well.",
+      "Add boiled baby potatoes and cook for 5-7 minutes, stirring occasionally.",
+      "Add garam masala powder and mix well.",
+      "Add water to adjust consistency, if needed. Cover and simmer for 10 minutes.",
+      "Garnish with fresh coriander leaves and serve hot with naan or rice."
+  ],
+  ingredientImg: "https://example.com/dum-aloo-ingredients.jpg"
+},
+{
+  id: "Baingan Bharta",
+  title: "Baingan Bharta",
+  image: "https://example.com/baingan-bharta.jpg",
+  description: "Baingan Bharta is a popular North Indian dish made with roasted and mashed eggplant (baingan) cooked with onions, tomatoes, and spices.",
+  time: "50 mins",
+  categories: "Veg",
+  recipeName: "Baingan Bharta Recipe",
+  descriptiontitle: "ABOUT BAINGAN BHARTA RECIPE",
+  recipe: "Baingan Bharta is a smoky-flavored dish where roasted eggplant is cooked with onions, tomatoes, and spices like cumin, coriander, and red chili powder. Here's how you can make it:",
+  ingredientTitle: "INGREDIENTS FOR BAINGAN BHARTA",
+  ingredients: [
+      "1 large eggplant (baingan)",
+      "1 onion, finely chopped",
+      "2 tomatoes, chopped",
+      "1 inch piece of ginger, grated",
+      "4-5 garlic cloves, minced",
+      "1 green chili, chopped (optional)",
+      "2 tbsp oil or ghee",
+      "1 tsp cumin seeds",
+      "1 tsp cumin powder",
+      "1 tsp coriander powder",
+      "1/2 tsp turmeric powder",
+      "1/2 tsp red chili powder",
+      "1/2 tsp garam masala powder",
+      "Salt to taste",
+      "Fresh coriander leaves for garnish"
+  ],
+  steps: [
+      "Roast the eggplant over an open flame or in the oven until the skin is charred and flesh is soft. Let it cool, peel off the skin, and mash the flesh.",
+      "Heat oil or ghee in a pan. Add cumin seeds and let them splutter.",
+      "Add chopped onions and sauté until translucent.",
+      "Add grated ginger, minced garlic, and chopped green chili. Sauté for 2 minutes.",
+      "Add chopped tomatoes and cook until they turn mushy.",
+      "Add turmeric powder, cumin powder, coriander powder, red chili powder, and salt. Mix well.",
+      "Add mashed eggplant and cook for 5-7 minutes, stirring occasionally.",
+      "Add garam masala powder and mix well.",
+      "Garnish with fresh coriander leaves and serve hot with roti or rice."
+  ],
+  ingredientImg: "https://example.com/baingan-bharta-ingredients.jpg"
+},
+
 
    
 ];
