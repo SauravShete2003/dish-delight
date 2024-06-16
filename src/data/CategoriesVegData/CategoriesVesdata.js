@@ -80,7 +80,57 @@ const DataCard = [
    
   //  }
    
-  //      ]
+
+
+
+    {
+        id: "Vegetable Biryani",
+        title: "Vegetable Biryani",
+        image: "https://example.com/vegetable-biryani.jpg",
+        description: "Vegetable Biryani is a flavorful rice dish made with mixed vegetables, basmati rice, and aromatic spices. It's a popular vegetarian dish in Indian cuisine.",
+        time: "50 mins",
+        categories: "Veg",
+        recipeName: "Vegetable Biryani",
+        descriptiontitle: "ABOUT VEGETABLE BIRYANI RECIPE",
+        recipe: "Vegetable Biryani is a delightful medley of vegetables and rice cooked with fragrant spices like saffron, cardamom, and cinnamon. Here's how you can make it:",
+        ingredientTitle: "INGREDIENTS FOR VEGETABLE BIRYANI",
+        ingredients: [
+            "2 cups basmati rice, soaked for 30 minutes",
+            "1 cup mixed vegetables (carrots, beans, peas, potatoes, etc.)",
+            "2 onions, thinly sliced",
+            "1 tomato, chopped",
+            "1/2 cup plain yogurt",
+            "2 tbsp ghee or oil",
+            "1 tsp cumin seeds",
+            "2 bay leaves",
+            "4-5 cloves",
+            "2-inch cinnamon stick",
+            "4-5 green cardamom pods",
+            "1/2 tsp turmeric powder",
+            "1 tsp red chili powder",
+            "1 tsp biryani masala powder",
+            "Salt to taste",
+            "Fresh coriander leaves and mint leaves for garnish",
+            "Fried onions for garnish (optional)"
+        ],
+        steps: [
+            "Cook the soaked basmati rice until it's 70-80% cooked. Drain and set aside.",
+            "Heat ghee or oil in a large pot or pressure cooker. Add cumin seeds, bay leaves, cloves, cinnamon stick, and cardamom pods. Sauté until fragrant.",
+            "Add sliced onions and sauté until golden brown.",
+            "Add chopped tomatoes and cook until they turn mushy.",
+            "Add mixed vegetables and sauté for 3-4 minutes.",
+            "Add turmeric powder, red chili powder, and biryani masala powder. Mix well.",
+            "Add yogurt and stir until well combined.",
+            "Layer half of the partially cooked rice over the vegetable mixture.",
+            "Sprinkle chopped coriander leaves and mint leaves over the rice.",
+            "Layer the remaining rice over the herbs.",
+            "Cover with a tight-fitting lid and cook on low heat for 15-20 minutes or until the rice is fully cooked and aromatic.",
+            "Garnish with fried onions (optional) and serve hot with raita or cucumber salad."
+        ],
+        ingredientImg: "https://example.com/vegetable-biryani-ingredients.jpg"
+    },
+   
+];
 
    
    export default DataCard
