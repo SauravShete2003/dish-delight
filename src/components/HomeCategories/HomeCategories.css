@@ -1,8 +1,25 @@
-.hero-section-container{
+.hero-section-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-   
+}
 
+/* Media queries for responsiveness */
+
+/* Tablets and small screens */
+@media (max-width: 768px) {
+    .hero-section-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+    .hero-section-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

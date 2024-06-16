@@ -1,56 +1,78 @@
-body{
+.about-container {
     background-color: aliceblue;
-}
-
-
-.about-container{
-    position: relative;
-
-
-    background-color: aliceblue;
-}
-
-.restaurant-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(https://images.pexels.com/photos/239975/pexels-photo-239975.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: contain;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
     height: 400px;
+}
+
+.paragraph-image-container {
     width: 1500px;
-   
-    filter: blur(2px); 
-    -webkit-filter: blur(2px);
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
 }
-.restaurant-dish-img{
-    height: 100px;
-    border-radius: 100%;
-    position:absolute;
-    bottom: 50px;
-    left: 200px;
-    filter: blur(0.5px);
-    border: solid 1px black;
 
-
-
+.image-container {
+    width: 700px;
+    height: 500px;
+    position: relative;
 }
-.about-title{
+
+.paragraph-container {
+    width: 500px;
+    height: 500px;
+    margin-right: 150px;
+}
+
+.image1 {
+    height: 180px;
+    position: absolute;
+    top: 350px;
+    right: 400px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.image2 {
+    height: 180px;
+    position: absolute;
+    top: 260px;
+    right: 230px;
+    border-radius: 10px;
+}
+
+.image3 {
+    height: 180px;
+    width: 310px;
+    position: absolute;
+    top: 360px;
+    right: 100px;
+    border-radius: 10px;
+}
+
+.staff-image {
+    height: 300px;
+    right: 50px;
+    margin-left: 100px;
+}
+.about-title {
     font-size: 50px;
-    position:absolute;
-    bottom: 300px;
-    left: 600px ;
+    position: absolute;
+    bottom: 400px;
+    left: 600px;
     border-radius: 40px;
     padding: 10px;
     width: 300px;
     text-align: center;
-    background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
-
-
+    color: white;
 }
-.paragraph-container{
-    height: 500px;
-    width: 1000px ;
-    margin: 0 auto;
-    
-   
-    
-}
-.paragraph-content{
+
+.paragraph-content {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
