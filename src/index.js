@@ -9,6 +9,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Navbar from "../src/components/Navbar/Navbar"
 import Recipe from "../src/views/Recipe/Recipe"
 import Footer from './components/Footer/Footer';
+import Login from "./views/Login/Login"
 
 
 
@@ -43,6 +44,12 @@ const router = createBrowserRouter([
         path: "/footer",
         element: <Footer/>
     },
+
+    {
+        path: "/login",
+        element: <Login/>
+    },
+
 
 
 
