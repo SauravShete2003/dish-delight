@@ -13,7 +13,7 @@ function VegCard({ id,title, image, description, time }) {
         <div className="card-container">
             <img 
                 src={liked ? ImgHeartFilled : ImgHeartUnfilled} 
-                className="like-image" id="like" 
+                className="like-image" 
                 onClick={() => {
                     setLiked(!liked)
                 }} 
