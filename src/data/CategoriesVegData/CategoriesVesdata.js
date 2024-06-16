@@ -418,6 +418,50 @@ const DataCard = [
   ],
   ingredientImg: "https://example.com/baingan-bharta-ingredients.jpg"
 },
+{
+  id: "Vegetable Korma",
+  title: "Vegetable Korma",
+  image: "https://example.com/vegetable-korma.jpg",
+  description: "Vegetable Korma is a creamy and mildly spiced North Indian dish made with mixed vegetables cooked in a rich cashew and yogurt-based gravy.",
+  time: "45 mins",
+  categories: "Veg",
+  recipeName: "Vegetable Korma Recipe",
+  descriptiontitle: "ABOUT VEGETABLE KORMA RECIPE",
+  recipe: "Vegetable Korma is a luxurious dish where mixed vegetables are simmered in a creamy and flavorful gravy made with cashews, yogurt, and aromatic spices. Here's how you can make it:",
+  ingredientTitle: "INGREDIENTS FOR VEGETABLE KORMA",
+  ingredients: [
+      "1 cup mixed vegetables (carrots, beans, peas, potatoes, etc.)",
+      "1 onion, finely chopped",
+      "1 tomato, chopped",
+      "1/2 cup plain yogurt",
+      "10-12 cashew nuts, soaked in warm water for 30 minutes",
+      "2 tbsp oil or ghee",
+      "1 tsp cumin seeds",
+      "1 inch piece of ginger, grated",
+      "4-5 garlic cloves, minced",
+      "1 green chili, chopped (optional)",
+      "1/2 tsp turmeric powder",
+      "1 tsp red chili powder",
+      "1 tsp coriander powder",
+      "1/2 tsp garam masala powder",
+      "Salt to taste",
+      "Fresh coriander leaves for garnish"
+  ],
+  steps: [
+      "Grind soaked cashew nuts with yogurt into a smooth paste and set aside.",
+      "Heat oil or ghee in a pan. Add cumin seeds and let them splutter.",
+      "Add chopped onions and sauté until translucent.",
+      "Add grated ginger, minced garlic, and chopped green chili. Sauté for 2 minutes.",
+      "Add chopped tomatoes and cook until they turn mushy.",
+      "Add turmeric powder, red chili powder, coriander powder, and salt. Mix well.",
+      "Add mixed vegetables and sauté for 3-4 minutes.",
+      "Add cashew-yogurt paste and mix well to combine.",
+      "Add garam masala powder and adjust consistency with water, if needed. Simmer for 10-12 minutes.",
+      "Garnish with fresh coriander leaves and serve hot with naan or rice."
+  ],
+  ingredientImg: "https://example.com/vegetable-korma-ingredients.jpg"
+}
+
 
 
    
