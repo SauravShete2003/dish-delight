@@ -35,3 +35,42 @@
     color: gray;
     margin-top: 5px;
   }
+
+  @media (max-width: 768px) {
+    .categories-container {
+        width: 180px;
+    }
+
+    .category-image {
+        width: 160px;
+        height: 160px;
+    }
+
+    .category-name {
+        font-size: 12px;
+    }
+
+    .category-timing {
+        font-size: 0.9em;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .categories-container {
+        width: 150px;
+    }
+
+    .category-image {
+        width: 130px;
+        height: 130px;
+    }
+
+    .category-name {
+        font-size: 0.9em;
+    }
+
+    .category-timing {
+        font-size: 0.8em;
+    }
+}
