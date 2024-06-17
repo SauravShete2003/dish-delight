@@ -13,53 +13,39 @@
     width: 1500px;
     height: 550px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 30px;
+
 }
 
 .image-container {
-    width: 700px;
+    width: 600px;
     height: 500px;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+
 }
 
 .paragraph-container {
-    width: 500px;
+    width: 550px;
     height: 500px;
-    margin-right: 150px;
-}
-
-.image1 {
-    height: 180px;
-    position: absolute;
-    top: 350px;
-    right: 400px;
-    margin: 10px;
-    border-radius: 10px;
-}
-
-.image2 {
-    height: 180px;
-    position: absolute;
-    top: 260px;
-    right: 230px;
-    border-radius: 10px;
-}
-
-.image3 {
-    height: 180px;
-    width: 310px;
-    position: absolute;
-    top: 360px;
-    right: 100px;
-    border-radius: 10px;
 }
 
 .staff-image {
-    height: 300px;
-    right: 50px;
-    margin-left: 100px;
+    height: 500px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 25px 1px#b3b3b3;
 }
+
+.staff-image:hover {
+background-color: #faebeb;
+    transition: 1s;
+
+}
+
 .about-title {
     font-size: 50px;
     position: absolute;
@@ -74,5 +60,46 @@
 
 .paragraph-content {
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Orbitron", sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
 }
+
+.social-media-icon-main-container {
+    height: 50px;
+
+    display: flex;
+    justify-content: end;
+
+}
+
+.social-media-icon-container {
+
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 250px;
+}
+
+.social-media-icon {
+    height: 35px;
+    cursor: pointer;
+
+}
+.our-team-title{
+    text-align: center;
+}
+/* .our-team-container{
+    height: 800px;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.team-member{
+    height: 350px;
+    width: 300px;
+    background-color: aqua;
+    margin: 10px;
+} */
