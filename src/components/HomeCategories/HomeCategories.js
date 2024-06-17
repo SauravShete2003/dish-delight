@@ -2,6 +2,7 @@
     import { categoriesData, popularFood } from "../../data/HomeData";
     import CategoriesSection from "../CategoriesSection/CategoriesSection";
     import HeroSection from "../HeroSection/HeroSection";
+    import { Link } from "react-router-dom";
 
 
     function HomeCategories() {
@@ -10,16 +11,17 @@
                 <h2 className="bg-primary flex-column mx-auto my-3 text-black px-1 py-2 rounded text-center w-50">
                     Categories Section
                 </h2>
-                <div className="d-flex justify-content-evenly align-items-center">
+                <Link className="d-flex justify-content-evenly align-items-center" to={`/VegCard/${category.id}`}>
                     {categoriesData.map((category, index) => (
                         <CategoriesSection
                             key={index}
+                            id = {category.id}
                             name={category.name}
                             image={category.image}
                             timing={category.timing}
                         />
                     ))}
-                </div>
+                </Link>
 
                 <div>
                     <h2 className="text-center mx-auto my-3 px-1 py-2 rounded bg-info w-50">
@@ -29,6 +31,7 @@
                         {popularFood.map((food, index) => (
                             <HeroSection
                             key={index}
+                            id={food.id}
                             image={food.image}
                             title={food.title}
                             descr={food.descr}

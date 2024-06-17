@@ -5,10 +5,13 @@ import HomeCategories from '../../components/HomeCategories/HomeCategories';
 
 
 
+
+
+
 function HomeCategory() {
   return (
     <>
-
+    
     <Navbar/>
     <HomeCategories/>
    

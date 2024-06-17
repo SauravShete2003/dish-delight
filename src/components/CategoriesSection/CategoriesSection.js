@@ -11,6 +11,7 @@ function CategoriesSection({ name, image, timing }) {
       
       <div className="categories-container">
         <img src={image} alt={name} className="category-image" />
+        
         <span className="category-name">{name}</span>
         <span className="category-timing">{timing}</span>
       </div>
