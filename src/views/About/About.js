@@ -1,5 +1,9 @@
 import "./About.css"
 import HotelStaff from "../../assets/About/hotel staff image.png"
+import Instagram from "../../assets/About/instagram.png"
+import Linkdine from "../../assets/About/linkdine12.png"
+import Youtube from "../../assets/About/youtube (1).png"
+import Facebook from "../../assets/About/facebook.png"
 
 
 function About() {
@@ -17,13 +21,8 @@ function About() {
             <div className="image-container">
 
                 <img src={HotelStaff} className="staff-image" />
-                <img src="https://static.vecteezy.com/system/resources/thumbnails/024/748/853/small/a-rustic-taco-appetizer-with-fried-beef-garlic-and-cilantro-generated-by-ai-free-photo.jpg"
-                    className="image1" />
-                <img src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=600"
-                    className="image3" />
-                <img src="https://images.livemint.com/img/2020/02/03/1600x900/5c7d349e-b6c5-11e9-b019-a4f68f70ee78_1564936211309_1580739078400.jpg"
-                    className="image2" />
-              </div>
+
+            </div>
 
             <div className=" paragraph-container">
                 <p className="paragraph-content">
@@ -36,16 +35,40 @@ function About() {
                     inexpensive fast-food restaurants and cafeterias to mid-priced family restaurants, to high-priced luxury establishments.
                     do right and far exceed expectations daily. We do the right thing and lead by putting people first. Each and every connection with our team,
                     guests and shareholders is our opportunity to create an experience that feeds Far Exceeds Expectations Daily and show how much we care.
-
+                    <br />
+                    <br />
+                    <h5>Social media :-</h5>
 
                 </p>
 
 
             </div>
+
+        </div>
+        <div className="social-media-icon-main-container">
+
+            <div className="social-media-icon-container">
+               <a href="https://www.linkedin.com/company/food-recipe/"target="_blank" ><img src={Linkdine} className="social-media-icon" /></a>
+               <a href="https://www.instagram.com/cookingvideos/?hl=en"target="_blank" ><img src={Instagram} className="social-media-icon" /></a>
+               <a href="https://www.youtube.com/@tastyrecipes" target="_blank"><img src={Youtube} className="social-media-icon" /></a>
+               <a href="https://www.facebook.com/groups/448377041919906/"target="_blank" ><img src={Facebook} className="social-media-icon" /></a>
+            </div>
+            
+        </div>
+        <h1 className="our-team-title">Our Team</h1>
+
+        <div className="our-team-container">
+            <div className="team-member"></div>
+            <div className="team-member"></div>
+            <div className="team-member"></div>
+            <div className="team-member"></div>
+            <div className="team-member"></div>
+
         </div>
 
     </>)
 
 }
+
 
 export default About
