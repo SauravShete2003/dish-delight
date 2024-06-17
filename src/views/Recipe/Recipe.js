@@ -1,4 +1,4 @@
-import React, { lazy } from 'react'
+import React, { lazy, useEffect } from 'react'
 import "./Recipe.css"
 import Navbar from '../../components/Navbar/Navbar'
 import { useParams } from 'react-router-dom'
@@ -6,6 +6,10 @@ import { useParams } from 'react-router-dom'
 import DataCard from '../../data/CategoriesVegData/CategoriesVesdata'
 
 function Recipe() {
+
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  }, [])
 
   const { id } = useParams()
 
