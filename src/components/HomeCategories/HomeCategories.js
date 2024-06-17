@@ -11,7 +11,7 @@
                 <h2 className="bg-primary flex-column mx-auto my-3 text-black px-1 py-2 rounded text-center w-50">
                     Categories Section
                 </h2>
-                <Link className="d-flex justify-content-evenly align-items-center" to={`/VegCard/${category.id}`}>
+                <div className="d-flex justify-content-evenly align-items-center">
                     {categoriesData.map((category, index) => (
                         <CategoriesSection
                             key={index}
@@ -21,7 +21,7 @@
                             timing={category.timing}
                         />
                     ))}
-                </Link>
+                </div>
 
                 <div>
                     <h2 className="text-center mx-auto my-3 px-1 py-2 rounded bg-info w-50">

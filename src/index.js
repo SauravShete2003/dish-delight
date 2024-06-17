@@ -35,7 +35,7 @@ const router = createBrowserRouter([
         element: <About />,
     },
     {
-        path: "/vegcard",
+        path: "/VegCard/:id",
         element: <VegCard />,
     },
     {
