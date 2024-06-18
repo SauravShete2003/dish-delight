@@ -16,10 +16,13 @@ function Recipe() {
   const selectedData = DataCard.find((dataObject) => dataObject.id === id)
 
   return (<>
-    <Navbar />
-    <div className='recipe-body pt-3 '>
+  <div>
+  <Navbar />
+  </div>
+    
+    <div className='recipe-body '>
       <div className='duration text-center'>{selectedData.up}</div>
-      <img src={selectedData.image} className="recipe-img w-60 h-20 mx-auto d-block rounded-5 img-fluid my-2" />
+      <img src={selectedData.image} className="recipe-img w-60 h-20 mx-auto d-block rounded-5 img-fluid my-2 " />
       <h1 className='category text-center mt-5 bg-info py-2 rounded-4'>Ingredients </h1>
 
       <div className='ingredients-container my-5'>
