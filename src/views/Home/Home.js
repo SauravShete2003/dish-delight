@@ -11,11 +11,13 @@ import Footer from '../../components/Footer/Footer';
 function HomeCategory() {
   return (
     <>
-    
+    <div>
     <Navbar/>
     <HomeCategories/>
     <Footer/>
+    </div>
    
+
     </>
   );
 }
