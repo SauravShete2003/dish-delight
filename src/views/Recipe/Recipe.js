@@ -21,9 +21,11 @@ function Recipe() {
   </div>
     
     <div className='recipe-body '>
-      <div className='duration text-center'>{selectedData.up}</div>
-      <img src={selectedData.image} className="recipe-img w-60 h-20 mx-auto d-block rounded-5 img-fluid my-2 " />
-      <h1 className='category text-center mt-5 bg-info py-2 rounded-4'>Ingredients </h1>
+    <div className='duration'>{selectedData.up}</div>
+      <img src={selectedData.image} className="recipe-img w-50 h-50 mx-auto d-block rounded-5 img-fluid  " />
+      <div className='duration'>{selectedData.up}</div>
+      
+      <h1 className='category text-center mt-5 py-2 rounded-4 '>Ingredients </h1>
 
       <div className='ingredients-container my-5'>
         <div className='ingredient-list bg-info p-4 rounded-4'>

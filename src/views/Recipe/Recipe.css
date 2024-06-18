@@ -2,6 +2,14 @@
     background-color: antiquewhite;
 }
 
+.duration{
+    text-align: center;
+}
+
+.recipe-img{
+    margin-top: 70px;
+}
+
 .title{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
