@@ -1,13 +1,10 @@
 .recipe-body{
-    margin-left: 150px;
-    margin-right: 150px;
     background-color: antiquewhite;
 }
 
 .title{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 
 .recipe-description{
     font-size: 30px;
@@ -31,7 +28,6 @@
 }
 
 .recipe{
-
     margin: 20px 200px;
     font-size: 20px;
 }
