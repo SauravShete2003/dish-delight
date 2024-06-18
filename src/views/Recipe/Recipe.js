@@ -7,8 +7,8 @@ import DataCard from '../../data/CategoriesVegData/CategoriesVesdata'
 
 function Recipe() {
 
-  useEffect(()=>{
-    window.scrollTo(0,0)
+  useEffect(() => {
+    window.scrollTo(0, 0)
   }, [])
 
   const { id } = useParams()
@@ -16,15 +16,14 @@ function Recipe() {
   const selectedData = DataCard.find((dataObject) => dataObject.id === id)
 
   return (<>
-  <div>
-  <Navbar />
-  </div>
-    
+    <div>
+      <Navbar />
+    </div>
+
     <div className='recipe-body '>
-    <div className='duration'>{selectedData.up}</div>
-      <img src={selectedData.image} className="recipe-img w-50 h-50 mx-auto d-block rounded-5 img-fluid  " />
+      <img src={selectedData.image} className="recipe-img w-50 h-50 mx-auto d-block rounded-3 img-fluid  " />
       <div className='duration'>{selectedData.up}</div>
-      
+
       <h1 className='category text-center mt-5 py-2 rounded-4 '>Ingredients </h1>
 
       <div className='ingredients-container my-5'>
@@ -53,17 +52,25 @@ function Recipe() {
 
       <h3>Live a Review</h3>
 
-      <p>Review</p>
-      <input type='text' className=' input-1' />
+      <div className='review-page'>
+        <h6>Review</h6>
+        <input type='text'
+          placeholder='Comment '
+          className=' input-1' />
 
-      <p>Name</p>
-      <input type='text' className=' input ' />
 
-      <p>Email</p>
-      <input type='text' className=' input ' />
+        <h6>Email</h6>
+        <input type='email'
+        placeholder='Enter Email'
+         className=' input ' />
 
+        <h6>Password</h6>
+        <input type='text'
+        placeholder='Enter Password' 
+        className=' input ' />
+
+      </div>
     </div>
-
 
 
 
