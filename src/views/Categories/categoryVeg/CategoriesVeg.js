@@ -1,8 +1,9 @@
 import "./CategoriesVeg.css"
-import Data from "../../data/CategoriesVesdata"
-import VegCard from "../../components/VegCard/VegCard"
+import Data from "./../../../data/CategoriesVesdata"
+import VegCard from "./../../../components/VegCard/VegCard"
 import headerimg from "./header-img.jpg"
-import Navbar from "../../components/Navbar/Navbar"
+import Navbar from "./../../../components/Navbar/Navbar"
+
 
 function CategoriesVeg() {
 
