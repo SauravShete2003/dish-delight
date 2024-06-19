@@ -1,4 +1,4 @@
-import React, { lazy, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import "./Recipe.css"
 import Navbar from '../../components/Navbar/Navbar'
 import { useParams } from 'react-router-dom'
@@ -27,7 +27,7 @@ function Recipe() {
       <h1 className='category text-center mt-3 py-2 rounded-4 '>Ingredients </h1>
 
       <div className='ingredients-container '>
-        <div className='ingredient-list p-5  m-4 rounded-4  '>
+        <div className='ingredient-list px-5 py-4  m-4 rounded-4  '>
 
           {selectedData.ingredients.map((element, i) =>
             <ul key={i}>
@@ -35,18 +35,17 @@ function Recipe() {
             </ul>
           )}
         </div>
-        <img src={selectedData.ingredientImg} className='ingredient-img rounded-4 m-4 h75' />
+        <img src={selectedData.ingredientImg} className='ingredient-img rounded-4 m-4 ' />
       </div>
 
-      <div>
+        <h2 className='directions text-center mt-5  py-2 roundedy-5 '> {selectedData.recipeName}</h2>
 
-
-        <h2 className='directions text-center  py-2 roundedy-5 '> {selectedData.recipeName}</h2>
+        <div className='recipe'>
         {selectedData.steps.map((element, i) => {
 
-          return <p className='steps '>
+          return <div className='steps m-1'>
             <ul><li >{element}</li></ul>
-          </p>
+          </div>
         })}
       </div>
 

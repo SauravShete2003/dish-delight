@@ -15,6 +15,7 @@
 .ingredients-container{
     display: flex;
     justify-content: center;
+    background-color: azure;
 }
 
 .ingredient-list{
@@ -23,15 +24,15 @@
    box-shadow: 1px 2px 1px 2px gray;
 }
 
-.steps{
-    font-size: 20px;
-    margin: 10px 200px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.ingredient-img{
+    height: 90vh;
+    width: 40%;
 }
 
 .recipe{
-    margin: 20px 200px;
+    margin: 20px 300px;
     font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .input-1{
