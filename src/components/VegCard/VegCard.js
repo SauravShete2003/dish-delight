@@ -10,7 +10,7 @@ function VegCard({ id,title, image, description, time }) {
     const [liked, setLiked] = useState(false)
 
     return (
-        <div className="card-container p-2 rounded-4 border border-secondary-subtle m-2 position-relative">
+        <div className="card-container p-2 rounded-4 border border-secondary-subtle m-3 position-relative">
             <img 
                 src={liked ? ImgHeartFilled : ImgHeartUnfilled} 
                 className="like-image " 
