@@ -21,10 +21,11 @@ function Recipe() {
     </div>
 
     <div className='recipe-body '>
+      <h1 className='title text-center'>{selectedData.title}</h1>
       <img src={selectedData.image} className="recipe-img mx-auto d-block rounded-3 img-fluid mt-1" />
       <div className='duration text-center mt-3 '>{selectedData.up}</div>
 
-      <h1 className='category text-center mt-3 py-2 rounded-4 '>Ingredients </h1>
+      <h1 className='title text-center mt-3 py-2 rounded-4 '>Ingredients </h1>
 
       <div className='ingredients-container '>
         <div className='ingredient-list px-5 py-4  m-4 rounded-4  '>
@@ -38,7 +39,7 @@ function Recipe() {
         <img src={selectedData.ingredientImg} className='ingredient-img rounded-4 m-4 ' />
       </div>
 
-        <h2 className='directions text-center mt-5  py-2 roundedy-5 '> {selectedData.recipeName}</h2>
+        <h2 className='title text-center mt-5  py-2 roundedy-5 '> {selectedData.recipeName} process</h2>
 
         <div className='recipe'>
         {selectedData.steps.map((element, i) => {
@@ -49,7 +50,7 @@ function Recipe() {
         })}
       </div>
 
-      <h3 className='review-heading text-center'>Live a Review</h3>
+      <h2 className='title text-center'>Live a Review</h2>
 
       <div className='review-page w-50 p-5'>
         <h6>Review</h6>

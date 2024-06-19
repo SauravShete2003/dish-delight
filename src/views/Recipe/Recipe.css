@@ -1,10 +1,10 @@
 .title{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .recipe-img{
-    height: 60vh;
-    width: 50%;
+    height: 70vh;
+    width: 60%;
 }
 
 .recipe-description{
@@ -15,7 +15,6 @@
 .ingredients-container{
     display: flex;
     justify-content: center;
-    background-color: azure;
 }
 
 .ingredient-list{
