@@ -3,6 +3,7 @@ import Data from "./../../../data/CategoriesVesdata"
 import VegCard from "./../../../components/VegCard/VegCard"
 import headerimg from "./header-img.jpg"
 import Navbar from "./../../../components/Navbar/Navbar"
+import Footer from "./../../../components/Footer/Footer"
 
 
 function CategoriesVeg() {
@@ -27,6 +28,8 @@ function CategoriesVeg() {
           return (<VegCard title={title} image={image} description={description} time={time} id={id}/>)
         })}
       </div>
+
+      <Footer/>
 
     </>
   )
