@@ -22,14 +22,14 @@ function VegCard({ id,title, image, description, time }) {
 
             <h1 className="card-title">{title}</h1>
 
-            <p className="card-disciption">{description.substring(0, 150)}...</p>
+            <p className="card-disciption">{description.substring(0, 125)}...</p>
 
             <div className="time-container">
                 <img src={ImgClock} className="img-clock" />
                 <span className="time">{time}</span>
             </div>
 
-            <Link className="category-card-button" to={`/recipe/${id}`} >
+            <Link className="category-card-button" target='_blank' to={`/recipe/${id}` } >
             
                 <Button text={"Know More"} />
             </Link>

@@ -32,6 +32,7 @@
     font-size: 20px;
     font-weight: bold;
     font-family: sans-serif;
+
     text-align: center;
     margin-top: 10px;
     
@@ -50,7 +51,7 @@
   }
   .card-disciption {
     font-size: 17px;
-    font-family: sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
     margin-top: 15px;
     text-align: justify;
   }
@@ -71,8 +72,6 @@
     font-weight: bold;
     
   }
-
-  
   .category-card-button{
     font-size: 18px;
     position: absolute;
