@@ -10,26 +10,26 @@ function VegCard({ id,title, image, description, time }) {
     const [liked, setLiked] = useState(false)
 
     return (
-        <div className="card-container">
+        <div className="card-container p-2 rounded-4 border border-secondary-subtle m-2 position-relative">
             <img 
                 src={liked ? ImgHeartFilled : ImgHeartUnfilled} 
-                className="like-image" 
+                className="like-image " 
                 onClick={() => {
                     setLiked(!liked)
                 }} 
             />
-            <img src={image} className="card-image" />
+            <img src={image} className="card-image rounded-3 object-fit-cover" />
 
-            <h1 className="card-title">{title}</h1>
+            <h1 className="card-title fs-5 fw-bold text-center mt-2">{title}</h1>
 
-            <p className="card-disciption">{description.substring(0, 125)}...</p>
+            <p className="card-disciption fs-6 mt-2">{description.substring(0, 125)}...</p>
 
-            <div className="time-container">
-                <img src={ImgClock} className="img-clock" />
-                <span className="time">{time}</span>
+            <div className="time-container d-flex align-items-center position-absolute ">
+                <img src={ImgClock} className="img-clock position-absolute" />
+                <span className="time ms-4 fw-bold">{time}</span>
             </div>
 
-            <Link className="category-card-button" target='_blank' to={`/recipe/${id}` } >
+            <Link className="category-card-button " target='_blank' to={`/recipe/${id}` } >
             
                 <Button text={"Know More"} />
             </Link>

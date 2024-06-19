@@ -2,16 +2,13 @@
 .card-container {
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     width: 300px;
-    height: 430px;
-    padding: 10px;
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    position: relative;
-    margin: 0 auto;
+    height: 410px;
+    /* padding: 10px; */
+    /* border-radius: 10px; */
+    /* border: 1px solid rgba(0, 0, 0, 0.3); */
+    /* position: relative; */
     cursor: pointer;
-    text-decoration: none;
-    color: black;
-    margin: 10px;
+    /* margin: 10px; */
     
   }
   
@@ -24,25 +21,24 @@
   .like-image {
    position: absolute;
    height: 30px;
-   right: 20px;
-   top: 210px;
+   right: 15px; 
+   top: 210px; 
   }
   
   .card-title {
-    font-size: 20px;
-    font-weight: bold;
+    /* font-size: 20px; */
+    /* font-weight: bold; */
+    /* text-align: center; */
+    /* margin-top: 10px; */
     font-family: sans-serif;
-
-    text-align: center;
-    margin-top: 10px;
     
   }
   
   .card-image {
     height: 190px;
     width: 280px;
-    border-radius: 10px;
-    object-fit: cover;
+    /* border-radius: 10px; */
+    /* object-fit: cover; */
   }
   .card-image:hover {
     transform: scale(1.1);
@@ -50,30 +46,30 @@
     
   }
   .card-disciption {
-    font-size: 17px;
+    /* font-size: 17px; */
     font-family: "Montserrat Alternates", sans-serif;
-    margin-top: 15px;
+    /* margin-top: 15px; */
     text-align: justify;
   }
   
   .img-clock{
     height: 20px;
-    position: absolute;
+    /* position: absolute; */
   }
   .time-container{
-   display: flex;
-   align-items: center;
+   /* display: flex; */
+   /* align-items: center; */
    position: absolute;
-   bottom: 20px;
+   bottom: 15px;
   }
   .time{
-    margin-left: 30px;
+    /* margin-left: 30px; */
     font-family: sans-serif;
-    font-weight: bold;
+    /* font-weight: bold; */
     
   }
   .category-card-button{
-    font-size: 18px;
+  
     position: absolute;
     right: 10px;
     bottom: 10px;
