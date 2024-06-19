@@ -7,7 +7,7 @@ import VegCard from './views/Categories/categoryVeg/CategoriesVeg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Navbar from "../src/components/Navbar/Navbar"
-import Recipe from "../src/views/Recipe/Recipe"
+import Recipe from "../src/views/Recipe/RecipeVeg/Recipe"
 import Footer from './components/Footer/Footer';
 import Login from "./views/Login/Login"
 import HomeCategories from './components/HomeCategories/HomeCategories';
