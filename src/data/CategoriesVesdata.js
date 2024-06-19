@@ -3,12 +3,9 @@ const DataCard = [
         id: "daltadka",
         title: "Dal Tadka",
         up: "⏱️1 hour | Prep: 30 min. | Cook: 30 min. | Servings: 4 servings",
-
         image: "https://www.masalabox.com/wp-content/uploads/2023/01/image-22.png",
-
         description: "Dal Tadka is a popular Indian lentil dish made with arhar dalhusked & split pigeon pea lentils) or masoor dal (husked & split red lentils. This Dal Tadka recipe gives you a delicious creamy dal with smoked flavors.",
         time: "35 mins",
-
         categories: "Veg",
         recipeName: "DAL-TADKA",
         descriptiontitle: "ABOUT DAL TADKA RECIPE",
@@ -41,8 +38,7 @@ const DataCard = [
             "Sprinkle garam masala powder and mix well. Garnish with freshly chopped coriander leaves.",
             "Serve hot with steamed rice, jeera rice, roti, or naan. It also pairs well with a side of pickle and yogurt.",
             "Enjoy your homemade Dal Tadka!"],
-        ingredientImg: "https://www.yummytummyaarthi.com/wp-content/uploads/2011/12/Radish2520parath.jpg"
-
+        ingredientImg: "https://shwetainthekitchen.com/wp-content/uploads/2021/12/Dal-Fry-Ingredients.jpg"
     },
     {
         id: "Vegetable Biryani",
@@ -89,7 +85,7 @@ const DataCard = [
             "Cover with a tight-fitting lid and cook on low heat for 15-20 minutes or until the rice is fully cooked and aromatic.",
             "Garnish with fried onions (optional) and serve hot with raita or cucumber salad."
         ],
-        ingredientImg: "https://example.com/vegetable-biryani-ingredients.jpg"
+        ingredientImg: "https://jessicainthekitchen.com/wp-content/uploads/2023/04/Vegetable-Biryani-Ingredients.png"
     },
     {
         id: "Paneer Tikka Masala",
@@ -131,7 +127,7 @@ const DataCard = [
             "Add water to adjust consistency, if needed. Simmer for 5 minutes.",
             "Garnish with fresh coriander leaves and serve hot with naan or rice."
         ],
-        ingredientImg: "https://example.com/paneer-tikka-masala-ingredients.jpg"
+        ingredientImg: "https://www.spiceupthecurry.com/wp-content/uploads/2020/09/paneer-tikka-ingredients.jpg"
     },
     {
         id: "Aloo Gobi",
@@ -172,7 +168,7 @@ const DataCard = [
             "Cover and cook on low heat for 15-20 minutes or until potatoes and cauliflower are tender, stirring occasionally.",
             "Garnish with fresh coriander leaves and serve hot with chapati or rice."
         ],
-        ingredientImg: "https://example.com/aloo-gobi-ingredients.jpg"
+        ingredientImg: "https://www.spiceupthecurry.com/wp-content/uploads/2020/09/paneer-tikka-ingredients.jpg"
     },
     {
         id: "Palak Paneer",
