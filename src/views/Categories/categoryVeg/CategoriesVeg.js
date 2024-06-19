@@ -10,8 +10,10 @@ function CategoriesVeg() {
 
   return (
     <>
-    <Navbar/>
-    <img src={ headerimg} className="header-img"/>
+      <Navbar />
+      <img src={headerimg} className="header-img" />
+      <h1 className="head-title">Veg Delicious Food</h1>
+
 
       <div className="veg-container">
 
@@ -22,14 +24,14 @@ function CategoriesVeg() {
             image,
             description,
             time
-          
+
           } = blogObject
 
-          return (<VegCard title={title} image={image} description={description} time={time} id={id}/>)
+          return (<VegCard title={title} image={image} description={description} time={time} id={id} />)
         })}
       </div>
 
-      <Footer/>
+      <Footer />
 
     </>
   )
