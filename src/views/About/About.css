@@ -37,11 +37,11 @@
 .staff-image {
     height: 500px;
     border-radius: 30px;
-    box-shadow: 10px 10px 25px 1px#b3b3b3;
+    box-shadow: 20px 20px 20px 1px#b3b3b3;
 }
 
 .staff-image:hover {
-background-color: #faebeb;
+    background-color: #faebeb;
     transition: 1s;
 
 }
@@ -64,42 +64,84 @@ background-color: #faebeb;
     font-family: "Montserrat Alternates", sans-serif;
 }
 
-.social-media-icon-main-container {
-    height: 50px;
 
-    display: flex;
-    justify-content: end;
 
-}
 
-.social-media-icon-container {
 
-    width: 300px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-right: 250px;
-}
 
-.social-media-icon {
-    height: 35px;
-    cursor: pointer;
 
-}
-.our-team-title{
+
+.our-team-title {
     text-align: center;
 }
-/* .our-team-container{
+
+.our-team-container {
     height: 800px;
-    background-color: tomato;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+   
 }
-.team-member{
+
+.team-member {
     height: 350px;
     width: 300px;
-    background-color: aqua;
-    margin: 10px;
-} */
+    box-shadow: 0px 0px 5px 1px gray;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0, 0, 0, 0.02) 50%, rgba(255, 255, 255, 0.02) 61%, rgba(0, 0, 0, 0.02) 73%), linear-gradient(33deg, rgba(255, 255, 255, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%);
+    background-blend-mode: normal, color-burn;
+    margin: 20px;
+    border-radius: 10px;
+}
+.team-member:hover {
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    box-shadow: 0px 0px 10px 2px gray; 
+    transform: scale(1.05);
+    transition: 0.9s;
+}
+
+
+
+
+
+
+.team-member-image {
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px 50px;
+
+
+
+
+}
+
+.member-name {
+    text-align: center;
+    font-weight: bold;
+    color: #33a0ff;
+}
+
+.member-11 {
+    font-style: italic;
+    text-align: center;
+}
+
+.member-social-media-icon {
+    height: 80px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.icon-12 {
+    height: 30px;
+    cursor: pointer;
+
+
+
+
+
+}
