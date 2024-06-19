@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import "./Recipe.css"
 import Navbar from '../../../components/Navbar/Navbar'
 import Footer from '../../../components/Footer/Footer'
@@ -11,6 +11,8 @@ function Recipe() {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
+
+  const [text, setText] = useState('')
 
   const { id } = useParams()
 
@@ -40,9 +42,9 @@ function Recipe() {
         <img src={selectedData.ingredientImg} className='ingredient-img rounded-4 m-4 img-thumbnail' />
       </div>
 
-        <h2 className='title text-center mt-5  py-2 roundedy-5 '> {selectedData.recipeName} process</h2>
+      <h2 className='title text-center mt-5  py-2 roundedy-5 '> {selectedData.recipeName} process</h2>
 
-        <div className='recipe h4'>
+      <div className='recipe h4'>
         {selectedData.steps.map((element, i) => {
 
           return <div className='steps m-1'>
@@ -53,26 +55,33 @@ function Recipe() {
 
       <h2 className='title text-center'>Live a Review</h2>
 
-      <div className='review-page w-50 p-5'>
-        <h6>Review</h6>
-        <input type='text'
-          placeholder='Comment '
-          className=' input-1 p-2 m-3' />
+      <div className='review-page w-50 p-5 rounded-3'>
+        <div className='input-div mb-4 px-4'>
+          <h5>Review</h5>
+          <input type='text'
+            placeholder='Comment '
+            onChange={(e) => {
+              setText(e.target.value)
+            }}
+            className=' input-1 p-2 pb-6  pb-5 ' />
+        </div>
 
+        <div className='input-div mb-4 px-4'>
+          <h5>Name</h5>
+          <input type='text'
+            placeholder='Enter Name'
+            onChange={(e) => {
+              setText(e.target.value)
+            }}
+            className=' input-1 p-2 ' />
+        </div>
 
-        <h6>Email</h6>
-        <input type='email'
-          placeholder='Enter Email'
-          className=' input-1 p-2 m-3' />
-
-        <h6>Password</h6>
-        <input type='text'
-          placeholder='Enter Password'
-          className=' input-1 p-2 m-3' />
-
+        <div className='button d-flex justify-content-center'>
+          <button type='btn' className='btn bg-danger px-5 py-2 mt-3'>Submit</button>
+        </div>
       </div>
 
-      <Footer/>
+      <Footer />
     </div>
 
 
