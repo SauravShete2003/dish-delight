@@ -21,7 +21,7 @@ function Recipe() {
     </div>
 
     <div className='recipe-body '>
-      <img src={selectedData.image} className="recipe-img mx-auto d-block rounded-3 img-fluid  " />
+      <img src={selectedData.image} className="recipe-img mx-auto d-block rounded-3 img-fluid mt-1" />
       <div className='duration text-center mt-3 '>{selectedData.up}</div>
 
       <h1 className='category text-center mt-3 py-2 rounded-4 '>Ingredients </h1>
