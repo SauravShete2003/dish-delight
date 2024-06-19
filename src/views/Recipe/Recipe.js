@@ -1,4 +1,4 @@
-import React, { lazy, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import "./Recipe.css"
 import Navbar from '../../components/Navbar/Navbar'
 import { useParams } from 'react-router-dom'

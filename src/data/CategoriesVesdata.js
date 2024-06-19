@@ -174,7 +174,7 @@ const DataCard = [
         id: "Palak Paneer",
         title: "Palak Paneer",
         up: "⏱️1 hour | Prep: 45 min. | Cook: 30 min. | Servings: 4 servings",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7Gm3isj55g9fmAex3sBNxPpLR9OESibafK2nBd4-o2A&s",
+        image: "https://reetikamitra.com/wp-content/uploads/2021/01/Palak-Paneer-Dal-Logo-1170x658.jpg",
         description: "Palak Paneer is a popular North Indian dish made with paneer (Indian cottage cheese) and spinach (palak) cooked with spices.",
         time: "40 mins",
         categories: "Veg",
@@ -212,13 +212,13 @@ const DataCard = [
             "Simmer for 5-7 minutes or until the gravy thickens and paneer cubes are heated through.",
             "Garnish with fresh cream (optional) and serve hot with naan or rice."
         ],
-        ingredientImg: "https://example.com/palak-paneer-ingredients.jpg"
+        ingredientImg: "https://shwetainthekitchen.com/wp-content/uploads/2023/02/Palak-paneer-ingredients.jpg"
     },
     {
         id: "Matar Paneer",
         title: "Matar Paneer",
         up: "⏱️1 hour | Prep: 45 min. | Cook: 30 min. | Servings: 4 servings",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn7Q6BfLVq6tgcij4FyagZnhOB199bnaK_XpbrZoUFvP3eVdcoFePYqWdDbg&s",
+        image: "https://static.toiimg.com/thumb/53251884.cms?width=1200&height=900",
         description: "Matar Paneer is a popular North Indian dish made with paneer (Indian cottage cheese) and green peas (matar) cooked in a tomato-based gravy.",
         time: "35 mins",
         categories: "Veg",
@@ -255,7 +255,7 @@ const DataCard = [
             "Add water to adjust consistency, if needed. Simmer for 5 minutes.",
             "Garnish with fresh coriander leaves and serve hot with roti or rice."
         ],
-        ingredientImg: "https://example.com/matar-paneer-ingredients.jpg"
+        ingredientImg: "https://www.spiceupthecurry.com/wp-content/uploads/2021/01/matar-paneer-ingredients.jpg"
     },
     {
         id: "Chana Masala",
@@ -297,13 +297,13 @@ const DataCard = [
             "Add water to adjust consistency, if needed. Simmer for 5 minutes.",
             "Garnish with fresh coriander leaves and serve hot with bhature, roti, or rice."
         ],
-        ingredientImg: "https://example.com/chana-masala-ingredients.jpg"
+        ingredientImg: "https://www.spiceupthecurry.com/wp-content/uploads/2020/10/instant-pot-chana-masala-ingredients.jpg"
     },
     {
         id: "Dum Aloo",
         title: "Dum Aloo",
         up: "⏱️1 hour | Prep: 45 min. | Cook: 30 min. | Servings: 4 servings",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQkXSVW6R-9-CrALJ5bTC3jGbZh1LsYSgeYg&s",
+        image: "https://img.freepik.com/free-photo/meatballs-with-vegetables-tomato-sauce_1220-7347.jpg?t=st=1718791676~exp=1718795276~hmac=9dc69d34ccdf7778fc00d00d44a2e19e7337abc7a7de19616cf4b73cf0160531&w=996",
         description: "Dum Aloo is a flavorful North Indian dish made with baby potatoes (aloo) cooked in a spicy and tangy tomato-based gravy.",
         time: "45 mins",
         categories: "Veg",
@@ -339,7 +339,7 @@ const DataCard = [
             "Add water to adjust consistency, if needed. Cover and simmer for 10 minutes.",
             "Garnish with fresh coriander leaves and serve hot with naan or rice."
         ],
-        ingredientImg: "https://example.com/dum-aloo-ingredients.jpg"
+        ingredientImg: "https://www.romylondonuk.com/wp-content/uploads/2022/03/Dum-Aloo-Recipe_04.jpg"
     },
     {
         id: "Baingan Bharta",
