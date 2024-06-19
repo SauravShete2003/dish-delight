@@ -25,8 +25,6 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-
-
 }
 
 .paragraph-container {
@@ -37,12 +35,14 @@
 .staff-image {
     height: 500px;
     border-radius: 30px;
-    box-shadow: 20px 20px 20px 1px#b3b3b3;
+    box-shadow: 2px 2px 5px 1px#b3b3b3;
 }
 
 .staff-image:hover {
+    box-shadow: 5px 5px 8px 1px#b3b3b3;
     background-color: #faebeb;
-    transition: 1s;
+    transition: 0.8s;
+
 
 }
 
@@ -63,57 +63,44 @@
     font-family: "Orbitron", sans-serif;
     font-family: "Montserrat Alternates", sans-serif;
 }
-
-
-
-
-
-
-
-
 .our-team-title {
     text-align: center;
 }
 
 .our-team-container {
-    height: 800px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
    
 }
-
 .team-member {
-    height: 350px;
-    width: 300px;
+    height: 300px;
+    width: 250px;
+  
+   
     box-shadow: 0px 0px 5px 1px gray;
     cursor: pointer;
-    background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0, 0, 0, 0.02) 50%, rgba(255, 255, 255, 0.02) 61%, rgba(0, 0, 0, 0.02) 73%), linear-gradient(33deg, rgba(255, 255, 255, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%);
-    background-blend-mode: normal, color-burn;
+    background-color: white;
     margin: 20px;
     border-radius: 10px;
 }
 .team-member:hover {
-    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    background-image:a;
     box-shadow: 0px 0px 10px 2px gray; 
     transform: scale(1.05);
     transition: 0.9s;
 }
-
-
-
-
-
-
 .team-member-image {
-    height: 200px;
-    border-radius: 10px;
+    height: 150px;
+    width: 150px;
     margin: 10px 50px;
-
-
-
-
+    border-radius: 10px;
+   
+}
+.team-member-image{
+    box-shadow: 7px 8px 5px 1px gray;  
 }
 
 .member-name {
@@ -135,13 +122,7 @@
     align-items: center;
 
 }
-
 .icon-12 {
     height: 30px;
     cursor: pointer;
-
-
-
-
-
 }
