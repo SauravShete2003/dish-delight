@@ -38,15 +38,14 @@ function Recipe() {
         <img src={selectedData.ingredientImg} className='ingredient-img rounded-4 m-4 h75' />
       </div>
 
-      <div>
-
-
         <h2 className='directions text-center  py-2 roundedy-5 '> {selectedData.recipeName}</h2>
+
+        <div className='recipe'>
         {selectedData.steps.map((element, i) => {
 
-          return <p className='steps '>
+          return <div className='steps m-2'>
             <ul><li >{element}</li></ul>
-          </p>
+          </div>
         })}
       </div>
 
