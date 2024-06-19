@@ -85,7 +85,7 @@ const DataCard = [
             "Cover with a tight-fitting lid and cook on low heat for 15-20 minutes or until the rice is fully cooked and aromatic.",
             "Garnish with fried onions (optional) and serve hot with raita or cucumber salad."
         ],
-        ingredientImg: "https://example.com/vegetable-biryani-ingredients.jpg"
+        ingredientImg: "https://jessicainthekitchen.com/wp-content/uploads/2023/04/Vegetable-Biryani-Ingredients.png"
     },
     {
         id: "Paneer Tikka Masala",
@@ -127,7 +127,7 @@ const DataCard = [
             "Add water to adjust consistency, if needed. Simmer for 5 minutes.",
             "Garnish with fresh coriander leaves and serve hot with naan or rice."
         ],
-        ingredientImg: "https://example.com/paneer-tikka-masala-ingredients.jpg"
+        ingredientImg: "https://www.spiceupthecurry.com/wp-content/uploads/2020/09/paneer-tikka-ingredients.jpg"
     },
     {
         id: "Aloo Gobi",
@@ -168,7 +168,7 @@ const DataCard = [
             "Cover and cook on low heat for 15-20 minutes or until potatoes and cauliflower are tender, stirring occasionally.",
             "Garnish with fresh coriander leaves and serve hot with chapati or rice."
         ],
-        ingredientImg: "https://example.com/aloo-gobi-ingredients.jpg"
+        ingredientImg: "https://www.spiceupthecurry.com/wp-content/uploads/2020/09/paneer-tikka-ingredients.jpg"
     },
     {
         id: "Palak Paneer",
