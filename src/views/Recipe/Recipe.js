@@ -3,7 +3,7 @@ import "./Recipe.css"
 import Navbar from '../../components/Navbar/Navbar'
 import { useParams } from 'react-router-dom'
 
-import DataCard from '../../data/CategoriesVegData/CategoriesVesdata'
+import DataCard from '../../data/CategoriesVesdata'
 
 function Recipe() {
 
