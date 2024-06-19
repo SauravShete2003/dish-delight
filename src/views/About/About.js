@@ -73,7 +73,7 @@ function About() {
             </div>
 
             <div className="team-member">
-                <img src="https://avatars.githubusercontent.com/u/113831137?s=48&v=4" className="team-member-image" />
+                <img src="https://avatars.githubusercontent.com/u/113831137?v=4" className="team-member-image" />
                 <h5 className="member-name">Sakshi Lambe</h5>
                 <h6 className="member-11">member</h6>
 
