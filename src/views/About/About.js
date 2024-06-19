@@ -1,9 +1,6 @@
 import "./About.css"
 import HotelStaff from "../../assets/About/hotel staff image.png"
-import Instagram from "../../assets/About/instagram.png"
 import Linkdine from "../../assets/About/linkdine12.png"
-import Youtube from "../../assets/About/youtube (1).png"
-import Facebook from "../../assets/About/facebook.png"
 import GitHub from "../../assets/About/github-sign.png"
 import Gmail from "../../assets/About/gmail.png"
 import Navbar from "../../components/Navbar/Navbar"
@@ -107,7 +104,7 @@ function About() {
                     <Link to="https://github.com/SauravShete2003/" ><img src={GitHub} className="icon-12" /></Link>
                     <Link to="sauravshete72@gmail.com" ><img src={Gmail} className="icon-12" /></Link>
                 </div>
-                </div>
+            </div>
 
             <div className="team-member">
                 <img src={ImgLakshman} className="team-member-image" />
