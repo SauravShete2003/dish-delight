@@ -1,24 +1,16 @@
-.recipe-body{
-    background-color: antiquewhite;
-}
-
-.duration{
-    text-align: center;
-}
-
 .title{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .recipe-description{
     font-size: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
     margin: 10px 100px;
 }
 
 .ingredients-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .ingredient-list{
@@ -37,5 +29,10 @@
 }
 
 .input-1{
-    width: 500px;
+    width: 300px;
+}
+
+.review-page{
+    background-color: aquamarine;
+    margin: 20px auto;
 }

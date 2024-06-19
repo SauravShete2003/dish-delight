@@ -22,12 +22,12 @@ function Recipe() {
 
     <div className='recipe-body '>
       <img src={selectedData.image} className="recipe-img w-50 h-50 mx-auto d-block rounded-3 img-fluid  " />
-      <div className='duration'>{selectedData.up}</div>
+      <div className='duration text-center'>{selectedData.up}</div>
 
       <h1 className='category text-center mt-5 py-2 rounded-4 '>Ingredients </h1>
 
-      <div className='ingredients-container my-5'>
-        <div className='ingredient-list bg-info p-4 rounded-4'>
+      <div className='ingredients-container '>
+        <div className='ingredient-list bg-info p-4 rounded-4  m-4 h-25 '>
 
           {selectedData.ingredients.map((element, i) =>
             <ul key={i}>
@@ -35,7 +35,7 @@ function Recipe() {
             </ul>
           )}
         </div>
-        <img src={selectedData.ingredientImg} className='ingredient-img rounded-4 img-fluid' />
+        <img src={selectedData.ingredientImg} className='ingredient-img rounded-4 m-4 h-100' />
       </div>
 
       <div>
@@ -50,24 +50,24 @@ function Recipe() {
         })}
       </div>
 
-      <h3>Live a Review</h3>
+      <h3 className='review-heading text-center'>Live a Review</h3>
 
-      <div className='review-page'>
+      <div className='review-page w-50 p-5'>
         <h6>Review</h6>
         <input type='text'
           placeholder='Comment '
-          className=' input-1' />
+          className=' input-1 p-2 m-3' />
 
 
         <h6>Email</h6>
         <input type='email'
-        placeholder='Enter Email'
-         className=' input ' />
+          placeholder='Enter Email'
+          className=' input-1 p-2 m-3' />
 
         <h6>Password</h6>
         <input type='text'
-        placeholder='Enter Password' 
-        className=' input ' />
+          placeholder='Enter Password'
+          className=' input-1 p-2 m-3' />
 
       </div>
     </div>
