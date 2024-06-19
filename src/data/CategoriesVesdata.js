@@ -40,6 +40,7 @@ const DataCard = [
             "Enjoy your homemade Dal Tadka!"],
         ingredientImg: "https://shwetainthekitchen.com/wp-content/uploads/2021/12/Dal-Fry-Ingredients.jpg"
     },
+
     {
         id: "Vegetable Biryani",
         title: "Vegetable Biryani",
@@ -87,6 +88,7 @@ const DataCard = [
         ],
         ingredientImg: "https://jessicainthekitchen.com/wp-content/uploads/2023/04/Vegetable-Biryani-Ingredients.png"
     },
+
     {
         id: "Paneer Tikka Masala",
         title: "Paneer Tikka Masala",
@@ -129,6 +131,7 @@ const DataCard = [
         ],
         ingredientImg: "https://www.spiceupthecurry.com/wp-content/uploads/2020/09/paneer-tikka-ingredients.jpg"
     },
+
     {
         id: "Aloo Gobi",
         title: "Aloo Gobi",
@@ -170,6 +173,7 @@ const DataCard = [
         ],
         ingredientImg: "https://www.spiceupthecurry.com/wp-content/uploads/2021/06/Aloo-gobi-ingredients.jpg"
     },
+
     {
         id: "Palak Paneer",
         title: "Palak Paneer",
@@ -214,6 +218,7 @@ const DataCard = [
         ],
         ingredientImg: "https://shwetainthekitchen.com/wp-content/uploads/2023/02/Palak-paneer-ingredients.jpg"
     },
+
     {
         id: "Matar Paneer",
         title: "Matar Paneer",
@@ -257,11 +262,12 @@ const DataCard = [
         ],
         ingredientImg: "https://www.spiceupthecurry.com/wp-content/uploads/2021/01/matar-paneer-ingredients.jpg"
     },
+
     {
         id: "Chana Masala",
         title: "Chana Masala",
         up: "⏱️1 hour | Prep: 45 min. | Cook: 30 min. | Servings: 4 servings",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4ePW8WeAaeP5_g-J8vXi8EpKxu5-WvHGHTQ&s",
+        image: "https://www.mygingergarlickitchen.com/wp-content/rich-markup-images/4x3/4x3-amritsari-chole.jpg",
         description: "Chana Masala is a popular North Indian dish made with chickpeas (chana) cooked in a spicy and tangy tomato-based gravy.",
         time: "40 mins",
         categories: "Veg",
@@ -299,6 +305,7 @@ const DataCard = [
         ],
         ingredientImg: "https://www.spiceupthecurry.com/wp-content/uploads/2020/10/instant-pot-chana-masala-ingredients.jpg"
     },
+
     {
         id: "Dum Aloo",
         title: "Dum Aloo",
@@ -341,11 +348,12 @@ const DataCard = [
         ],
         ingredientImg: "https://www.romylondonuk.com/wp-content/uploads/2022/03/Dum-Aloo-Recipe_04.jpg"
     },
+
     {
         id: "Baingan Bharta",
         title: "Baingan Bharta",
         up: "⏱️1 hour | Prep: 45 min. | Cook: 30 min. | Servings: 4 servings",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT198cYpVUqvZldBkvNdv1y65rj8ONSK2Pjng&s",
+        image: "https://i.ytimg.com/vi/oEOzzoAM7Sc/sddefault.jpg",
         description: "Baingan Bharta is a popular North Indian dish made with roasted and mashed eggplant (baingan) cooked with onions, tomatoes, and spices.",
         time: "50 mins",
         categories: "Veg",
@@ -381,13 +389,14 @@ const DataCard = [
             "Add garam masala powder and mix well.",
             "Garnish with fresh coriander leaves and serve hot with roti or rice."
         ],
-        ingredientImg: "https://example.com/baingan-bharta-ingredients.jpg"
+        ingredientImg: "https://www.teaforturmeric.com/wp-content/uploads/2021/10/Aloo-Baingan-Eggplant-and-Potato-Curry_Ingredients.jpg"
     },
+    
     {
         id: "Vegetable Korma",
         title: "Vegetable Korma",
         up: "⏱️1 hour | Prep: 45 min. | Cook: 30 min. | Servings: 4 servings",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtXJP1Ty2U5xTdxpl249Op3KZ8dyvpQBn7MA&s",
+        image: "https://myfancypantry.com/wp-content/uploads/2012/04/untitled-04473.jpg",
         description: "Vegetable Korma is a creamy and mildly spiced North Indian dish made with mixed vegetables cooked in a rich cashew and yogurt-based gravy.",
         time: "45 mins",
         categories: "Veg",
@@ -425,11 +434,8 @@ const DataCard = [
             "Add garam masala powder and adjust consistency with water, if needed. Simmer for 10-12 minutes.",
             "Garnish with fresh coriander leaves and serve hot with naan or rice."
         ],
-        ingredientImg: "https://example.com/vegetable-korma-ingredients.jpg"
+        ingredientImg: "https://simpleveganblog.com/wp-content/uploads/2022/05/vegetable-korma-ingredientes.jpg"
     }
-
-
-
 
 ];
 
