@@ -168,7 +168,7 @@ const DataCard = [
             "Cover and cook on low heat for 15-20 minutes or until potatoes and cauliflower are tender, stirring occasionally.",
             "Garnish with fresh coriander leaves and serve hot with chapati or rice."
         ],
-        ingredientImg: "https://www.spiceupthecurry.com/wp-content/uploads/2020/09/paneer-tikka-ingredients.jpg"
+        ingredientImg: "https://www.spiceupthecurry.com/wp-content/uploads/2021/06/Aloo-gobi-ingredients.jpg"
     },
     {
         id: "Palak Paneer",
