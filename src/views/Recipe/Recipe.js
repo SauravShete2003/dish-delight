@@ -21,13 +21,13 @@ function Recipe() {
     </div>
 
     <div className='recipe-body '>
-      <img src={selectedData.image} className="recipe-img w-50 h-50 mx-auto d-block rounded-3 img-fluid  " />
-      <div className='duration text-center'>{selectedData.up}</div>
+      <img src={selectedData.image} className="recipe-img mx-auto d-block rounded-3 img-fluid  " />
+      <div className='duration text-center mt-3 '>{selectedData.up}</div>
 
-      <h1 className='category text-center mt-5 py-2 rounded-4 '>Ingredients </h1>
+      <h1 className='category text-center mt-3 py-2 rounded-4 '>Ingredients </h1>
 
       <div className='ingredients-container '>
-        <div className='ingredient-list bg-info p-4 rounded-4  m-4 h-25 '>
+        <div className='ingredient-list p-5  m-4 rounded-4  '>
 
           {selectedData.ingredients.map((element, i) =>
             <ul key={i}>
@@ -35,13 +35,13 @@ function Recipe() {
             </ul>
           )}
         </div>
-        <img src={selectedData.ingredientImg} className='ingredient-img rounded-4 m-4 h-100' />
+        <img src={selectedData.ingredientImg} className='ingredient-img rounded-4 m-4 h75' />
       </div>
 
       <div>
 
 
-        <h2 className='directions text-center  py-2 roundedy-5  '>Direction: {selectedData.recipeName}</h2>
+        <h2 className='directions text-center  py-2 roundedy-5 '> {selectedData.recipeName}</h2>
         {selectedData.steps.map((element, i) => {
 
           return <p className='steps '>
