@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import "./RecipeVeg/Recipe.css"
+import "./RecipeNonveg.css"
 import Navbar from '../../../components/Navbar/Navbar'
 import Footer from '../../../components/Footer/Footer'
 import { useParams } from 'react-router-dom'
