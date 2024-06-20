@@ -23,11 +23,12 @@ function CategoriesVeg() {
             title,
             image,
             description,
-            time
+            time,
+            categories
 
           } = blogObject
 
-          return (<VegCard title={title} image={image} description={description} time={time} id={id} />)
+          return (<VegCard title={title} image={image} description={description} time={time} id={id} categories={categories} />)
         })}
       </div>
 

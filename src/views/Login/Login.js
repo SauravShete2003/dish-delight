@@ -7,6 +7,7 @@ import Google from "./../../assets/FooterImg/google.png"
 import Email from "./../../assets/FooterImg/gmail.png"
 import Button from "./../../components/Button/Button"
 import "./../../components/Button/Button.css"
+import toast ,{Toaster} from "react-hot-toast"
 
 function Login(){
     return(
@@ -25,12 +26,12 @@ function Login(){
 
             <div className="Form-div">
                 <form>
-                <input type="text" className="input-box" placeholder="Username"></input>
-                <input type="text" className="input-box" placeholder="Password"></input><br></br>
-                
+                <input type="text" className="input-box" placeholder="Username" required></input>
+                <input type="text" className="input-box" placeholder="Password" required></input><br></br>
+                <button className="btn" type="submit" onClick={()=>{toast.success("login successfully!!")}}>Login</button>
                 </form>
-                {/* <button type="button" className="btn">Login</button> */}
-                <Button  text="Login"/>
+               
+                
             </div>
 
 
@@ -38,6 +39,8 @@ function Login(){
         </div>
         
         <Footer/>
+
+        <Toaster/>
         
         </>
     )
