@@ -1,4 +1,4 @@
-
+import Navbar from "./../../components/Navbar/Navbar"
 import "./Login.css"
 import Footer from "./../../components/Footer/Footer"
 import LoginImg from "./../../assets/Login-Img/background-img-4.jpg"
@@ -9,6 +9,8 @@ import Email from "./../../assets/FooterImg/gmail.png"
 function Login(){
     return(
         <>
+        <Navbar/>
+        <br></br><br></br>
         <img src={LoginImg} className="background-img"/>
         <div className="login-main-div">
             <p className="login-heading">Login Page</p>
