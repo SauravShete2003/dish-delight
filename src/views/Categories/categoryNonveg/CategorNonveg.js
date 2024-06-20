@@ -1,18 +1,18 @@
-import "./CategoriesVeg.css"
-import Data from "./../../../data/CategoriesVesdata"
+import "./CategoriesNonveg.css"
+import Data from "./../../../data/CategoriesNonvegdata"
 import VegCard from "./../../../components/VegCard/VegCard"
-import headerimg from "./header-img.jpg"
+// import headerimg from "./header-img.jpg"
 import Navbar from "./../../../components/Navbar/Navbar"
 import Footer from "./../../../components/Footer/Footer"
 
 
-function CategoriesVeg() {
+function CategoriNonveg() {
 
   return (
     <>
       <Navbar />
-      <img src={headerimg} className="header-img" />
-      <h1 className="head-title">Veg Delicious Food</h1>
+      {/* <img src={headerimg} className="header-img" />
+      <h1 className="head-title">Veg Delicious Food</h1> */}
 
 
       <div className="veg-container">
@@ -26,6 +26,7 @@ function CategoriesVeg() {
             time
 
           } = blogObject
+        
 
           return (<VegCard title={title} image={image} description={description} time={time} id={id} />)
         })}
@@ -37,5 +38,4 @@ function CategoriesVeg() {
   )
 }
 
-export default CategoriesVeg
-
+export default CategoriNonveg ;
