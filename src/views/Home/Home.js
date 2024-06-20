@@ -1,8 +1,8 @@
 import React from 'react';
-import Navbar from '../../components/Navbar/Navbar'; 
+import Navbar from '../../components/Navbar/Navbar';
 import HomeCategories from '../../components/HomeCategories/HomeCategories';
 import Footer from '../../components/Footer/Footer';
-
+import HolidaySpecials from '../../components/HolidayRecipes/HolidaysRecipe';
 
 
 
@@ -11,12 +11,14 @@ import Footer from '../../components/Footer/Footer';
 function HomeCategory() {
   return (
     <>
-    <div>
-    <Navbar/>
-    <HomeCategories/>
-    <Footer/>
-    </div>
-   
+      <div>
+        <Navbar />
+        <HomeCategories />
+        <HolidaySpecials />
+        <Footer />
+
+      </div>
+
 
     </>
   );
