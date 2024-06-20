@@ -8,15 +8,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Navbar from "../src/components/Navbar/Navbar"
 import Recipe from "../src/views/Recipe/RecipeVeg/Recipe"
+import RecipeNonveg from '../src/views/Recipe/RecipeNonveg/RecipeNonveg';
 import Footer from './components/Footer/Footer';
 import Login from "./views/Login/Login"
 import HomeCategories from './components/HomeCategories/HomeCategories';
 import "./index.css"
+import CategoryNonveg from "./views/Categories/categoryNonveg/CategorNonveg"
 import CategoriesVeg from './views/Categories/categoryVeg/CategoriesVeg';
-
-
-
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
@@ -39,9 +37,15 @@ const router = createBrowserRouter([
         path: "/VegCard/:id",
         element: <VegCard />,
     },
+
     {
         path: "/recipe/:id",
         element: <Recipe />
+    },
+
+    {
+        path: "/recipenonveg/:id",
+        element: <RecipeNonveg />
     },
 
     {
@@ -61,6 +65,10 @@ const router = createBrowserRouter([
    {
     path:"/veg",
     element: <CategoriesVeg />
+   },
+   {
+    path : "/non-veg",
+    element:<CategoryNonveg/>
    }
 
 
