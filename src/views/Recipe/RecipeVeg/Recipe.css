@@ -39,12 +39,13 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
-.input-1{
-    width: 300px;
+.input-1 {
+    width: 600px;
+    
 }
 
 .review-page{
-    background-color: aquamarine;
+    background-color: rgb(133, 136, 135);
     margin: 20px auto;
     width: 20%;
 }

@@ -42,7 +42,7 @@ const DataCard = [
     },
 
     {
-        id: "Vegetable Biryani",
+        id: "vegetablebiryani",
         title: "Vegetable Biryani",
         up: "⏱️1 hour | Prep: 45 min. | Cook: 30 min. | Servings: 4 servings",
         image: "https://daruadda.com/wp-content/uploads/2023/01/Veg-Biryani.png",
@@ -90,7 +90,7 @@ const DataCard = [
     },
 
     {
-        id: "Paneer Tikka Masala",
+        id: "paneertikkamasala",
         title: "Paneer Tikka Masala",
         up: "⏱️1 hour | Prep: 45 min. | Cook: 30 min. | Servings: 4 servings",
         image: "https://cdn.tasteatlas.com//images/dishes/16dbebbff2e04e0d984f4ed83be93b97.jpg?w=905&h=510",
@@ -133,7 +133,7 @@ const DataCard = [
     },
 
     {
-        id: "Aloo Gobi",
+        id: "aloogobi",
         title: "Aloo Gobi",
         up: "⏱️1 hour | Prep: 45 min. | Cook: 30 min. | Servings: 4 servings",
         image: "https://ministryofcurry.com/wp-content/uploads/2017/04/Aloo-Gobi-5.jpg",
@@ -175,7 +175,7 @@ const DataCard = [
     },
 
     {
-        id: "Palak Paneer",
+        id: "palakpaneer",
         title: "Palak Paneer",
         up: "⏱️1 hour | Prep: 45 min. | Cook: 30 min. | Servings: 4 servings",
         image: "https://reetikamitra.com/wp-content/uploads/2021/01/Palak-Paneer-Dal-Logo-1170x658.jpg",
@@ -220,7 +220,7 @@ const DataCard = [
     },
 
     {
-        id: "Matar Paneer",
+        id: "matarpaneer",
         title: "Matar Paneer",
         up: "⏱️1 hour | Prep: 45 min. | Cook: 30 min. | Servings: 4 servings",
         image: "https://static.toiimg.com/thumb/53251884.cms?width=1200&height=900",
@@ -264,7 +264,7 @@ const DataCard = [
     },
 
     {
-        id: "Chana Masala",
+        id: "chanamasala",
         title: "Chana Masala",
         up: "⏱️1 hour | Prep: 45 min. | Cook: 30 min. | Servings: 4 servings",
         image: "https://www.mygingergarlickitchen.com/wp-content/rich-markup-images/4x3/4x3-amritsari-chole.jpg",
@@ -307,7 +307,7 @@ const DataCard = [
     },
 
     {
-        id: "Dum Aloo",
+        id: "dumaloo",
         title: "Dum Aloo",
         up: "⏱️1 hour | Prep: 45 min. | Cook: 30 min. | Servings: 4 servings",
         image: "https://img.freepik.com/free-photo/meatballs-with-vegetables-tomato-sauce_1220-7347.jpg?t=st=1718791676~exp=1718795276~hmac=9dc69d34ccdf7778fc00d00d44a2e19e7337abc7a7de19616cf4b73cf0160531&w=996",
@@ -350,7 +350,7 @@ const DataCard = [
     },
 
     {
-        id: "Baingan Bharta",
+        id: "bainganbharta",
         title: "Baingan Bharta",
         up: "⏱️1 hour | Prep: 45 min. | Cook: 30 min. | Servings: 4 servings",
         image: "https://i.ytimg.com/vi/oEOzzoAM7Sc/sddefault.jpg",
@@ -393,7 +393,7 @@ const DataCard = [
     },
     
     {
-        id: "Vegetable Korma",
+        id: "vegetablekorma",
         title: "Vegetable Korma",
         up: "⏱️1 hour | Prep: 45 min. | Cook: 30 min. | Servings: 4 servings",
         image: "https://myfancypantry.com/wp-content/uploads/2012/04/untitled-04473.jpg",
