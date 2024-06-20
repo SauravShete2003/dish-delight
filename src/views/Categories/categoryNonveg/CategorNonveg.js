@@ -1,12 +1,11 @@
-import "./CategoriesNonveg.css"
+import "./CategoriNonveg.css"
 import Data from "./../../../data/CategoriesNonvegdata"
 import VegCard from "./../../../components/VegCard/VegCard"
-// import headerimg from "./header-img.jpg"
 import Navbar from "./../../../components/Navbar/Navbar"
 import Footer from "./../../../components/Footer/Footer"
 
 
-function CategoriNonveg() {
+function CategoryNonveg() {
 
   return (
     <>
@@ -38,4 +37,4 @@ function CategoriNonveg() {
   )
 }
 
-export default CategoriNonveg ;
+export default CategoryNonveg ;
