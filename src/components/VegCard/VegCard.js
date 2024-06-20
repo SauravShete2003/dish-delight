@@ -6,7 +6,7 @@ import ImgClock from "./clock.png"
 import Button from "./../Button/Button"
 import {Link} from 'react-router-dom';
 
-function VegCard({ id,title, image, description, time }) {
+function VegCard({ id,title, image, description, time,categories}) {
     const [liked, setLiked] = useState(false)
 
     return (
@@ -29,9 +29,9 @@ function VegCard({ id,title, image, description, time }) {
                 <span className="time ms-4 fw-bold">{time}</span>
             </div>
 
-            <Link className="category-card-button " target='_blank' to={`/recipe/${id}` } >
-            
-                <Button text={"Know More"} />
+            <Link className="category-card-button" target='_blank' to={`/${categories}/${id}` } >
+                        
+                <Button text={"Know more"} />
             </Link>
 
            
