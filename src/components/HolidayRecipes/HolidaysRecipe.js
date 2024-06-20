@@ -1,9 +1,10 @@
 import { HolidayData } from "../../data/HolidaySpecial";
-import "./HolidaysRecipe";
 
-function HolidayRecipe({ name, description, imageUrl }) {
+import { Link } from "react-router-dom";
+
+function HolidayRecipe({ id,name,description, imageUrl }) {
   return (
-    <div className="col-md-4 my-3">
+    <Link className="col-md-4 my-3" to={`/maharashtraspecial/${id}`}>
       <div className="card h-100">
         <img src={imageUrl} className="card-img-top h-200" alt={name} />
         <div className="card-body">
@@ -11,7 +12,7 @@ function HolidayRecipe({ name, description, imageUrl }) {
           <p className="card-text">{description.substring(0, 70)}...</p>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }
 
@@ -25,8 +26,9 @@ function HolidaySpecials() {
       {HolidayData ? (
         <div className="my-4">
           <div className="row">
-            {HolidayData.map((recipe, index) => (
+            {HolidayData.map((id ,recipe, index) => (
               <HolidayRecipe
+                id={id}
                 key={index}
                 imageUrl={recipe.imageUrl}
                 name={recipe.name}

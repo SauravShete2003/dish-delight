@@ -12,10 +12,6 @@ function MaharashtrianSpecial() {
     const { id } = useParams();
     const RecipeDetails = MaharashtrianSpecialData.find((dataObject) => dataObject.id === id);
 
-    if (!RecipeDetails) {
-        return <div>Recipe not found</div>;
-    }
-
     return (
         <>
             <div>

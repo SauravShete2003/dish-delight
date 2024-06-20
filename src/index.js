@@ -15,6 +15,7 @@ import HomeCategories from './components/HomeCategories/HomeCategories';
 import "./index.css"
 import CategoryNonveg from "./views/Categories/categoryNonveg/CategorNonveg"
 import CategoriesVeg from './views/Categories/categoryVeg/CategoriesVeg';
+import MaharashtrianSpecial from './views/MaharashtrianSpecial/MaharashtrianSpecial';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
@@ -69,6 +70,10 @@ const router = createBrowserRouter([
    {
     path : "/non-veg",
     element:<CategoryNonveg/>
+   },
+   {
+    path: "/maharashtraspecial/:id",
+    element: <MaharashtrianSpecial/>
    }
 
 
