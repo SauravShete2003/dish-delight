@@ -5,6 +5,8 @@ import LoginImg from "./../../assets/Login-Img/background-img-4.jpg"
 import Facebook from "./../../assets/FooterImg/facebook.png"
 import Google from "./../../assets/FooterImg/google.png"
 import Email from "./../../assets/FooterImg/gmail.png"
+import Button from "./../../components/Button/Button"
+import "./../../components/Button/Button.css"
 
 function Login(){
     return(
@@ -27,7 +29,8 @@ function Login(){
                 <input type="text" className="input-box" placeholder="Password"></input><br></br>
                 
                 </form>
-                <button type="button" className="btn">Login</button>
+                {/* <button type="button" className="btn">Login</button> */}
+                <Button  text="Login"/>
             </div>
 
 
