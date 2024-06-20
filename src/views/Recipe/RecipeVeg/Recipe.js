@@ -3,6 +3,7 @@ import "./Recipe.css"
 import Navbar from '../../../components/Navbar/Navbar'
 import Footer from '../../../components/Footer/Footer'
 import { useParams } from 'react-router-dom'
+import Swal from 'sweetalert2'
 
 import DataCard from '../../../data/CategoriesVesdata'
 
@@ -17,6 +18,15 @@ function Recipe() {
   const { id } = useParams()
 
   const selectedData = DataCard.find((dataObject) => dataObject.id === id)
+
+  const handleSuccessClick = () =>{
+    Swal.fire({
+      icon: 'success',
+      title: "Thank you for your Review. It has been sent",
+      timer: 2500,
+})
+
+  }
 
   return (<>
     <div>
@@ -77,15 +87,13 @@ function Recipe() {
         </div>
 
         <div className='button d-flex justify-content-center'>
-          <button type='btn' className='btn bg-danger px-5 py-2 mt-3'>Submit</button>
+          <button onClick={handleSuccessClick} type='submit' className='btn bg-danger px-5 py-2 mt-3'>Submit</button> 
         </div>
+        
       </div>
 
       <Footer />
     </div>
-
-
-
 
   </>
   )
