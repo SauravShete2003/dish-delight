@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
-import "./../RecipeVeg/Recipe.css"
+import "./RecipeVeg/Recipe.css"
 import Navbar from '../../../components/Navbar/Navbar'
 import Footer from '../../../components/Footer/Footer'
 import { useParams } from 'react-router-dom'
 
-import DataCard from '../../../data/CategoriesBreakfastdata'
+import DataCard from '../../../data/CategoriesNonvegdata'
 
 function Recipe() {
 
