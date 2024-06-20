@@ -1,5 +1,6 @@
 
 import "./Login.css"
+import Footer from "./../../components/Footer/Footer"
 import LoginImg from "./../../assets/Login-Img/background-img-4.jpg"
 import Facebook from "./../../assets/FooterImg/facebook.png"
 import Google from "./../../assets/FooterImg/google.png"
@@ -31,9 +32,11 @@ function Login(){
 
         </div>
         
+        <Footer/>
         
         </>
     )
 }
+
 
 export default Login
