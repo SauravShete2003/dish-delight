@@ -1,4 +1,5 @@
 const NonVegDataCard = [
+   
     {
         id: "butter-chicken",
         title: "Butter Chicken",
