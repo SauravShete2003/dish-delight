@@ -1,20 +1,32 @@
-import React, { useEffect } from 'react'
-import "./../RecipeVeg/Recipe.css"
+import React, { useEffect, useState } from 'react'
+import "./RecipeNonveg.css"
 import Navbar from '../../../components/Navbar/Navbar'
 import Footer from '../../../components/Footer/Footer'
 import { useParams } from 'react-router-dom'
+import Swal from 'sweetalert2'
 
-import DataCard from '../../../data/CategoriesBreakfastdata'
+import NonVegDataCard from '../../../data/CategoriesNonvegdata'
 
-function Recipe() {
+function RecipeNonveg() {
 
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
 
+  const [text, setText] = useState('')
+
   const { id } = useParams()
 
-  const selectedData = DataCard.find((dataObject) => dataObject.id === id)
+  const selectedData = NonVegDataCard.find((dataObject) => dataObject.id === id)
+
+  const handleSuccessClick = () =>{
+    Swal.fire({
+      icon: 'success',
+      title: "Thank you for your Review. It has been sent",
+      timer: 2500,
+})
+
+  }
 
   return (<>
     <div>
@@ -53,11 +65,38 @@ function Recipe() {
 
       <h2 className='title text-center'>Live a Review</h2>
 
+      <div className='review-page w-50 p-5 rounded-3'>
+        <div className='input-div mb-4 px-4'>
+          <h5>Review</h5>
+          <input type='text'
+            placeholder='Comment '
+            onChange={(e) => {
+              setText(e.target.value)
+            }}
+            className=' input-1 p-2 pb-6  pb-5 ' />
+        </div>
+
+        <div className='input-div mb-4 px-4'>
+          <h5>Name</h5>
+          <input type='text'
+            placeholder='Enter Name'
+            onChange={(e) => {
+              setText(e.target.value)
+            }}
+            className=' input-1 p-2 ' />
+        </div>
+
+        <div className='button d-flex justify-content-center'>
+          <button onClick={handleSuccessClick} type='submit' className='btn bg-danger px-5 py-2 mt-3'>Submit</button> 
+        </div>
+        
+      </div>
+
       <Footer />
     </div>
+
   </>
   )
 }
 
-
-export default Recipe
+export default RecipeNonveg
