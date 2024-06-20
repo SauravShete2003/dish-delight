@@ -38,4 +38,3 @@ function CategoriesVeg() {
 }
 
 export default CategoriesVeg
-
