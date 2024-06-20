@@ -26,8 +26,8 @@ function Login(){
 
             <div className="Form-div">
                 <form>
-                <input type="text" className="input-box" placeholder="Username"></input>
-                <input type="text" className="input-box" placeholder="Password"></input><br></br>
+                <input type="text" className="input-box" placeholder="Username" required></input>
+                <input type="text" className="input-box" placeholder="Password" required></input><br></br>
                 <button className="btn" type="submit" onClick={()=>{toast.success("login successfully!!")}}>Login</button>
                 </form>
                
