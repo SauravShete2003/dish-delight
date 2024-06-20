@@ -3,6 +3,7 @@
     import CategoriesSection from "../CategoriesSection/CategoriesSection";
     import HeroSection from "../HeroSection/HeroSection";
     
+    
     function HomeCategories() {
         return (
             <>
@@ -15,8 +16,7 @@
                             key={index}
                             id = {category.id}
                             name={category.name}
-                            image={category.image}
-                            
+                            image={category.image}  
                             timing={category.timing}
                         />
                     ))}

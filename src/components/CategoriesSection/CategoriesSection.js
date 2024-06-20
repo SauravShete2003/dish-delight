@@ -8,7 +8,7 @@ function CategoriesSection({ id, name, image, timing, }) {
 
   return (
     <>
-      <Link className="categories-section" to={`/VegCard/${id}`}>
+      <Link className="categories-section" to={`${name}`}>
 
         <div className="categories-container">
           <img src={image} alt={name} className="category-image" />

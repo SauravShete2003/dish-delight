@@ -12,6 +12,7 @@ import Footer from './components/Footer/Footer';
 import Login from "./views/Login/Login"
 import HomeCategories from './components/HomeCategories/HomeCategories';
 import "./index.css"
+import CategoriesVeg from './views/Categories/categoryVeg/CategoriesVeg';
 
 
 
@@ -56,6 +57,10 @@ const router = createBrowserRouter([
    {
     path: "/homecategories",
     element: <HomeCategories />
+   },
+   {
+    path:"/veg",
+    element: <CategoriesVeg />
    }
 
 
