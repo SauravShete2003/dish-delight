@@ -89,15 +89,6 @@ const categoriesData = [
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRdvGSGiGwH8sbPHiYFmOckYOF8QYFFIcUSQ&usqp=CAU",
       descr: "This Malai Kofta is easy to make and packed with amazing flavor that the whole family will love. Try this for yourself and you know this will be a staple at your house. Even pickiest kids will got a big soft spot on this Malai Kofta restaurant style that tastes so fantastic that no one would ever tell it is naturally vegan.",
       rating : 4.0
-    },
-    
-
-    {
-      id: "Malai Kofta",
-      title: "Malai Kofta",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRdvGSGiGwH8sbPHiYFmOckYOF8QYFFIcUSQ&usqp=CAU",
-      descr: "This Malai Kofta is easy to make and packed with amazing flavor that the whole family will love. Try this for yourself and you know this will be a staple at your house. Even pickiest kids will got a big soft spot on this Malai Kofta restaurant style that tastes so fantastic that no one would ever tell it is naturally vegan.",
-      rating : 4.0
     }
     
   ];

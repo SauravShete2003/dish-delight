@@ -8,9 +8,15 @@ body{
 }
 
 .h-200{
-    height: 200px
+    height: 200px;
+}
+.h-150{
+    height: 150px;
 }
 
 .mt-50 {
     margin: 50px;
+}
+.w-200 {
+    width: 260px;
 }
