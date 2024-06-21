@@ -35,7 +35,7 @@ function MaharashtrianSpecial() {
             <div className=" w-50 mx-auto">
                 <h1 className='text-center text-primary'>{RecipeDetails.title}</h1>
                 <div className="d-flex justify-content-center my-4">
-                <img src={RecipeDetails.image} alt={RecipeDetails.title}  className='w-100 rounded ' />
+                <img src={RecipeDetails.image} alt={RecipeDetails.title}  className='w-100 rounded h-400' />
                 </div>
                
                 <h3 className='text-success'>Ingredients:</h3>

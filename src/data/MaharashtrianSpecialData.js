@@ -31,7 +31,8 @@ const MaharashtrianSpecialData = [
             "Scoop and collect the pulp of the mango and transfer to a blender with sugar, saffron and cardamom.",
             "Blend well until smooth. You can add little water according to the consistency you need."
         ],
-        nutrition: "Serving Ingredient Calories 0.727 fruit without refuse mangoe 147 0.364 tbsp sugar 18 0.8 gram ginger 0 0.18 gram cardamom 1"
+        nutrition: "Serving Ingredient Calories 0.727 fruit without refuse mangoe 147 0.364 tbsp sugar 18 0.8 gram ginger 0 0.18 gram cardamom 1",
+        recipeblog: ""
     },
     {
         id: "Puran Poli",

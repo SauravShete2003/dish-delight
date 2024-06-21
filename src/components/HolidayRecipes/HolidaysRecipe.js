@@ -2,14 +2,14 @@ import { HolidayData } from "../../data/HolidaySpecial";
 import { Link } from "react-router-dom";
 
 function HolidayRecipe({ id, name, description, imageUrl }) {
-  // Ensure description is defined and is a string before calling substring
+  
   const truncatedDescription = description ? description.substring(0, 70) + '...' : '';
 
   return (
-    <Link className="col-md-4 my-3" to={`/maharashtraspecial/${id}`}>
+    <Link className="col-md-4 my-3 text-decoration-none" to={`/maharashtraspecial/${id}`}>
       <div className="card h-100">
         <img src={imageUrl} className="card-img-top h-200" alt={name} />
-        <div className="card-body">
+        <div className="card-body ">
           <h5 className="card-title">{name}</h5>
           <p className="card-text">{truncatedDescription}</p>
         </div>
