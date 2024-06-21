@@ -4,6 +4,7 @@ import VegCard from "./../../../components/VegCard/VegCard"
 import Navbar from "./../../../components/Navbar/Navbar"
 import Footer from "./../../../components/Footer/Footer"
 import { useEffect, useState } from "react"
+import headerimg from "./non-veg header.jpg"
 
 
 function CategoryNonveg() {
@@ -26,8 +27,8 @@ function CategoryNonveg() {
   return (
     <>
       <Navbar />
-      {/* <img src={headerimg} className="header-img" />
-      {/* <h1 className="head-title">Veg Delicious Food</h1> */} 
+       <img src={headerimg} className="header-img" />
+       <h1 className="head-title">Veg Delicious Food</h1> 
 
       <div className=" search-container d-flex align-items-center mx-auto ">
           <input 
