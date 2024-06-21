@@ -41,12 +41,12 @@ const router = createBrowserRouter([
     },
 
     {
-        path: "/:veg/:id",
+        path: "/veg/:id",
         element: <Recipe />
     },
 
     {
-        path: "/:non-veg/:id",
+        path: "/non-veg/:id",
         element: <RecipeNonveg />
     },
 
