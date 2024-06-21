@@ -96,7 +96,7 @@ function About() {
 
             <div className="team-member">
                 <img src={ImgSaurav} className="team-member-image" />
-                <h5 className="member-name">Saurav shete</h5>
+                <h5 className="member-name">Saurav Shete</h5>
                 <h6 className="member-11">member</h6>
 
                 <div className="member-social-media-icon">
