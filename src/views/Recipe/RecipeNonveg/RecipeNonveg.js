@@ -92,7 +92,7 @@ useEffect(()=>{
         </div>
 
         <div className='button d-flex justify-content-center'>
-          <button onClick={handleSuccessClick} type='submit' className='btn bg-black text-white'>Submit</button>
+          <button onClick={handleSuccessClick} type='submit' className='button bg-black text-white mt-4 py-1 px-5 rounded-3'>Submit</button>
         </div>
 
       </div>

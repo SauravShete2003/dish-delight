@@ -41,7 +41,7 @@ function Recipe() {
       <h1 className='heading text-center mt-3 mx-3 py-2 rounded-4 bg-secondary'>Ingredients </h1>
 
       <div className='ingredients-container '>
-        <div className='ingredient-list p-4 m-4 rounded-4 bg-seconday '>
+        <div className='ingredient-list p-4 m-4 rounded-4 bg-secondary '>
 
           {selectedData.ingredients.map((element, i) =>
             <ul key={i}>
@@ -54,7 +54,7 @@ function Recipe() {
 
       <h2 className='heading text-center mt-5 mx-3 py-2 rounded-4 bg-secondary'> {selectedData.recipeName} PROCESS</h2>
 
-      <div className='recipe h4'>
+      <div className='recipe h5'>
         {selectedData.steps.map((element, i) => {
 
           return <div className='steps m-1'>
@@ -87,7 +87,7 @@ function Recipe() {
         </div>
 
         <div className='button d-flex justify-content-center'>
-          <button onClick={handleSuccessClick} type='submit' className='btn bg-black text-white'>Submit</button> 
+          <button onClick={handleSuccessClick} type='submit' className='button bg-black text-white py-1 mt-4 px-5 rounded-3'>Submit</button> 
         </div>
         
       </div>
