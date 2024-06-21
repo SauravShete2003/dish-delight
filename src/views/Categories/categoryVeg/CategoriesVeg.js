@@ -5,13 +5,28 @@ import headerimg from "./header-img.jpg"
 import Navbar from "./../../../components/Navbar/Navbar"
 import Footer from "./../../../components/Footer/Footer"
 import Button from "../../../components/Button/Button"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 
 function CategoriesVeg() {
 
   const [filteredData, setFilteredData] = useState([...Data])
   const [searchText, setSearchText] = useState("")
+
+  useEffect(()=>{
+    if(!searchText){
+      setFilteredData([...Data])
+      return
+    }
+
+    const newData = Data.filter((dataObject)=>{
+      return dataObject.title.toLowerCase().includes(searchText)
+    })
+
+    console.log(searchText, newData)
+
+    setFilteredData([...newData])
+  }, [searchText])
 
   return (
     <>
@@ -29,8 +44,7 @@ function CategoriesVeg() {
               setSearchText(e.target.value)
             }}
             />
-             {setSearchText}
-        </div>
+        </div> 
    
 
 

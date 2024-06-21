@@ -2,7 +2,7 @@ const MaharashtrianSpecialData = [
     {
         id: "Dal Batti",
         title: "Dal Batti",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYwfYAgUHoRCWcyuFhyz8j4AwmyKA3UOC09A&usqp=CAU",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRskkHgxFx-HwTM-TPG15azfczqWUiLM75iag&usqp=CAU",
         ingredients: [
             "For Making Bati: 2 cups Whole wheat flour",
             "1/2 cup Ghee",
@@ -15,12 +15,17 @@ const MaharashtrianSpecialData = [
             "Mix ghee well with wheat flour and you should be able to roll a ball from flour.",
         ],
         recipeblog: '<iframe width="560" height="315" src="https://www.youtube.com/embed/1t8UU2_Y1bY?si=hB1xSZrY_uZn0PLz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
-        nutrition: "Energy (Kcal) 636.37 Protein (g) 22.07 Carbohydrate (g) 91 Fat (g) 17.97"
+        nutrition: [
+            "Energy (Kcal): 636.37",
+            "Protein (g): 22.07",
+            "Carbohydrate (g): 91",
+            "Fat (g): 17.97"
+        ]
     },
     {
         id: "Aamras",
         title: "Aamras",
-        image: "https://rakskitchen.net/wp-content/uploads/2016/05/27254393406_5d79ee3695_z.jpg",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsBU98ojKOpjyy7gUKJJu6cf2EJNjS0o0wVg&usqp=CAU",
         ingredients: [
             "1 Mango Alphonso works best",
             "2 - 3 tablespoon Sugar Adjust according to your sweet level",
@@ -31,7 +36,13 @@ const MaharashtrianSpecialData = [
             "Scoop and collect the pulp of the mango and transfer to a blender with sugar, saffron and cardamom.",
             "Blend well until smooth. You can add little water according to the consistency you need."
         ],
-        nutrition: "Serving Ingredient Calories 0.727 fruit without refuse mangoe 147 0.364 tbsp sugar 18 0.8 gram ginger 0 0.18 gram cardamom 1",
+        nutrition: [
+            "Serving Ingredient Calories: 0.727",
+            "Mango: 147",
+            "Sugar: 18",
+            "Ginger: 0",
+            "Cardamom: 1"
+        ],
         recipeblog: ""
     },
     {
@@ -72,7 +83,21 @@ const MaharashtrianSpecialData = [
             "Now cook the puran poli on hot tawa keeping the flame on medium. Flip over once the base is half cooked. Spread the ghee on both sides and cook well.",
             "Puff the puran poli, making sure to cook uniformly. Finally, enjoy puran poli with ghee or milk."
         ],
-        nutrition: "Calories: 350kcal Carbohydrates: 69g Protein: 7g Fat: 4g Saturated Fat: 1g Polyunsaturated Fat: 1g Monounsaturated Fat: 2g Trans Fat: 1g Cholesterol: 2mg Sodium: 57mg Potassium: 40mg Fiber: 7g Sugar: 28g Vitamin C: 1mg Calcium: 60mg Iron: 3mg"
+        nutrition: ["Calories: 350kcal ",
+            "Carbohydrates: 69g",
+            " Protein: 7g",
+            " Fat: 4g"," Saturated Fat: 1g",
+            " Polyunsaturated Fat: 1g",
+            " Monounsaturated Fat: 2g ",
+            "Trans Fat: 1g ",
+            "Cholesterol: 2mg",
+            "Sodium: 57mg ",
+            "Potassium: 40mg ",
+            "Fiber: 7g",
+            " Sugar: 28g",
+            " Vitamin C: 1mg",
+            "Calcium: 60mg ",
+            "Iron: 3mg"]
     }
 ]
 
