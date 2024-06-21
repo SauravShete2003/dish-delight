@@ -4,7 +4,7 @@ const NonVegDataCard = [
         id: "butter-chicken",
         title: "Butter Chicken",
         up: "⏱️1 hour | Prep: 20 min. | Cook: 40 min. | Servings: 4 servings",
-        image: "https://www.example.com/images/butter-chicken.jpg",
+        image: "https://www.simplyrecipes.com/thmb/LYwosfrO2cGCT2_bGS5wIeHRnd8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__01__Butter-Chicken-LEAD-1-f8a0cd09ea9442ce93651887f164db03.jpg",
         description: "Butter Chicken, also known as Murgh Makhani, is a classic Indian dish featuring tender chicken cooked in a rich and creamy tomato-based sauce.",
         time: "1 hour",
         categories: "non-veg",
@@ -36,14 +36,14 @@ const NonVegDataCard = [
             "Pour in heavy cream and stir to combine. Add cooked chicken pieces and simmer for 10-15 minutes until the sauce thickens.",
             "Adjust salt and spice levels according to taste. Garnish with chopped coriander leaves and kasuri methi.",
             "Serve hot with naan, roti, or steamed rice. Enjoy your homemade Butter Chicken!"],
-        ingredientImg: "https://www.example.com/images/butter-chicken-ingredients.jpg"
+        ingredientImg: "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2022/04/Butter-Chicken-Ingredients.jpg"
     },
     
     {
         id: "chicken-biryani",
         title: "Chicken Biryani",
         up: "⏱️1.5 hours | Prep: 30 min. | Cook: 1 hour | Servings: 6 servings",
-        image: "https://www.example.com/images/chicken-biryani.jpg",
+        image: "https://www.unileverfoodsolutions.lk/dam/global-ufs/mcos/meps/sri-lanka/calcmenu/recipes/LK-recipes/general/authentic-chicken-biryani/main-header.jpg",
         description: "Chicken Biryani is a fragrant rice dish made with marinated chicken, aromatic spices, and basmati rice, cooked together to perfection.",
         time: "1.5 hours",
         categories: "non-veg",
@@ -83,14 +83,14 @@ const NonVegDataCard = [
             "Drizzle saffron milk over the rice. Cover and let it rest for 5-10 minutes.",
             "Gently fluff the biryani with a fork, mixing the layers of rice and chicken.",
             "Serve hot with raita, salad, or your favorite side dish. Enjoy your homemade Chicken Biryani!"],
-        ingredientImg: "https://www.example.com/images/chicken-biryani-ingredients.jpg"
+        ingredientImg: "https://carameltintedlife.com/wp-content/uploads/2021/07/Chicken-Dum-Biryani-Ingredients.jpg"
     },
     
     {
         id: "goan-prawn-curry",
         title: "Goan Prawn Curry",
         up: "⏱️45 mins | Prep: 20 min. | Cook: 25 min. | Servings: 4 servings",
-        image: "https://www.example.com/images/goan-prawn-curry.jpg",
+        image: "https://static.toiimg.com/thumb/75603542.cms?width=1200&height=900",
         description: "Goan Prawn Curry is a spicy and tangy seafood dish from the coastal region of Goa, India, made with succulent prawns cooked in a coconut-based curry.",
         time: "45 mins",
         categories: "non-veg",
@@ -126,13 +126,13 @@ const NonVegDataCard = [
             "Adjust salt and spice levels according to taste.",
             "Garnish with chopped coriander leaves.",
             "Serve hot with steamed rice or crusty bread. Enjoy your homemade Goan Prawn Curry!"],
-        ingredientImg: "https://www.example.com/images/goan-prawn-curry-ingredients.jpg"
+        ingredientImg: "https://www.yellowthyme.com/wp-content/uploads/2016/04/Kerala-Shrimp-Curry-122-819x1024.jpg"
     },
     {
         id: "mutton-roghan-josh",
         title: "Mutton Rogan Josh",
         up: "⏱️2 hours | Prep: 30 min. | Cook: 1.5 hours | Servings: 6 servings",
-        image: "https://www.example.com/images/mutton-roghan-josh.jpg",
+        image: "https://geekrobocook.com/wp-content/uploads/2021/03/82.-Mutton-Roganjosh.jpg",
         description: "Mutton Rogan Josh is a flavorful Kashmiri curry made with tender mutton cooked in an aromatic blend of spices, yogurt, and ghee.",
         time: "2 hours",
         categories: "non-veg",
@@ -173,13 +173,13 @@ const NonVegDataCard = [
             "Adjust salt and spice levels according to taste.",
             "Sprinkle garam masala powder and garnish with chopped coriander leaves.",
             "Serve hot with steamed rice, naan, or paratha. Enjoy your homemade Mutton Rogan Josh!"],
-        ingredientImg: "https://www.example.com/images/mutton-roghan-josh-ingredients.jpg"
+            ingredientImg: "https://i.pinimg.com/736x/3d/43/27/3d4327116ab4031937cc7a32c0c7a376.jpg"
     },
     {
         id: "fish-curry",
         title: "Fish Curry",
         up: "⏱️40 mins | Prep: 20 min. | Cook: 20 min. | Servings: 4 servings",
-        image: "https://www.example.com/images/fish-curry.jpg",
+        image: "https://vaya.in/recipes/wp-content/uploads/2018/04/Kerala-Fish-Curry.jpg",
         description: "Fish Curry is a tangy and spicy dish made with fresh fish cooked in a flavorful coconut and tamarind-based curry.",
         time: "40 mins",
         categories: "non-veg",
@@ -214,13 +214,13 @@ const NonVegDataCard = [
             "Adjust salt and spice levels according to taste.",
             "Garnish with chopped coriander leaves.",
             "Serve hot with steamed rice or crusty bread. Enjoy your homemade Fish Curry!"],
-        ingredientImg: "https://www.example.com/images/fish-curry-ingredients.jpg"
+        ingredientImg: "https://www.thedeliciouscrescent.com/wp-content/uploads/2023/07/Fish-Curry-Ingredients.jpg"
     },
     {
         id: "lamb-korma",
         title: "Lamb Korma",
         up: "⏱️1.5 hours | Prep: 30 min. | Cook: 1 hour | Servings: 6 servings",
-        image: "https://www.example.com/images/lamb-korma.jpg",
+        image: "https://www.thespicehouse.com/cdn/shop/articles/Lamb_Curry_720x.jpg?v=1589392138",
         description: "Lamb Korma is a creamy and mildly spiced curry made with tender lamb cooked in a rich yogurt and nut-based sauce.",
         time: "1.5 hours",
         categories: "non-veg",
@@ -262,13 +262,13 @@ const NonVegDataCard = [
             "Adjust salt and spice levels according to taste.",
             "Sprinkle garam masala powder and garnish with chopped coriander leaves.",
             "Serve hot with naan, rice, or pulao. Enjoy your homemade Lamb Korma!"],
-        ingredientImg: "https://www.example.com/images/lamb-korma-ingredients.jpg"
+        ingredientImg: "https://khinskitchen.com/wp-content/uploads/2022/02/Ingredients-of-lamb-korma.jpg"
     },
     {
         id: "egg-curry",
         title: "Egg Curry",
         up: "⏱️40 mins | Prep: 20 min. | Cook: 20 min. | Servings: 4 servings",
-        image: "https://www.example.com/images/egg-curry.jpg",
+        image: "https://static01.nyt.com/images/2020/03/04/dining/tr-egg-curry/merlin_169211805_227972c0-43d1-4f25-9643-9568331d8adb-superJumbo.jpg",
         description: "Egg Curry is a simple and comforting dish made with hard-boiled eggs simmered in a flavorful onion-tomato gravy.",
         time: "40 mins",
         categories: "non-veg",
@@ -307,7 +307,7 @@ const NonVegDataCard = [
         id: "prawn-biryani",
         title: "Prawn Biryani",
         up: "⏱️1.5 hours | Prep: 30 min. | Cook: 1 hour | Servings: 4 servings",
-        image: "https://www.example.com/images/prawn-biryani.jpg",
+        image: "https://www.archanaskitchen.com//images/archanaskitchen/1-Author/Karthika_Gopalakrishnan/Prawns_Biryani.jpg",
         description: "Prawn Biryani is a flavorful seafood version of the classic biryani, made with marinated prawns and fragrant basmati rice cooked together.",
         time: "1.5 hours",
         categories: "non-veg",
@@ -345,13 +345,13 @@ const NonVegDataCard = [
             "Drizzle saffron milk over the rice. Cover and let it rest for 5-10 minutes.",
             "Gently mix the layers of rice and prawns.",
             "Serve hot with raita, salad, or your favorite side dish. Enjoy your homemade Prawn Biryani!"],
-        ingredientImg: "https://www.example.com/images/prawn-biryani-ingredients.jpg"
+        ingredientImg: "https://foodess.com/wp-content/uploads/2023/02/shrimp-korma-ingredients-683x1024.png"
     },
     {
         id: "chettinad-chicken",
         title: "Chettinad Chicken",
         up: "⏱️1 hour | Prep: 20 min. | Cook: 40 min. | Servings: 4 servings",
-        image: "https://www.example.com/images/chettinad-chicken.jpg",
+        image: "https://swatisani.net/kitchen/wp-content/uploads/2015/10/IMG_9350.jpg",
         description: "Chettinad Chicken is a fiery and aromatic South Indian curry made with chicken cooked in a blend of spices, coconut, and curry leaves.",
         time: "1 hour",
         categories: "non-veg",
@@ -388,13 +388,13 @@ const NonVegDataCard = [
             "Adjust salt and spice levels according to taste.",
             "Sprinkle garam masala powder and garnish with chopped coriander leaves.",
             "Serve hot with rice, dosa, or appam. Enjoy your homemade Chettinad Chicken!"],
-        ingredientImg: "https://www.example.com/images/chettinad-chicken-ingredients.jpg"
+        ingredientImg: "https://sinfullyspicy.com/wp-content/uploads/2023/06/Ingredients-for-chettinad-chicken-masala.jpg"
     },
     {
         id: "roast-pork",
         title: "Roast Pork",
         up: "⏱️2 hours | Prep: 20 min. | Cook: 1.5 hours | Servings: 6 servings",
-        image: "https://www.example.com/images/roast-pork.jpg",
+        image: "https://www.seriouseats.com/thmb/rxmQpQYRFIbyWn0fiMkkBJqq5fM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2016__11__20161102-Roasted-Pork-Loin-07-c66e66a96c754f8da26dd7788d0fa471.jpg",
         description: "Roast Pork is a succulent and flavorful meat dish where pork loin is marinated with herbs and spices, then slow-roasted until tender.",
         time: "2 hours",
         categories: "non-veg",
@@ -420,13 +420,13 @@ const NonVegDataCard = [
             "Place marinated pork loin on a roasting rack in a baking pan. Roast for 1.5 to 2 hours, or until the internal temperature reaches 63°C (145°F) and the pork is tender.",
             "Remove from oven and let it rest for 10 minutes before slicing.",
             "Slice the roast pork and serve hot with roasted vegetables, potatoes, or your favorite side dishes. Enjoy your homemade Roast Pork!"],
-        ingredientImg: "https://www.example.com/images/roast-pork-ingredients.jpg"
+        ingredientImg: "https://thedizzycook.com/wp-content/uploads/2023/12/Dutch-Oven-Pork-Roast-Ingredients.jpg"
     },
     {
         id: "dhaba-style-chicken",
         title: "Dhaba Style Chicken",
         up: "⏱️1 hour | Prep: 30 min. | Cook: 30 min. | Servings: 4 servings",
-        image: "https://www.example.com/images/dhaba-style-chicken.jpg",
+        image: "https://www.poultryrecipes.co.in/media/cache/Dhaba_style_chicken_curry_608x385.jpg",
         description: "Dhaba Style Chicken is a rustic and robust North Indian curry made with chicken cooked in a spicy onion-tomato gravy with authentic Punjabi flavors.",
         time: "1 hour",
         categories: "non-veg",
@@ -459,7 +459,7 @@ const NonVegDataCard = [
             "Adjust salt and spice levels according to taste.",
             "Sprinkle garam masala powder and garnish with chopped coriander leaves.",
             "Serve hot with naan, roti, or rice. Enjoy your homemade Dhaba Style Chicken!"],
-        ingredientImg: "https://www.example.com/images/dhaba-style-chicken-ingredients.jpg"
+        ingredientImg: "https://khinskitchen.com/wp-content/uploads/2022/09/naga-curry-ingredients.jpg"
     }
    
    

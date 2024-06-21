@@ -4,7 +4,6 @@ import Navbar from '../../../components/Navbar/Navbar'
 import Footer from '../../../components/Footer/Footer'
 import { useParams } from 'react-router-dom'
 import Swal from 'sweetalert2'
-
 import NonVegDataCard from '../../../data/CategoriesNonvegdata'
 
 function RecipeNonveg() {
