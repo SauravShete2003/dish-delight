@@ -24,7 +24,6 @@ body{
     width: 260px;
 }
 
-/* In your CSS file */
 .heading-deep-blue {
     color: #003366;
 }
@@ -65,3 +64,6 @@ body{
     color: #f1c40f;
 }
 
+.cover{
+    object-fit: cover;
+}

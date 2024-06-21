@@ -14,7 +14,7 @@ function HomeCategory() {
       <div>
         <Navbar />
         <div>
-          <img src='https://media2.thrillophilia.com/images/photos/000/155/974/original/1559380670_c-fakepath-urban-adventures-morocco_marrakech_cooking_class_prep.jpg?' className='w-100 h-500'/>
+          <img src='https://media2.thrillophilia.com/images/photos/000/155/974/original/1559380670_c-fakepath-urban-adventures-morocco_marrakech_cooking_class_prep.jpg?' className='w-100 h-500  '/>
 
         </div>
         <HomeCategories />
