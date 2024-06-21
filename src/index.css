@@ -13,8 +13,8 @@ body{
 .h-150{
     height: 150px;
 }
-.h-400{
-    height: 400px;
+.h-500{
+    height: 500px;
 }
 
 .mt-50 {
@@ -23,3 +23,45 @@ body{
 .w-200 {
     width: 260px;
 }
+
+/* In your CSS file */
+.heading-deep-blue {
+    color: #003366;
+}
+
+.heading-emerald-green {
+    color: #2ecc71;
+}
+
+.heading-crimson-red {
+    color: #e74c3c;
+}
+
+.heading-dark-purple {
+    color: #8e44ad;
+}
+
+.heading-sunset-orange {
+    color: #f39c12;
+}
+
+.heading-navy-blue {
+    color: #34495e;
+}
+
+.heading-teal {
+    color: #1abc9c;
+}
+
+.heading-charcoal-grey {
+    color: #2c3e50;
+}
+
+.heading-bright-cyan {
+    color: #00bcd4;
+}
+
+.heading-golden-yellow {
+    color: #f1c40f;
+}
+
