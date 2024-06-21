@@ -3,32 +3,75 @@ const MaharashtrianSpecialData = [
         id: "Dal Batti",
         title: "Dal Batti",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYwfYAgUHoRCWcyuFhyz8j4AwmyKA3UOC09A&usqp=CAU",
-        ingredients:
-            "For Making Bati:2 cups Whole wheat flour1/2 cup Ghee1/4 cup Warm WaterSalt to tasteFor Making Dal:1/2 cup split moong dal2 tbsp Chana dal1 1/2 cup Water1 cup finely chopped Onion1/2 cup finely chopped Tomato2 green chilies chopped1/2 tsp Hing1/2 tsp Turmeric powder1 tbsp chopped Garlic (8-10 Garlic cloves)1/2 tsp Cumin seeds1 tbsp Red chili powder",
-        instructions: "For Making Bati:Take wheat flour into a dish and add salt.Mix well and add ghee.Mix ghee well with wheat flour.Ghee should be mixed well with wheat flour and you should be able to roll a ball from flour.Add a little warm water at a time and knead thick dough.The dough should not be soft as chapatti dough.Take out small ball from the dough. You can decide the size of the bati.Press the ball at the center from all sides so that it will get cracks.Roll it into a ball again and press it at the center.Repeat the procedure 2-3 times.Put a jali that is used to roast fulka or papad on the gas.Turn on the gas on very low flamePlace the batis around the flame on the jali. Do not place any bat on the flame.Remove the whistle and rubber ring of the cooker lid.Place the lid on the jali and roast on very low heat for about 10-12 minutes.Remove the lid and flip the batis over.Roast the batis from another side as well. No need to cover these with cooker lid this time.Take the batis off into a dish.Take a cooker and place a stand that is used to place hot vessels at the bottom of the cooker.Put a dish on the stand and put batis on it.Remove the whistle and rubber ring of the cooker lid.Cook on medium heat for about 15-20 minutes from one side.Remove the lid and flip the batis over.Again close the lid and cook for about 20-25 minutes from another side as well.Take the batis out into a dish.For Making Dal:Wash and soak chana dal in enough water for about 2-3 hours.Transfer the moong dal and chana dal into a pressure cooker.Wash it really good with water 2-3 times.Add water, hing, turmeric powder, and mix well.You also can add salt if you want.Close the lid and cook on medium heat until 5 whistles.Open the cooker and beat the dal really good.Heat up a pan on medium heat.Add ghee.Add cumin seeds and let these splutter.Add hing and garlic.Mix well and fry until garlic turns light golden.Add onion and fry until it gets light golden color for about 5-7 minutes.Add tomato, green chili, red chili powder, and mix well.Fry until tomato is cooked well and gets mashed well with onion for about 4-5 minutes.Add beaten dal, water to adjust the consistency and salt.Mix well and cook on medium heat for about 5-6 minutes.Add coriander leaves for garnishing and mix well.Dal is ready.While serving, take dal into a bowl.Serve the batis and add lots of ghee on it.While eating crush the bati, add dal, and enjoy it.",
+        ingredients: [
+            "For Making Bati: 2 cups Whole wheat flour",
+            "1/2 cup Ghee",
+            "1/4 cup Warm Water",
+            "Salt to taste",
+        ],
+        instructions: [
+            "For Making Bati: Take wheat flour into a dish and add salt.",
+            "Mix well and add ghee.",
+            "Mix ghee well with wheat flour and you should be able to roll a ball from flour.",
+        ],
         recipeblog: '<iframe width="560" height="315" src="https://www.youtube.com/embed/1t8UU2_Y1bY?si=hB1xSZrY_uZn0PLz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
-        nutrition : "Energy (Kcal)	636.37Protein (g) 22.07Carbohydrate (g) 91 Fat (g)	17.97"
+        nutrition: "Energy (Kcal) 636.37 Protein (g) 22.07 Carbohydrate (g) 91 Fat (g) 17.97"
     },
-
     {
         id: "Aamras",
-        title: "Aaras",
+        title: "Aamras",
         image: "https://rakskitchen.net/wp-content/uploads/2016/05/27254393406_5d79ee3695_z.jpg",
-        ingredients :"1 Mango Alphonso works best2 - 3 tablespoon Sugar Adjust according to your sweet level5 Saffron strands 1 Cardamom",
-        instructions:"Scoop and collect the pulp of the mango and transfer to a blender with sugar, saffron and cardamom.Blend well until smooth. You can add little water according to the consistency you need.",
-        nutrition:"Serving	Ingredient	Calories0.727 fruit without refuse mangoe 1470.364 tbsp sugar 180.8 gram ginger 00.18 gram cardamom	1"
-       
+        ingredients: [
+            "1 Mango Alphonso works best",
+            "2 - 3 tablespoon Sugar Adjust according to your sweet level",
+            "5 Saffron strands",
+            "1 Cardamom",
+        ],
+        instructions: [
+            "Scoop and collect the pulp of the mango and transfer to a blender with sugar, saffron and cardamom.",
+            "Blend well until smooth. You can add little water according to the consistency you need."
+        ],
+        nutrition: "Serving Ingredient Calories 0.727 fruit without refuse mangoe 147 0.364 tbsp sugar 18 0.8 gram ginger 0 0.18 gram cardamom 1"
     },
-
     {
         id: "Puran Poli",
         title: "Puran Poli",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrO4UB1vNWqcLGUdLC8nmx_QfhHXl4VcoiHg&usqp=CAU",
-        ingredients: "FOR PURAN (DAL STUFFING): 1½ cup chana dal ¼ tsp turmeric ½ tsp ghee 3 cup water 1½ cup jaggery 1 tsp ghee ½ tsp cardamom powderFOR POLI (OUTER COVERING): 2 cup wheat flour 1 cup maida ¼ tsp turmeric ¼ tsp salt 2 tbsp oil water, for kneading OTHER INGREDIENTS: maida, for dusting  ghee, for roasting",
-        instructions: "HOW TO MAKE PURAN / CHANA DAL STUFFING:Firstly, in a large bowl soak 1½ cup chana dal for 1 hour.Drain off the water and transfer it to the cooker.Add ¼ tsp turmeric, ½ tsp ghee, 3 cup water.Pressure cook for 3 whistles on medium flame.Now drain off the water separating dal and water.Transfer the dal to a large kadai.Add 1½ cup jaggery and mix well.Once the jaggery melts, start to mash the dal.Mash until the dal turns smooth paste. you can alternatively, grind the dal and jaggery into the mixi jar.Keep cooking until the mixture thickens and hold the shape.Now add 1 tsp ghee and ½ tsp cardamom powder and cook for a minute, or until the mixture starts to separate the pan. if the mixture is undercooked, then the stuffing will be sticky and will be difficult to make a ball.Transfer to the plate and cool slightly. make sure not to overcook, else the stuffing turns hard.Grease hands with ghee and makes ball-sized stuffing.Finally, puran is ready. keep aside.HOW TO PREPARE POLI (OUTER COVERING):Firstly, in a large bowl take 2 cup wheat flour, 1 cup maida, ¼ tsp turmeric, ¼ tsp salt and 2 tbsp oil.Mix well making sure all the ingredients are well combined.Now add water as required and start to knead the dough.Knead to a smooth and soft dough adding water in batches.Grease the dough with 2 tsp oil, cover and rest for at least 1 hour.After 1 hour, punch and knead the dough again.Pinch a ball sized dough and make a smooth ball.Form a cup by pressing the dough from the sides.Place a ball sized prepared puran (dal stuff).Start to stuff inside by pulling the dough without having any pleats.Now seal the dough without any cracks.Dust the ball with maida and flatten slightly.Now roll the holige gently, without putting much pressure.Roll as thin as possible and making sure the puran is distributed uniformly.Now cook the puran poli on hot tawa keeping the flame on medium.Flip over once the base is half cooked.Spread the ghee on both sides and cook well.Puff the puran poli, making sure to cook uniformly Finally, enjoy puran poli with ghee or milk.",
-        recipeblog : "",
-        nutrition:"Calories: 350kcal Carbohydrates: 69gProtein: 7gFat: 4g Saturated Fat: 1g Polyunsaturated Fat: 1g Monounsaturated Fat: 2gTrans Fat: 1g Cholesterol: 2mg Sodium: 57mg Potassium: 40mgFiber: 7g Sugar: 28g Vitamin C: 1mg Calcium: 60mg Iron: 3mg"
-         
+        ingredients: [
+            "FOR PURAN (DAL STUFFING): 1½ cup chana dal",
+            "¼ tsp turmeric",
+            "½ tsp ghee",
+            "3 cup water",
+            "1½ cup jaggery",
+            "1 tsp ghee",
+            "½ tsp cardamom powder",
+            "FOR POLI (OUTER COVERING): 2 cup wheat flour",
+            "1 cup maida",
+            "¼ tsp turmeric",
+            "¼ tsp salt",
+            "2 tbsp oil",
+            "water, for kneading",
+            "OTHER INGREDIENTS: maida, for dusting",
+            "ghee, for roasting"
+        ],
+        instructions: [
+            "HOW TO MAKE PURAN / CHANA DAL STUFFING: Firstly, in a large bowl soak 1½ cup chana dal for 1 hour.",
+            "Drain off the water and transfer it to the cooker. Add ¼ tsp turmeric, ½ tsp ghee, 3 cup water.",
+            "Pressure cook for 3 whistles on medium flame. Now drain off the water separating dal and water.",
+            "Transfer the dal to a large kadai. Add 1½ cup jaggery and mix well. Once the jaggery melts, start to mash the dal.",
+            "Mash until the dal turns smooth paste. you can alternatively, grind the dal and jaggery into the mixi jar.",
+            "Keep cooking until the mixture thickens and hold the shape. Now add 1 tsp ghee and ½ tsp cardamom powder and cook for a minute, or until the mixture starts to separate the pan. if the mixture is undercooked, then the stuffing will be sticky and will be difficult to make a ball.",
+            "Transfer to the plate and cool slightly. make sure not to overcook, else the stuffing turns hard. Grease hands with ghee and makes ball-sized stuffing.",
+            "Finally, puran is ready. keep aside. HOW TO PREPARE POLI (OUTER COVERING): Firstly, in a large bowl take 2 cup wheat flour, 1 cup maida, ¼ tsp turmeric, ¼ tsp salt and 2 tbsp oil.",
+            "Mix well making sure all the ingredients are well combined. Now add water as required and start to knead the dough.",
+            "Knead to a smooth and soft dough adding water in batches. Grease the dough with 2 tsp oil, cover and rest for at least 1 hour.",
+            "After 1 hour, punch and knead the dough again. Pinch a ball sized dough and make a smooth ball. Form a cup by pressing the dough from the sides.",
+            "Place a ball sized prepared puran (dal stuff). Start to stuff inside by pulling the dough without having any pleats. Now seal the dough without any cracks.",
+            "Dust the ball with maida and flatten slightly. Now roll the holige gently, without putting much pressure. Roll as thin as possible and making sure the puran is distributed uniformly.",
+            "Now cook the puran poli on hot tawa keeping the flame on medium. Flip over once the base is half cooked. Spread the ghee on both sides and cook well.",
+            "Puff the puran poli, making sure to cook uniformly. Finally, enjoy puran poli with ghee or milk."
+        ],
+        nutrition: "Calories: 350kcal Carbohydrates: 69g Protein: 7g Fat: 4g Saturated Fat: 1g Polyunsaturated Fat: 1g Monounsaturated Fat: 2g Trans Fat: 1g Cholesterol: 2mg Sodium: 57mg Potassium: 40mg Fiber: 7g Sugar: 28g Vitamin C: 1mg Calcium: 60mg Iron: 3mg"
     }
 ]
 
