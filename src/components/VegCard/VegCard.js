@@ -32,6 +32,7 @@ function VegCard({ id,title, image, description, time,categories}) {
             <Link className="category-card-button" target='_blank' to={`/${categories}/${id}` } >
                         
                 <Button text={"Know more"} />
+                
             </Link>
 
            

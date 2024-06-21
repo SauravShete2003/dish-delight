@@ -6,6 +6,19 @@
     margin-bottom: 30px;
     position: relative;
   }
+  .search-container{
+    width: 300px;
+  }
+  .seachbar{
+    /* padding: 7px; */
+    width:200px;
+    /* border-radius: 10px; */
+  }
+  .btn{
+    cursor: pointer;
+    /* padding: 5px; */
+    /* border-radius: 10px; */
+  }
   .veg-container{
     display: flex;
     flex-wrap: wrap;
@@ -13,10 +26,11 @@
   }
 .head-title{
   position: absolute;
-  top: 200px;
+  top: 50px;
   right: 150px;
-  font-size: 50px;
+  font-size: 60px;
   color: white;
+  font-family: "Montserrat Alternates", sans-serif;
 
 }  
  
