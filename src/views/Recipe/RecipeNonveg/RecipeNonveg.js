@@ -86,7 +86,7 @@ function RecipeNonveg() {
         </div>
 
         <div className='button d-flex justify-content-center'>
-          <button onClick={handleSuccessClick} type='submit' className='btn bg-danger px-5 py-2 mt-3'>Submit</button> 
+          <button onClick={handleSuccessClick} type='submit' className='btn bg-danger'>Submit</button> 
         </div>
         
       </div>
