@@ -7,7 +7,7 @@ function HeroSection({ title , image , descr,rating, totalstars = 5 }) {
         <>
 
             <div >
-                <div className="bg-white rounded w-200 m-2">
+                <div className="bg-white rounded w-200 m-3">
                 <img src={image} alt={title} className='hero-section-img' />
                     <h4 className='text-center text-success '>{title}</h4>
                     <span className="text-center">
