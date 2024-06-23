@@ -15,7 +15,7 @@
     background-color:#F5E0D2 ;
     border-bottom: 1px solid rgba(99, 92, 92, 0.1);
     box-shadow: 0 0 10px gray;
-    position: fixed;
+    position: sticky;
     top: 0;
     z-index: 10;
     font-family: "Montserrat Alternates", sans-serif;
