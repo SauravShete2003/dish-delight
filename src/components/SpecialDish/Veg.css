@@ -7,22 +7,29 @@
     padding: 10px;
  
 }
-.backcover-container{
-   
+
+.backcover-container {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-        url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDEd-O8woqgKiM1xq7Aj9z4g6bm0rxKZ8amg&s);
+        url(https://previews.123rf.com/images/milkos/milkos1803/milkos180300505/96690988-restaurant-dish-background-juicy-medium-beef-steak-with-sauce-and-grilled-vegetables-healthy.jpg);
     background-size: cover;
-    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
     width: 100%;
     margin: 0 auto;
-    height: 300px;
 }
 .title-veg-dish{
     text-align: center;
+ 
 }
 .special-dish-title{
 font-weight: bold;
 text-align: center;
+margin: 10px auto;
+width: 500px;
+background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+border-radius: 0px 100px;
+
 
 }
 
