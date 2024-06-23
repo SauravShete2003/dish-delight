@@ -3,9 +3,8 @@ import "./RecipeNonveg.css"
 import Navbar from '../../../components/Navbar/Navbar'
 import Footer from '../../../components/Footer/Footer'
 import { useParams } from 'react-router-dom'
-import Swal from 'sweetalert2'
 import NonVegDataCard from '../../../data/CategoriesNonvegdata'
-import HolidaySpecials from '../../../components/HolidayRecipes/HolidaysRecipe'
+import Review from '../../../components/Review/Review'
 
 function RecipeNonveg() {
 
@@ -13,23 +12,9 @@ function RecipeNonveg() {
     window.scrollTo(0, 0)
   }, [])
 
-  const [text, setText] = useState('')
-useEffect(()=>{
-  
-}, [text])
-
   const { id } = useParams()
 
   const selectedData = NonVegDataCard.find((dataObject) => dataObject.id === id)
-
-  const handleSuccessClick = () => {
-    Swal.fire({
-      icon: 'success',
-      title: "Thank you for your Review. It has been sent",
-      timer: 2500,
-    })
-
-  }
 
   return (<>
     <div>
@@ -57,7 +42,7 @@ useEffect(()=>{
 
       <h2 className='heading text-center mt-5 mx-3 py-2 rounded-4 bg-secondary'> {selectedData.recipeName} PROCESS</h2>
 
-      <div className='recipe h5 p-5'>
+      <div className='recipe h5 p-4 rounded-2'>
         {selectedData.steps.map((element, i) => {
 
           return <div className='steps m-1'>
@@ -68,34 +53,7 @@ useEffect(()=>{
 
       <h2 className='heading text-center'>Live a Review</h2>
 
-      <div className='review-page w-50 p-5 rounded-3 bg-secondary'>
-        <div className='input-div mb-4 px-4'>
-          <h5>Review</h5>
-          <input type='text'
-            placeholder='Comment'
-            value={text}
-            onChange={(e) => {
-              setText(e.target.value)
-            }}
-            className=' input-1 p-2 pb-6  pb-5 ' />
-        </div>
-
-        <div className='input-div mb-4 px-4'>
-          <h5>Name</h5>
-          <input type='text'
-            placeholder='Enter Name'
-            value={text}
-            onChange={(e) => {
-              setText(e.target.value)
-            }}
-            className=' input-1 p-2 ' />
-        </div>
-
-        <div className='button d-flex justify-content-center'>
-          <button onClick={handleSuccessClick} type='submit' className='button bg-black text-white mt-4 py-1 px-5 rounded-3'>Submit</button>
-        </div>
-
-      </div>
+      <Review/>
 
       <Footer />
     </div>
