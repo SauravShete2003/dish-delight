@@ -4,7 +4,6 @@ import VegCard from "./../../../components/VegCard/VegCard"
 import headerimg from "./header-img.jpg"
 import Navbar from "./../../../components/Navbar/Navbar"
 import Footer from "./../../../components/Footer/Footer"
-import Button from "../../../components/Button/Button"
 import { useEffect, useState } from "react"
 
 
@@ -37,8 +36,8 @@ function CategoriesVeg() {
         <div className=" search-container d-flex align-items-center mx-auto ">
           <input 
             type="text" 
-            placeholder="serach" 
-            className="seachbar rounded-3 m-2 p-1 fs-5"
+            placeholder="Search.." 
+            className="seachbar rounded-3 m-2 p-1 fs-6"
             value={searchText}
             onChange={(e)=>{
               setSearchText(e.target.value)

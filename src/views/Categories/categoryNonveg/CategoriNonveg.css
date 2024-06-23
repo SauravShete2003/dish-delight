@@ -19,3 +19,16 @@
   color: white;
 
 }  
+.search-container{
+  width: 300px;
+}
+.seachbar{
+  /* padding: 7px; */
+  width:200px;
+  /* border-radius: 10px; */
+}
+.btn{
+  cursor: pointer;
+  /* padding: 5px; */
+  /* border-radius: 10px; */
+}
