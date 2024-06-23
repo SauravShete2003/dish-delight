@@ -3,20 +3,50 @@ import Data from "./../../../data/CategoriesNonvegdata"
 import VegCard from "./../../../components/VegCard/VegCard"
 import Navbar from "./../../../components/Navbar/Navbar"
 import Footer from "./../../../components/Footer/Footer"
+import { useEffect, useState } from "react"
+import headerimg from "./non-veg header.jpg"
 
 
 function CategoryNonveg() {
 
+  const [filterdata,setFilteredData] = useState([...Data])
+  const [searchText,setSearchText] = useState("")
+
+  useEffect(()=>{
+     if (!searchText){
+      setFilteredData([...Data]);
+      return;
+     }
+     const newData = Data.filter((dataObject)=>{
+     return dataObject.title.toLowerCase().includes(searchText)
+     })
+      
+  setFilteredData([...newData])
+}, [searchText])
+
   return (
     <>
       <Navbar />
-      {/* <img src={headerimg} className="header-img" />
-      <h1 className="head-title">Veg Delicious Food</h1> */}
+       <img src={headerimg} className="header-img" />
+       <h1 className="head-title">Veg Delicious Food</h1> 
+
+      <div className=" search-container d-flex align-items-center mx-auto ">
+          <input 
+            type="text" 
+            placeholder="Search.." 
+            className="seachbar rounded-3 m-2 p-1 fs-6"
+            value={searchText}
+            onChange={(e)=>{
+              setSearchText(e.target.value)
+            }}
+            
+            />
+        </div> 
 
 
       <div className="veg-container">
 
-        {Data.map((blogObject, i) => {
+        {filterdata.map((blogObject, i) => {
           const {
             id,
             title,

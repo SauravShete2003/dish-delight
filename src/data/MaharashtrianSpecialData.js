@@ -14,7 +14,7 @@ const MaharashtrianSpecialData = [
             "Mix well and add ghee.",
             "Mix ghee well with wheat flour and you should be able to roll a ball from flour.",
         ],
-        recipeblog: '<iframe width="560" height="315" src="https://www.youtube.com/embed/1t8UU2_Y1bY?si=hB1xSZrY_uZn0PLz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+        recipeVideo:'https://youtu.be/rU-NHzo8K2E?si=wgIqzd-mfcXb_9L8',
         nutrition: [
             "Energy (Kcal): 636.37",
             "Protein (g): 22.07",
@@ -25,7 +25,7 @@ const MaharashtrianSpecialData = [
     {
         id: "Aamras",
         title: "Aamras",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsBU98ojKOpjyy7gUKJJu6cf2EJNjS0o0wVg&usqp=CAU",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-ff2z1inLeqI68T6WHOJvSt0MZ_PIiY9fNA&usqp=CAU",
         ingredients: [
             "1 Mango Alphonso works best",
             "2 - 3 tablespoon Sugar Adjust according to your sweet level",
@@ -43,12 +43,12 @@ const MaharashtrianSpecialData = [
             "Ginger: 0",
             "Cardamom: 1"
         ],
-        recipeblog: ""
+       recipeVideo:'https://youtu.be/NwUp_8Eslvg?si=-WHTXmYmInY-7STR'
     },
     {
         id: "Puran Poli",
         title: "Puran Poli",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrO4UB1vNWqcLGUdLC8nmx_QfhHXl4VcoiHg&usqp=CAU",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVQgUm7ONNRRZwqZk0FO5Cdn5QkVLba5bvRw&usqp=CAU",
         ingredients: [
             "FOR PURAN (DAL STUFFING): 1½ cup chana dal",
             "¼ tsp turmeric",
@@ -97,7 +97,8 @@ const MaharashtrianSpecialData = [
             " Sugar: 28g",
             " Vitamin C: 1mg",
             "Calcium: 60mg ",
-            "Iron: 3mg"]
+            "Iron: 3mg"],
+          recipeVideo:'https://youtu.be/KBb1In3V98I?si=T1J6BoQ3sMXqjD8o'
     }
 ]
 
