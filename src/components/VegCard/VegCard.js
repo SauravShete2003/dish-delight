@@ -34,8 +34,6 @@ function VegCard({ id,title, image, description, time,categories}) {
                 <Button text={"Know more"} />
                 
             </Link>
-
-           
         </div>
     )
 }
