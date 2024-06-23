@@ -29,9 +29,10 @@ function VegCard({ id,title, image, description, time,categories}) {
                 <span className="time ms-4 fw-bold">{time}</span>
             </div>
 
-            <Link className="category-card-button" target='_blank' to={`/${categories}/${id}` } >
+            <Link  target='_blank' to={`/${categories}/${id}` } >
                         
-                <Button text={"Know more"} />
+                {/* <Button text={"Know more"} /> */}
+                <button className="category-card-button" >know more</button>
                 
             </Link>
         </div>
