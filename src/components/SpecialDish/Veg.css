@@ -1,0 +1,91 @@
+.vegdata-container{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    padding: 10px;
+ 
+}
+
+.backcover-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        url(https://previews.123rf.com/images/milkos/milkos1803/milkos180300505/96690988-restaurant-dish-background-juicy-medium-beef-steak-with-sauce-and-grilled-vegetables-healthy.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 100%;
+    margin: 0 auto;
+}
+.title-veg-dish{
+    text-align: center;
+ 
+}
+.special-dish-title{
+font-weight: bold;
+text-align: center;
+margin: 10px auto;
+width: 500px;
+background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+border-radius: 0px 100px;
+
+
+}
+
+.spacial-dish-card{
+    height: 450px;
+    width: 300px;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+border: solid 1px #c1ced7;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    
+    
+}
+.spacial-dish-card:hover{
+background-image: a;
+box-shadow: 0px 0px 10px 2px gray;
+
+}
+
+.spcial-dish-image{
+    height: 150px;
+    width: 250px;
+    border-radius: 5px;
+    margin: 0px 5px;
+    cursor: pointer;
+  
+} 
+.spcial-dish-image:hover{
+transform: scale(1.1);
+transition: 0.5s ease-in-out;
+}
+.dish-card-title{
+text-align: center;
+margin: 20px 0px;
+}
+.watch-icon{
+    height: 25px;
+    position: absolute;
+    bottom: 68px;
+    
+}
+.dish-timeing{
+    margin-left: 35px;
+    margin-top: 23px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.know-more-button{
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20px;
+    left: 90px;
+    background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+padding: 5px 15px;
+}
