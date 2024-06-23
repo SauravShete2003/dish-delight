@@ -28,7 +28,7 @@ function RecipeNonveg() {
       <h4 className='recipe-description px-5'>{selectedData.description}</h4>
       <h2 className='heading text-center mt-3 mx-3 py-2 rounded-4 bg-secondary '>{selectedData.ingredientTitle} </h2>
 
-      <div className='ingredients-container '>
+      <div className='ingredients-container d-flex  justify-content-center flex-wrap'>
         <div className='ingredient-list p-4 m-4 rounded-4 bg-secondary '>
 
           {selectedData.ingredients.map((element, i) =>
@@ -42,7 +42,7 @@ function RecipeNonveg() {
 
       <h2 className='heading text-center mt-5 mx-3 py-2 rounded-4 bg-secondary'> {selectedData.recipeName} PROCESS</h2>
 
-      <div className='recipe h5 p-4 rounded-2'>
+      <div className='recipe h5 p-4 rounded-2 mt-3 mb-3 mx-auto'>
         {selectedData.steps.map((element, i) => {
 
           return <div className='steps m-1'>

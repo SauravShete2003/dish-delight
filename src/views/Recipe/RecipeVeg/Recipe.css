@@ -3,13 +3,13 @@
 }
 
 .recipe-img{ 
-    width: 55%;
+    width: 50%;
 }
 
 .recipe-description{
     font-size: 25px;
+    width: 75%;
     text-align: justify;
-    margin: 10px 250px;
 }
 
 .ingredients-container{
@@ -36,16 +36,7 @@
 
 .recipe{
     background-color: rgb(172, 171, 169);
-    margin: 20px 300px;
+    width: 60% ;
     text-align:justify;
     font-family:Arial, Helvetica, sans-serif;
-}
-
-.input-1 {
-    width: 100%;  
-}
-
-.review-page{
-    margin: 20px auto;
-    width: 20%;
 }
