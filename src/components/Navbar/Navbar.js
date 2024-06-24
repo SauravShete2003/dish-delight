@@ -6,6 +6,7 @@ import { useState } from 'react';
 
 
 
+
 function Navbar() {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -30,6 +31,7 @@ function Navbar() {
          <div className='menu-icon-container'>
             <Link to="/" className='menu-navbar-item'>Home</Link>
             <Link to="/vegcard" className='menu-navbar-item'>Categories</Link>
+    
             <Link to="/blog"className='menu-navbar-item'>Blog</Link>
             <Link to="/about" className='menu-navbar-item'>About</Link>
             <Link to="/login" className='menu-navbar-item'>Log-in</Link>
