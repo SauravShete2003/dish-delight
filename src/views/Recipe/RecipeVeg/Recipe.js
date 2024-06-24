@@ -29,7 +29,7 @@ function Recipe() {
       <h2 className='heading text-center mt-5 mx-3 py-3 rounded-4 bg-secondary'>{selectedData.ingredientTitle}</h2>
 
       <div className='ingredients-container mt-4'>
-        <div className='ingredient-list p-3 m-3 rounded-4 bg-secondary '>
+        <div className='ingredient-list  p-3 my-4  rounded-4 bg-secondary'>
 
           {selectedData.ingredients.map((element, i) =>
             <ul key={i}>
@@ -38,9 +38,8 @@ function Recipe() {
           )}
         </div>
 
-        <div className=' img-container'>
-          <img src={selectedData.ingredientImg} className='ingredient-img rounded-4 m-4 img-thumbnail' />
-        </div>
+          <img src={selectedData.ingredientImg} className='ingredient-list rounded-4 my-4  img-thumbnail' />
+       
       </div>
 
       <h2 className='heading text-center mt-5 mx-3 py-3 rounded-4 bg-secondary'> {selectedData.recipeName} Process</h2>

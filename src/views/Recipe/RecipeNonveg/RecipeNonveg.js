@@ -37,14 +37,14 @@ function RecipeNonveg() {
             </ul>
           )}
         </div>
-        <div className='img-container'>
-          <img src={selectedData.ingredientImg} className='ingredient-img rounded-4 m-4 img-thumbnail' />
-        </div>
+    
+          <img src={selectedData.ingredientImg} className='ingredient-list rounded-4 my-4  img-thumbnail' />
+        
       </div>
 
       <h2 className='heading text-center mt-5 mx-3 py-3 rounded-4 bg-secondary'> {selectedData.recipeName} Process</h2>
 
-      <div className='recipe h5 p-4 rounded-3 mt-3 mb-3 mx-auto'>
+      <div className='recipe bg-secondary h5 p-4 rounded-3 mt-3 mb-3 mx-auto'>
         {selectedData.steps.map((element, i) => {
 
           return <div className='steps m-1'>

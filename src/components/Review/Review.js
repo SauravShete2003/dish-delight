@@ -27,7 +27,7 @@ function App() {
 
     return (
         <div className="App">
-            <div className="review-form review-page w-50 p-5 rounded-3 bg-secondary mx-auto">
+            <div className="review-form review-page p-5 rounded-3 bg-secondary mx-auto">
                 <form onSubmit={handleSubmit}>
                     <label for="name ">Name : </label><br />
                     <input className='text w-100 py-2 px-2' 
@@ -59,7 +59,7 @@ function App() {
 
             <div className="reviews m-5">
                 <u><h2 className='heading text-center'>Reviews</h2></u>
-                <div id="reviewList" className='review-card-container d-flex justifi-content-center flex-wrap'>
+                <div id="reviewList" className='review-card-container d-flex justify-content-center flex-wrap'>
                     {reviews.map((rev, index) => (
                         <div key={index} className="review bg-primary text-white m-4 py-3 rounded-3">
                             <h6 className='name px-3 pt-2 mb-3'> Name : {rev.name}</h6>
