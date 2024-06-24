@@ -81,22 +81,25 @@
     
 }
 .login{
-    color: black;
-    width:50px;
     padding: 10px 20px;
     margin: 0 10px;
-   background-color: rgb(150, 223, 150);
     text-decoration: none;
     border: none;
     border-radius: 10px;
-    border: 2px solid rgb(62, 146, 62);
     font-weight: bold;
     font-family: "Montserrat Alternates", sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(31, 28, 28);
+  
   
 }
-.sign-up:hover{
-    box-shadow: 0 0 10px gray;
-}
+.login:hover{
+    cursor: pointer;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
+    background-blend-mode: multiply, multiply;
+  }
+
 
 @media screen and (min-width: 993px) and (max-width: 1400px){
     .menuicon{

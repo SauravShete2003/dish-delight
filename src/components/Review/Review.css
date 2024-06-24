@@ -1,0 +1,27 @@
+.review-form{
+    width: 50%;
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .review-form{
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 992px) {
+    .review-form{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 569px) and (max-width: 749px) {
+    .review-form{
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 568px) {
+    .review-form{
+        width: 95%;
+    }
+}

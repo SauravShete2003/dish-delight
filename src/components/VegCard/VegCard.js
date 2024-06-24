@@ -3,7 +3,6 @@ import "./VegCard.css"
 import ImgHeartUnfilled from "./heart-unfilled.png"
 import ImgHeartFilled from "./heart-filled.png"
 import ImgClock from "./clock.png"
-import Button from "./../Button/Button"
 import {Link} from 'react-router-dom';
 
 function VegCard({ id,title, image, description, time,categories}) {
@@ -29,9 +28,9 @@ function VegCard({ id,title, image, description, time,categories}) {
                 <span className="time ms-4 fw-bold">{time}</span>
             </div>
 
-            <Link className="category-card-button" target='_blank' to={`/${categories}/${id}` } >
+            <Link  target='_blank' to={`/${categories}/${id}` } >
                         
-                <Button text={"Know more"} />
+                <button className="category-card-button" >know more</button>
                 
             </Link>
         </div>

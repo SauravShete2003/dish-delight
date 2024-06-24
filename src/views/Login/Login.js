@@ -5,15 +5,13 @@ import LoginImg from "./../../assets/Login-Img/background-img-4.jpg"
 import Facebook from "./../../assets/FooterImg/facebook.png"
 import Google from "./../../assets/FooterImg/google.png"
 import Email from "./../../assets/FooterImg/gmail.png"
-import Button from "./../../components/Button/Button"
-import "./../../components/Button/Button.css"
 import toast ,{Toaster} from "react-hot-toast"
 
 function Login(){
     return(
         <>
         <Navbar/>
-        <br></br><br></br>
+        
         <img src={LoginImg} className="background-img"/>
         <div className="login-main-div">
             <p className="login-heading">Login Page</p>
@@ -27,8 +25,8 @@ function Login(){
             <div className="Form-div">
                 <form>
                 <input type="text" className="input-box" placeholder="Username" required></input>
-                <input type="text" className="input-box" placeholder="Password" required></input><br></br>
-                <button className="btn" type="submit" onClick={()=>{toast.success("login successfully!!")}}>Login</button>
+                <input type="password" className="input-box" placeholder="Password" required></input><br></br>
+                <button className="loginbtn" type="submit" onClick={()=>{toast.success("login successfully!!")}}>Login</button>
                 </form>
                
                 
