@@ -25,10 +25,10 @@ function RecipeNonveg() {
       <h1 className='title text-center'>{selectedData.title}</h1>
       <img src={selectedData.image} className="recipe-img mx-auto d-block rounded-3 img-thumbnail mt-1" />
       <div className='duration text-center mt-3 '>{selectedData.up}</div>
-      <h4 className='recipe-description px-5'>{selectedData.description}</h4>
-      <h2 className='heading text-center mt-3 mx-3 py-2 rounded-4 bg-secondary '>{selectedData.ingredientTitle} </h2>
+      <h4 className='recipe-description px-5 mt-2 mx-auto '>{selectedData.description}</h4>
+      <h2 className='heading text-center mt-5 mx-3 py-3 rounded-4 bg-secondary'>{selectedData.ingredientTitle} </h2>
 
-      <div className='ingredients-container d-flex  justify-content-center flex-wrap'>
+      <div className='ingredients-container mt-4'>
         <div className='ingredient-list p-4 m-4 rounded-4 bg-secondary '>
 
           {selectedData.ingredients.map((element, i) =>
@@ -37,12 +37,14 @@ function RecipeNonveg() {
             </ul>
           )}
         </div>
-        <img src={selectedData.ingredientImg} className='ingredient-img rounded-4 m-4 img-thumbnail' />
+    
+          <img src={selectedData.ingredientImg} className='ingredient-list rounded-4 my-4  img-thumbnail' />
+        
       </div>
 
-      <h2 className='heading text-center mt-5 mx-3 py-2 rounded-4 bg-secondary'> {selectedData.recipeName} PROCESS</h2>
+      <h2 className='heading text-center mt-5 mx-3 py-3 rounded-4 bg-secondary'> {selectedData.recipeName} Process</h2>
 
-      <div className='recipe h5 p-4 rounded-2 mt-3 mb-3 mx-auto'>
+      <div className='recipe bg-secondary h5 p-4 rounded-3 mt-3 mb-3 mx-auto'>
         {selectedData.steps.map((element, i) => {
 
           return <div className='steps m-1'>
@@ -51,9 +53,9 @@ function RecipeNonveg() {
         })}
       </div>
 
-      <h2 className='heading text-center'>Live a Review</h2>
+      <h2 className='heading text-center m-4 p-3 rounded-3 '>Live a Review</h2>
 
-      <Review/>
+      <Review />
 
       <Footer />
     </div>
