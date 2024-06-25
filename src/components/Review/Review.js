@@ -59,9 +59,9 @@ function App() {
 
             <div className="reviews m-5">
                 <u><h2 className='heading text-center'>Reviews</h2></u>
-                <div id="reviewList" className='review-card-container d-flex justify-content-center flex-wrap'>
+                <div id="reviewList" className='review-card-container d-flex justify-content-start flex-wrap'>
                     {reviews.map((rev, index) => (
-                        <div key={index} className="review bg-primary text-white m-4 py-3 rounded-3">
+                        <div key={index} className="review bg-secondary text-white m-4 p-2 rounded-3">
                             <h6 className='name px-3 pt-2 mb-3'> Name : {rev.name}</h6>
                             <p className='name px-3'> Comment : {rev.review}</p>
                             <h5 className='text-center mb-2'>🍝thanks {rev.name} for review🍝</h5>
