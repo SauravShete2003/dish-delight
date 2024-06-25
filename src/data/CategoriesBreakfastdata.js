@@ -1,4 +1,4 @@
-const brekfastData = [
+const BrekfastData = [
     {
         id: "pancakes",
         title: "Pancakes",
@@ -477,6 +477,6 @@ const brekfastData = [
     }
 ];
 
-export default brekfastData;
+export default BrekfastData;
 
 

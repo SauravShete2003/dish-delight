@@ -33,7 +33,7 @@ function RecipeNonveg() {
 
           {selectedData.ingredients.map((element, i) =>
             <ul key={i}>
-              <b><li className='ingrients '>{element}</li></b>
+              <b><li className='ingredients'>{element}</li></b>
             </ul>
           )}
         </div>
