@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from 'react'
-import "./Recipe.css"
+import React, { useEffect } from 'react'
+import "./RecipeBreakfast.css"
 import Navbar from '../../../components/Navbar/Navbar'
 import Footer from '../../../components/Footer/Footer'
+import BreakfastData from '../../../data/CategoriesBreakfastdata'
 import { useParams } from 'react-router-dom'
-import DataCard from '../../../data/CategoriesVesdata'
 import Review from '../../../components/Review/Review'
 
-function Recipe() {
+function RecipeBreakfast() {
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -14,7 +14,7 @@ function Recipe() {
 
   const { id } = useParams()
 
-  const selectedData = DataCard.find((dataObject) => dataObject.id === id)
+  const selectedData = BreakfastData.find((dataObject)=> dataObject.id === id)
 
   return (<>
     <div>
@@ -64,4 +64,4 @@ function Recipe() {
   )
 }
 
-export default Recipe
+export default RecipeBreakfast

@@ -1,0 +1,135 @@
+.heading{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.recipe-img{ 
+    width: 50%;
+}
+
+.recipe-description{
+    font-size: 25px;
+    width: 75%;
+    text-align: justify;
+}
+
+.ingredients-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.ingredient-list{
+   width: 600px;
+   height: 93vh;
+   font-size: 15px;
+   box-shadow: 1px 2px 1px 2px gray;
+}
+
+.recipe{
+    width: 60% ;
+    text-align:justify;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1350px) {
+    .ingredient-list{
+        width: 530px;
+        height: 95vh;
+        margin: 0 20px;
+    }
+
+    .recipe{
+        width: 80% ;
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .recipe-description{
+        font-size: 20px;  
+        width: 80%;
+    }
+
+    .ingredient-list{
+        width: 570px;
+        height: 98vh;
+        margin: 0 19px;
+    }
+
+     .recipe{
+        width: 68% ;
+    } 
+}
+
+@media screen and (min-width: 750px) and (max-width: 992px) {
+    .recipe-description{
+        font-size: 18px;  
+        width: 80%;
+    }
+
+    .ingredient-list{
+        width: 560px;
+        height: 98vh;
+        margin: 0 18px;
+    }
+
+    .heading{
+        font-size: 25px;
+    }
+
+    .recipe{
+        width: 80% ;
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 569px) and (max-width: 749px) {
+    .recipe-description{
+        font-size: 17px;  
+        width: 85%;
+    }
+
+    .heading{
+        font-size: 22px;
+    }
+
+    .ingredient-list{
+        width: 490px;
+        height: 95vh;
+        margin: 0 20px;
+    }
+
+    .recipe{
+        width: 85% ;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 568px) {
+    .recipe-description{
+        font-size: 15px;  
+        width: 98%;
+    }
+
+    .duration{
+        font-size: 12px;
+    }
+
+    .heading{
+        font-size: 17px;
+    }
+
+    .ingredient-list{
+        width: 90% ;
+        height: 90vh;
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .recipe{
+        width: 90% ;
+        font-size: 14px;
+        padding-left: 7px;
+    }
+}
