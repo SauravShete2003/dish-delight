@@ -18,6 +18,7 @@ import CategoriesVeg from './views/Categories/categoryVeg/CategoriesVeg';
 import CategoryBreakfast from "./views/Categories/categoryBreakfast/CategoryBreakfast"
 import MaharashtrianSpecial from './views/MaharashtrianSpecial/MaharashtrianSpecial';
 import SpecialDish from "./components/SpecialDish/Veg"
+import RecipeBreakfast from './views/Recipe/RecipeBreakfast/RecipeBreakfast';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
         element: <RecipeNonveg />
     },
    
+    {
+        path: "/breakfast/:id",
+        element: <RecipeBreakfast />
+    },
 
     {
         path: "/footer",
