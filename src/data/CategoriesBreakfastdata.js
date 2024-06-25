@@ -3,7 +3,7 @@ const brekfastData = [
         id: "pancakes",
         title: "Pancakes",
         up: "⏱️20 mins | Prep: 5 min. | Cook: 15 min. | Servings: 4 servings",
-        image: "https://www.example.com/pancakes-image.png",
+        image: "https://www.eatthis.com/wp-content/uploads/sites/4/2019/11/whole-grain-pancake-stack.jpg",
         description: "Pancakes are a classic breakfast dish made from a batter of flour, eggs, milk, and baking powder. They are fluffy and delicious, perfect with syrup and butter.",
         time: "20 mins",
         categories: "Veg",
@@ -33,14 +33,14 @@ const brekfastData = [
             "Cook until bubbles form on the surface, then flip and cook until golden brown on both sides.",
             "Serve hot with butter and maple syrup."
         ],
-        ingredientImg: "https://www.example.com/pancakes-ingredients.jpg"
+        ingredientImg: "https://www.yummytummyaarthi.com/wp-content/uploads/2022/08/pancakes-ingredients.jpeg"
     },
 
     {
         id: "omelette",
         title: "Omelette",
         up: "⏱️15 mins | Prep: 5 min. | Cook: 10 min. | Servings: 1 serving",
-        image: "https://www.example.com/omelette-image.png",
+        image: "https://cdn.totallythebomb.com/wp-content/uploads/2015/02/omelet-picture.jpg",
         description: "An omelette is a dish made from beaten eggs, cooked with butter or oil in a frying pan. It can be filled with a variety of ingredients like cheese, vegetables, and meats.",
         time: "15 mins",
         categories: "Non-Veg",
@@ -66,14 +66,14 @@ const brekfastData = [
             "Fold the other half over the filling and cook for another minute.",
             "Slide the omelette onto a plate and serve hot."
         ],
-        ingredientImg: "https://www.example.com/omelette-ingredients.jpg"
+        ingredientImg: "https://www.isabeleats.com/wp-content/uploads/2022/01/mexican-omelet-ingredients.jpg"
     },
 
     {
         id: "frenchtoast",
         title: "French Toast",
         up: "⏱️20 mins | Prep: 5 min. | Cook: 15 min. | Servings: 4 servings",
-        image: "https://www.example.com/french-toast-image.png",
+        image: "https://www.allrecipes.com/thmb/kpI2DQrw7zDake_7B8wOJRkZ-6Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ALR-recipe-16895-fluffy-french-toast-hero-01-ddmfs-4x3-7fd61e054f2c4f0f868b7ab0dd8767ae.jpg",
         description: "French Toast is a popular breakfast dish made with bread soaked in a mixture of eggs and milk, then fried until golden brown. It's often served with syrup, powdered sugar, and fruit.",
         time: "20 mins",
         categories: "Veg",
@@ -100,14 +100,14 @@ const brekfastData = [
             "Cook the soaked bread slices until golden brown on both sides.",
             "Serve hot with maple syrup, powdered sugar, and fresh fruit."
         ],
-        ingredientImg: "https://www.example.com/french-toast-ingredients.jpg"
+        ingredientImg: "https://togetherasfamily.com/wp-content/uploads/2022/01/FRENCH-TOAST-ingredients.jpg"
     },
 
     {
         id: "avocado-toast",
         title: "Avocado Toast",
         up: "⏱️10 mins | Prep: 5 min. | Cook: 5 min. | Servings: 2 servings",
-        image: "https://www.example.com/images/avocado-toast.jpg",
+        image: "https://www.thespruceeats.com/thmb/dfa8Uq14SlF33FCAsPbDZVHp9bE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/avocado-toast-4174244-hero-03-d9d005dc633f44889ba5385fe4ebe633.jpg",
         description: "Avocado toast is a simple yet satisfying breakfast. Mashed avocado is spread on toasted bread and topped with various seasonings and toppings.",
         time: "10 mins",
         categories: "breakfast",
@@ -128,13 +128,13 @@ const brekfastData = [
             "Drizzle with olive oil and sprinkle with red pepper flakes if desired.",
             "Serve avocado toast immediately while bread is warm and toppings are fresh.",
             "Enjoy your simple and delicious avocado toast!"],
-        ingredientImg: "https://www.example.com/images/avocado-toast-ingredients.jpg"
+        ingredientImg: "https://pinchmegood.com/wp-content/uploads/2018/01/Avocados.png"
     },
     {
         id: "breakfast-smoothie",
         title: "Breakfast Smoothie",
         up: "⏱️5 mins | Prep: 5 min. | Cook: 0 min. | Servings: 2 servings",
-        image: "https://www.example.com/images/breakfast-smoothie.jpg",
+        image: "https://www.eatingwell.com/thmb/EMLwettAIr9RNoPpDrYBM7goPX0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/healthy-breakfast-smoothie-8029983-4000x2700-af8c4d4b95ef4cd29080a86c1d9528ef.jpg",
         description: "A breakfast smoothie is a quick and nutritious way to start your day. Blend together fruits, yogurt, and other ingredients for a refreshing morning drink.",
         time: "5 mins",
         categories: "breakfast",
@@ -154,13 +154,13 @@ const brekfastData = [
             "If desired, add ice cubes and blend again until smooth.",
             "Pour breakfast smoothie into glasses and serve immediately.",
             "Enjoy your refreshing and nutritious breakfast smoothie!"],
-        ingredientImg: "https://www.example.com/images/breakfast-smoothie-ingredients.jpg"
+        ingredientImg: "https://www.alphafoodie.com/wp-content/uploads/2022/06/Protein-Breakfast-Smoothie-Ingredients-for-protein-breakfast-smoothie.jpeg"
     },
     {
         id: "breakfast-quiche",
         title: "Breakfast Quiche",
         up: "⏱️1 hour | Prep: 15 min. | Cook: 45 min. | Servings: 6 servings",
-        image: "https://www.example.com/images/breakfast-quiche.jpg",
+        image: "https://midwestfoodieblog.com/wp-content/uploads/2022/08/FINAL-breakfast-quiche-1-3.jpg",
         description: "Breakfast quiche is a savory egg pie filled with vegetables, meats, and cheese. It's perfect for a leisurely breakfast or brunch.",
         time: "1 hour",
         categories: "breakfast",
@@ -186,13 +186,13 @@ const brekfastData = [
             "Bake for 40-45 minutes, or until quiche is set and the top is golden brown.",
             "Remove from oven and let cool in the pie dish for 10 minutes before slicing and serving.",
             "Enjoy your delicious breakfast quiche warm or at room temperature!"],
-        ingredientImg: "https://www.example.com/images/breakfast-quiche-ingredients.jpg"
+        ingredientImg: "https://www.jocooks.com/wp-content/uploads/2019/05/quiche-lorraine-ingredients.jpg"
     },
     {
         id: "breakfast-burrito",
         title: "Breakfast Burrito",
         up: "⏱️20 mins | Prep: 10 min. | Cook: 10 min. | Servings: 2 servings",
-        image: "https://www.example.com/images/breakfast-burrito-2.jpg",
+        image: "https://www.onceuponachef.com/images/2018/03/Breakfast-Burritos.jpg",
         description: "A breakfast burrito is a satisfying and portable morning meal. It typically includes scrambled eggs, cheese, vegetables, and optional meats wrapped in a warm tortilla.",
         time: "20 mins",
         categories: "breakfast",
@@ -217,13 +217,13 @@ const brekfastData = [
             "Roll up the tortillas tightly, tucking in the ends as you go.",
             "Serve immediately or wrap in foil for a portable breakfast option.",
             "Enjoy your hearty breakfast burrito!"],
-        ingredientImg: "https://www.example.com/images/breakfast-burrito-ingredients.jpg"
+        ingredientImg: "https://whatsgabycooking.com/wp-content/uploads/2016/08/Breakfast-Burrito-Ingredients.png"
     },
     {
         id: "breakfast-panini",
         title: "Breakfast Panini",
         up: "⏱️15 mins | Prep: 5 min. | Cook: 10 min. | Servings: 2 servings",
-        image: "https://www.example.com/images/breakfast-panini.jpg",
+        image: "https://ilovepecans.org/wp-content/uploads/2018/01/06-panini-1024x766.jpg",
         description: "A breakfast panini is a delicious and filling sandwich perfect for mornings. It typically includes eggs, cheese, and ham or bacon grilled to perfection.",
         time: "15 mins",
         categories: "breakfast",
@@ -247,13 +247,13 @@ const brekfastData = [
             "Grill the sandwich in the preheated panini press or grill pan until bread is golden brown and cheese is melted, about 3-4 minutes per side.",
             "Carefully remove from heat and let cool slightly before slicing.",
             "Serve hot and enjoy your delicious breakfast panini!"],
-        ingredientImg: "https://www.example.com/images/breakfast-panini-ingredients.jpg"
+        ingredientImg: "https://insidebrucrewlife.com/wp-content/uploads/2020/01/Egg-Burritos-ingredients-with-labels-1.jpg"
     },
     {
         id: "overnight-oats",
         title: "Overnight Oats",
         up: "⏱️5 mins (plus overnight chilling) | Prep: 5 min. | Cook: 0 min. | Servings: 2 servings",
-        image: "https://www.example.com/images/overnight-oats.jpg",
+        image: "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2021/01/Overnight-Oats-18.jpg",
         description: "Overnight oats are a convenient and nutritious breakfast option. Oats are soaked overnight in milk or yogurt, topped with fruits, nuts, and sweeteners.",
         time: "5 mins (+ chilling time)",
         categories: "breakfast",
@@ -270,13 +270,13 @@ const brekfastData = [
             "Cover the jar or container and refrigerate overnight or for at least 4 hours to soften oats and allow flavors to meld.",
             "In the morning, stir well and add more milk or yogurt if oats are too thick.",
             "Enjoy your overnight oats cold or warmed up for a quick and nutritious breakfast!"],
-        ingredientImg: "https://www.example.com/images/overnight-oats-ingredients.jpg"
+        ingredientImg: "https://www.thefitpeach.com/wp-content/uploads/2021/02/Chocolate-Peanut-Butter-Overnight-Oats-Ingredients.png"
     },
     {
         id: "breakfast-bowl",
         title: "Breakfast Bowl",
         up: "⏱️15 mins | Prep: 10 min. | Cook: 5 min. | Servings: 2 servings",
-        image: "https://www.example.com/images/breakfast-bowl.jpg",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN9WAvoAEktMUk6cViTxLAMR07PpXCmjRIJu8_fSfVsUuCyezZU_6UL1_u--ftEaFKcHk&usqp=CAU",
         description: "A breakfast bowl is a customizable meal featuring grains, proteins, vegetables, and a flavorful sauce or dressing. It's a hearty and nutritious way to start your day.",
         time: "15 mins",
         categories: "breakfast",
@@ -300,39 +300,13 @@ const brekfastData = [
             "Drizzle with sauce or dressing of your choice, if using.",
             "Garnish breakfast bowls with fresh herbs.",
             "Enjoy your hearty and customizable breakfast bowl!"],
-        ingredientImg: "https://www.example.com/images/breakfast-bowl-ingredients.jpg"
-    },
-    {
-        id: "breakfast-parfait",
-        title: "Breakfast Parfait",
-        up: "⏱️10 mins | Prep: 10 min. | Cook: 0 min. | Servings: 2 servings",
-        image: "https://www.example.com/images/breakfast-parfait.jpg",
-        description: "A breakfast parfait is a layered dish of yogurt, fruits, nuts, and granola. It's nutritious, delicious, and perfect for mornings on the go.",
-        time: "10 mins",
-        categories: "breakfast",
-        recipeName: "Breakfast Parfait",
-        descriptiontitle: "ABOUT BREAKFAST PARFAIT",
-        recipe: "In glasses or bowls, layer Greek yogurt, fresh berries, and granola. Repeat layers until glasses are filled. Drizzle with honey or maple syrup if desired. Garnish with mint leaves. Serve immediately for a quick and satisfying breakfast parfait.",
-        ingredientTitle: "INGREDIENTS FOR BREAKFAST PARFAIT",
-        ingredients: ["1 cup Greek yogurt (plain or flavored)",
-            "1 cup fresh berries (strawberries, blueberries, raspberries)",
-            "1/2 cup granola (homemade or store-bought)",
-            "Honey or maple syrup for drizzling (optional)",
-            "Fresh mint leaves for garnish"],
-        steps: ["In glasses or bowls, spoon a layer of Greek yogurt.",
-            "Top yogurt with a layer of fresh berries.",
-            "Sprinkle granola evenly over berries.",
-            "Repeat layers of yogurt, berries, and granola until glasses or bowls are filled, ending with a layer of granola on top.",
-            "Drizzle breakfast parfait with honey or maple syrup if desired.",
-            "Garnish with fresh mint leaves.",
-            "Serve immediately and enjoy your nutritious breakfast parfait!"],
-        ingredientImg: "https://www.example.com/images/breakfast-parfait-ingredients.jpg"
+        ingredientImg: "https://www.thefitpeach.com/wp-content/uploads/2021/02/Chocolate-Peanut-Butter-Overnight-Oats-Ingredients.png"
     },
     {
         id: "banana-bread",
         title: "Banana Bread",
         up: "⏱️1 hour | Prep: 15 min. | Cook: 45 min. | Servings: 10 servings",
-        image: "https://www.example.com/images/banana-bread.jpg",
+        image: "https://www.allrecipes.com/thmb/j8vCSWRUhLaL7pVdITEc1nc_zis=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/241707-joys-easy-banana-bread-ddmfs-4x3-59ebd71876a046e6b485b38bf99a8c73.jpg",
         description: "Banana bread is a moist and delicious quick bread made with ripe bananas. It's perfect for breakfast or as a snack.",
         time: "1 hour",
         categories: "breakfast",
@@ -360,41 +334,13 @@ const brekfastData = [
             "Remove banana bread from pan and let cool completely on wire rack before slicing.",
             "Slice banana bread and serve warm or at room temperature.",
             "Enjoy your homemade banana bread for breakfast or as a snack!"],
-        ingredientImg: "https://www.example.com/images/banana-bread-ingredients.jpg"
-    },
-    {
-        id: "french-toast",
-        title: "French Toast",
-        up: "⏱️20 mins | Prep: 10 min. | Cook: 10 min. | Servings: 4 servings",
-        image: "https://www.example.com/images/french-toast.jpg",
-        description: "French toast is a classic breakfast dish made with sliced bread soaked in a mixture of eggs, milk, and cinnamon, then fried until golden brown. It's delicious topped with syrup, fruits, or powdered sugar.",
-        time: "20 mins",
-        categories: "breakfast",
-        recipeName: "French Toast",
-        descriptiontitle: "ABOUT FRENCH TOAST",
-        recipe: "In a shallow bowl, whisk together eggs, milk, vanilla extract, and cinnamon until well combined. Heat a griddle or skillet over medium heat and lightly grease with butter or oil. Dip slices of bread into the egg mixture, coating both sides evenly. Place coated bread slices onto the hot griddle or skillet. Cook until golden brown on both sides, flipping once. Serve hot with maple syrup, fresh fruits, or a dusting of powdered sugar.",
-        ingredientTitle: "INGREDIENTS FOR FRENCH TOAST",
-        ingredients: ["8 slices bread (white, whole wheat, or brioche)",
-            "4 large eggs",
-            "1/2 cup milk (any milk of choice)",
-            "1 tsp vanilla extract",
-            "1 tsp ground cinnamon",
-            "Butter or oil for greasing the griddle or skillet",
-            "Maple syrup, fresh fruits, or powdered sugar for serving"],
-        steps: ["In a shallow bowl, whisk together eggs, milk, vanilla extract, and ground cinnamon until well combined.",
-            "Heat a griddle or large skillet over medium heat and lightly grease with butter or oil.",
-            "Dip each slice of bread into the egg mixture, coating both sides evenly.",
-            "Place coated bread slices onto the hot griddle or skillet.",
-            "Cook until golden brown on the bottom, then flip and cook until the other side is golden brown and the bread is cooked through.",
-            "Transfer French toast slices to plates and serve hot with maple syrup, fresh fruits, or a dusting of powdered sugar.",
-            "Enjoy your classic French toast for a delicious breakfast treat!"],
-        ingredientImg: "https://www.example.com/images/french-toast-ingredients.jpg"
+        ingredientImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa7IH1xT-uxh2g1ki6ao_FyI0GLy0ICHidRg&s"
     },
     {
         id: "breakfast-bagel",
         title: "Breakfast Bagel",
         up: "⏱️15 mins | Prep: 5 min. | Cook: 10 min. | Servings: 2 servings",
-        image: "https://www.example.com/images/breakfast-bagel.jpg",
+        image: "https://themom100.com/wp-content/uploads/2021/03/bagel-breakfast-sandwich-043-scaled.jpg",
         description: "A breakfast bagel is a quick and satisfying morning meal. It typically includes a toasted bagel topped with cream cheese, smoked salmon, and fresh vegetables.",
         time: "15 mins",
         categories: "breakfast",
@@ -415,13 +361,13 @@ const brekfastData = [
             "Season with salt and pepper to taste.",
             "Garnish breakfast bagels with fresh dill.",
             "Serve immediately and enjoy your delicious breakfast bagel!"],
-        ingredientImg: "https://www.example.com/images/breakfast-bagel-ingredients.jpg"
+        ingredientImg: "https://breadboozebacon.com/wp-content/uploads/2022/09/Bacon-Egg-Cheese-Bagel-Breakfast-Sandwich-Ingredients-800x1200.jpg"
     },
     {
         id: "breakfast-hash",
         title: "Breakfast Hash",
         up: "⏱️30 mins | Prep: 10 min. | Cook: 20 min. | Servings: 4 servings",
-        image: "https://www.example.com/images/breakfast-hash.jpg",
+        image: "https://assets.epicurious.com/photos/55b102daa188eea213e627ac/master/pass/EP_07212015_noreciperequiredhash_hero_6x4.jpg",
         description: "Breakfast hash is a hearty and flavorful dish made with diced potatoes, onions, bell peppers, and optional meats such as sausage or bacon, all cooked in one skillet.",
         time: "30 mins",
         categories: "breakfast",
@@ -444,13 +390,13 @@ const brekfastData = [
             "Cook, stirring occasionally, until vegetables are tender and meats are heated through, about 5-7 minutes.",
             "Adjust seasoning to taste and serve breakfast hash hot.",
             "Enjoy your hearty and flavorful breakfast hash as a standalone dish or topped with eggs!"],
-        ingredientImg: "https://www.example.com/images/breakfast-hash-ingredients.jpg"
+        ingredientImg: "https://www.lifeasastrawberry.com/wp-content/uploads/2015/01/Chorizo-Hash-Ingredients.jpg"
     },
     {
         id: "breakfast-crepes",
         title: "Breakfast Crepes",
         up: "⏱️30 mins | Prep: 15 min. | Cook: 15 min. | Servings: 4 servings",
-        image: "https://www.example.com/images/breakfast-crepes.jpg",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRBFGVL0HG4xcWsFnYET7VhWdlVSDVPB9EOA&s",
         description: "Breakfast crepes are thin pancakes filled with savory or sweet ingredients. They're versatile and delicious, perfect for a leisurely breakfast or brunch.",
         time: "30 mins",
         categories: "breakfast",
@@ -473,7 +419,7 @@ const brekfastData = [
             "To assemble breakfast crepes, fill each crepe with desired fillings such as scrambled eggs, cheese, ham, Nutella, or strawberries.",
             "Fold or roll up crepes and serve warm.",
             "Enjoy your delicious and versatile breakfast crepes for a leisurely breakfast or brunch!"],
-        ingredientImg: "https://www.example.com/images/breakfast-crepes-ingredients.jpg"
+        ingredientImg: "https://cookieandkate.com/images/2023/05/crepes-recipe.jpg"
     }
 ];
 
