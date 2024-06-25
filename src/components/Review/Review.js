@@ -31,9 +31,7 @@ function App() {
                 <form onSubmit={handleSubmit}>
                     <label for="name ">Name : </label><br />
                     <input className='text w-100 py-2 px-2' 
-                        type="text"
-                        id="name"
-                        name="name"
+                        type="text"                      
                         placeholder='Enter Name'
                         value={name}
                         onChange={(e) => setName(e.target.value)}
@@ -42,9 +40,7 @@ function App() {
                     
                     <label for="review">Review :</label><br />
                     <textarea 
-                    className='text w-100 px-2'
-                        id="review"
-                        name="review"
+                    className='text w-100 px-2'        
                         placeholder='Comment'
                         rows="4"
                         value={review}
