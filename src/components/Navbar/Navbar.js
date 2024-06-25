@@ -41,6 +41,7 @@ function Navbar() {
         <div className='nav-item-container '>
          <Link to="/" className='nav-item'>Home</Link>
          <Link to="/vegcard"  className='nav-item'>Categories</Link>
+         
          <Link to="/blog"className='nav-item'>Blog</Link>
          <Link to="/about" className='nav-item'>About</Link>
         

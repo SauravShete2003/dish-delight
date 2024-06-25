@@ -9,16 +9,18 @@ body {
     height: 230px;
     padding: 10px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
 
 .contact-info-div {
-    height: 140px;
+    height: 200px;
     width: 180px;
     padding: 10px;
     color: white;
+    cursor: pointer;
+    
 }
 
 .get-latest-food-receipe-inbox-container {
@@ -27,9 +29,22 @@ body {
 }
 
 .logo-image {
-    height: 130px;
-    width: 130px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
+    /* margin-left: 20px; */
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+   
+   
+}
+.links{
+    text-decoration: none;
+    color: white;
 }
 
 .contact-logo {
