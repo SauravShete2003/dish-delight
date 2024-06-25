@@ -1,11 +1,8 @@
 import React from 'react'
-
+import RecipeBlogs from '../../components/RecipeBlog/RecipeBlog'
 function Blog() {
   return (
-    <div >
-    <h1>Hello</h1>
-      
-    </div>
+   <RecipeBlogs/>
   )
 }
 
