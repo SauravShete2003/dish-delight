@@ -380,35 +380,7 @@ const BrekfastData = [
             "Enjoy your hearty and flavorful breakfast hash as a standalone dish or topped with eggs!"],
         ingredientImg: "https://www.lifeasastrawberry.com/wp-content/uploads/2015/01/Chorizo-Hash-Ingredients.jpg"
     },
-    {
-        id: "breakfast-crepes",
-        title: "Breakfast Crepes",
-        up: "⏱️30 mins | Prep: 15 min. | Cook: 15 min. | Servings: 4 servings",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRBFGVL0HG4xcWsFnYET7VhWdlVSDVPB9EOA&s",
-        description: "Breakfast crepes are thin pancakes filled with savory or sweet ingredients. They're versatile and delicious, perfect for a leisurely breakfast or brunch.",
-        time: "30 mins",
-        categories: "breakfast",
-        recipeName: "Breakfast Crepes",
-        descriptiontitle: "ABOUT BREAKFAST CREPES",
-        recipe: "In a blender, combine eggs, milk, flour, melted butter, and salt. Blend until smooth. Heat a lightly greased skillet or crepe pan over medium heat. Pour a small amount of batter into the skillet, swirling to coat the bottom evenly. Cook for 1-2 minutes until the edges start to lift. Flip and cook for another 1-2 minutes until golden brown. Repeat with remaining batter. Fill crepes with fillings such as scrambled eggs, cheese, ham, or Nutella and strawberries. Fold or roll up and serve warm.",
-        ingredientTitle: "INGREDIENTS FOR BREAKFAST CREPES",
-        ingredients: ["2 large eggs",
-            "1 cup milk (any milk of choice)",
-            "1 cup all-purpose flour",
-            "2 tbsp unsalted butter, melted",
-            "1/4 tsp salt",
-            "Fillings of choice: scrambled eggs, cheese, ham, Nutella, strawberries, etc."],
-        steps: ["In a blender, combine eggs, milk, flour, melted butter, and salt. Blend until smooth.",
-            "Heat a lightly greased skillet or crepe pan over medium heat.",
-            "Pour a small amount of batter into the skillet, swirling to coat the bottom evenly.",
-            "Cook for 1-2 minutes until the edges start to lift and the bottom is golden brown.",
-            "Flip the crepe and cook for another 1-2 minutes until golden brown on the other side.",
-            "Repeat with remaining batter, stacking cooked crepes on a plate as you go.",
-            "To assemble breakfast crepes, fill each crepe with desired fillings such as scrambled eggs, cheese, ham, Nutella, or strawberries.",
-            "Fold or roll up crepes and serve warm.",
-            "Enjoy your delicious and versatile breakfast crepes for a leisurely breakfast or brunch!"],
-        ingredientImg: "https://cookieandkate.com/images/2023/05/crepes-recipe.jpg"
-    }
+   
 ];
 
 export default BrekfastData;
