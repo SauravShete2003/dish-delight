@@ -17,6 +17,7 @@ import CategoryNonveg from "./views/Categories/categoryNonveg/CategorNonveg"
 import CategoriesVeg from './views/Categories/categoryVeg/CategoriesVeg';
 import MaharashtrianSpecial from './views/MaharashtrianSpecial/MaharashtrianSpecial';
 import SpecialDish from "./components/SpecialDish/Veg"
+import Dishcard from "./components/SpecialDish/Dishcard"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
@@ -79,6 +80,10 @@ const router = createBrowserRouter([
    {
     path: "/specialdish",
     element: <SpecialDish/>
+   },
+   {
+    path: "/Dishcard/:id",
+    element :<Dishcard />
    }
 
 
