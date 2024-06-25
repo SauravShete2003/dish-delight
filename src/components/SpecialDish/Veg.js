@@ -1,11 +1,53 @@
-import "./Veg.css"
-import DishData from "../../data/SpcialDishdata"
+import "./Veg.css";
+import DishData from "../../data/SpcialDishdata";
+import { Link } from "react-router-dom";
 
+function Veg({ title, description, image, time, watch, id }) {
+    return (
+        <>
+            <div>
+                <div className="spacial-dish-card">
 
-function Veg() {
-  return (
-    <div>Veg</div>
-  )
+                    <img src={image} className="spcial-dish-image" />
+                    <h4 className="dish-card-title">{title}</h4 >
+                    <p>{description.substring(0, 120)}...</p>
+                    <h6 className="dish-timeing">{time} </h6>
+                    <img src={watch} className="watch-icon" />
+                    <Link to={`/dish/${id}`} >
+                        <button type="butoon" className="know-more-button">Know More</button>
+                    </Link>
+                </div>
+            </div>
+        </>
+    );
 }
 
-export default Veg
+function VegData() {
+    return (
+        <>
+
+            <div className="backcover-container">
+                <img src="" />
+            </div>
+            <h1 className="special-dish-title">Special Dish</h1>
+            <div className="vegdata-container" >
+
+
+                {DishData.map((dish, i) => (
+                    <Veg
+                        key={i}
+                        image={dish.image}
+                        title={dish.title}
+                        description={dish.discription}
+                        time={dish.time}
+                        watch={dish.watch}
+                        id={dish.id}
+                    />
+                ))}
+            </div>
+        </>)
+}
+
+
+
+export default VegData;
