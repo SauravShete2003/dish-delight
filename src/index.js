@@ -17,6 +17,7 @@ import CategoryNonveg from "./views/Categories/categoryNonveg/CategorNonveg"
 import CategoriesVeg from './views/Categories/categoryVeg/CategoriesVeg';
 import MaharashtrianSpecial from './views/MaharashtrianSpecial/MaharashtrianSpecial';
 import SpecialDish from "./components/SpecialDish/Veg"
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
