@@ -38,7 +38,7 @@ function MaharashtrianSpecial() {
             <div className="w-50 mx-auto">
                 <h1 className='text-center heading-deep-blue'>{RecipeDetails.title}</h1>
                 <div className="d-flex justify-content-center my-4">
-                    <img src={RecipeDetails.image} alt={RecipeDetails.title} className='w-100 rounded h-400' />
+                    <img src={RecipeDetails.image} alt={RecipeDetails.title} className='w-100 rounded h-300' />
                 </div>
 
                 <h3 className='text-success text-center heading-navy-blue'>Ingredients:</h3>
@@ -74,7 +74,7 @@ function MaharashtrianSpecial() {
                     )}
                 </ul>
             </div>
-            <div className="w-50 mx-auto">
+            <div className="w-50 mx-auto mb-3">
                 <h2 className='text-center heading-bright-cyan'>Recipe Video</h2>
                 <div className="d-flex justify-content-center">
                     <iframe
