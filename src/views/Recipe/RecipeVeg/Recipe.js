@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import "./Recipe.css"
 import Navbar from '../../../components/Navbar/Navbar'
 import Footer from '../../../components/Footer/Footer'
