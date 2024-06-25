@@ -20,6 +20,7 @@ import MaharashtrianSpecial from './views/MaharashtrianSpecial/MaharashtrianSpec
 import SpecialDish from "./components/SpecialDish/Veg"
 import Dishcard from "./components/SpecialDish/Dishcard"
 import RecipeBreakfast from './views/Recipe/RecipeBreakfast/RecipeBreakfast';
+import RecipeBlogs from "./components/RecipeBlog/RecipeBlog"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -97,6 +98,10 @@ const router = createBrowserRouter([
    {
     path: "/Dishcard/:id",
     element :<Dishcard />
+   },
+   {
+    path : "/recipeblog",
+    element : <RecipeBlogs />
    }
 
 

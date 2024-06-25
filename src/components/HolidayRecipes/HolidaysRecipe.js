@@ -6,7 +6,7 @@ function HolidayRecipe({ id, name, description, imageUrl }) {
   const truncatedDescription = description ? description.substring(0, 70) + '...' : '';
 
   return (
-    <Link className="col-md-4 my-3 text-decoration-none" to={`/maharashtraspecial/${id}`}>
+    <Link className="col-md-4 my-3 text-decoration-none text-center" to={`/maharashtraspecial/${id}`}>
       <div className="card h-100">
         <img src={imageUrl} className="card-img-top h-200" alt={name} />
         <div className="card-body ">

@@ -20,7 +20,8 @@
 
 .category-image {
   width: 210px;
-  height: 210px;
+  height: 200px;
+  margin-bottom: 10px;
   border-radius: 15px;
 }
 
