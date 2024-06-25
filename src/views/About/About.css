@@ -19,8 +19,8 @@
 }
 
 .image-container {
-    width: 600px;
-    height: 500px;
+    width: 50%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
