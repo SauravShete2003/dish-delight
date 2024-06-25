@@ -29,14 +29,15 @@ function RecipeNonveg() {
       <h2 className='heading text-center text-white mt-5 mx-3 py-3 rounded-4 bg-secondary'>{selectedData.ingredientTitle} </h2>
 
       <div className='ingredients-container mt-4'>
-        <div className='ingredient-list text-white p-4 m-4 rounded-4 bg-secondary '>
-
-          {selectedData.ingredients.map((element, i) =>
-            <ul key={i}>
-              <b><li className='ingredients'>{element}</li></b>
-            </ul>
+      <ul className='ingredient-list bg-secondary text-white p-4 my-3 rounded-4 '>
+          {selectedData.ingredients.length > 1 ? (
+            selectedData.ingredients.map((element, i) => (
+              <li className='h6 mx-3 my-2' key={i}>{element}</li>
+            ))
+          ) : (
+            <p>No element available.</p>
           )}
-        </div>
+        </ul>
     
           <img src={selectedData.ingredientImg} className='ingredient-list rounded-4 my-4  img-thumbnail' />
         
