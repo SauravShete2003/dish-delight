@@ -20,6 +20,18 @@ const RecipeBlog = [
         videoblog: "https://www.youtube.com/embed/x4cR0TsnoCE",
         description: "Is video me main aap logo ko Bharat Gaurav Tourist Train mein north east ka journey kar ke dikhane wala hu or ye bhi dikhaunga ki first class mein kya kya khana milta hai. or v bohot sare chizo pe maine baat kiya hai video ko poora dekhna agar ye video acha lage toh like Share jaruru karna or subscribe karna na bhulna."
     },
+    {
+        id: 4,
+        title: "Tips & Tricks",
+        videoblog: "https://www.youtube.com/embed/fL18rHF-YQM",
+        description: "We love food. But the task behind preparing the food can be easy or tedious at times. Once your food has been prepared then comes the cleaning up of the mess-created part. Sometimes we find a new recipe on the internet and try it out. End up with piles of dishes in the sink. Well, cannot leave it as it is. You need the dishes for the next day and it isn’t hygienic."
+    },
+    {
+        id: 5,
+        title: "Cooking Tips For Kitchen Beginners",
+        videoblog: "https://www.youtube.com/embed/aopS3q6f1GY",
+        description: "Professional chef instructor Frank Proto shares his top tips for beginners, helping you to elevate the basic skills you'll need to find your footing in the kitchen."
+    },
 ];
 
 export { RecipeBlog };
@@ -27,7 +39,7 @@ export { RecipeBlog };
 function RecipeBlogs() {
     return (
         <div className="recipeblog">
-            <h1 className='w-50 bg-primary text-center my-3 mx-auto p-2 rounded'>Recipe Blogs</h1>
+            <h2 className='w-50 bg-secondary text-white text-center my-3 mx-auto p-2 rounded'>Recipe Blogs</h2>
             <div className="recipeblog-container">
                 {RecipeBlog.map((recipeblog) => (
                     <div key={recipeblog.id} className="recipeblog-card">
