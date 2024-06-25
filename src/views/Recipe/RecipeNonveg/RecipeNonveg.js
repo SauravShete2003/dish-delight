@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import "./RecipeNonveg.css"
 import Navbar from '../../../components/Navbar/Navbar'
 import Footer from '../../../components/Footer/Footer'
@@ -33,7 +33,7 @@ function RecipeNonveg() {
 
           {selectedData.ingredients.map((element, i) =>
             <ul key={i}>
-              <b><li className='ingrients '>{element}</li></b>
+              <b><li className='ingredients'>{element}</li></b>
             </ul>
           )}
         </div>
