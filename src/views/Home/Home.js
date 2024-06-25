@@ -14,7 +14,7 @@ function HomeCategory() {
       <div>
         <Navbar />
         <div>
-          <img src='https://thumbs.dreamstime.com/b/foodie-food-eating-party-celebration-concept-72712787.jpg' className='heading-img '/>
+          <img src='https://t3.ftcdn.net/jpg/07/57/41/36/360_F_757413685_tppGP1P42HUS5KDAu9Zl0Xal24A96qyI.jpg' className='heading-img '/>
         </div>
         <HomeCategories />
         <HolidaySpecials />
