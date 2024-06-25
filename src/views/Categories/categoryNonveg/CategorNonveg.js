@@ -29,6 +29,7 @@ function CategoryNonveg() {
       <Navbar />
        <img src={headerimg} className="header-img" />
        <h1 className="head-title">Tasty Nonveg Food</h1> 
+     
 
       <div className=" search-container d-flex align-items-center mx-auto ">
           <input 
