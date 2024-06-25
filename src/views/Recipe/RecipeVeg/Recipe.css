@@ -1,0 +1,49 @@
+.heading{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.recipe-img{
+    height: 70vh;
+    width: 55%;
+}
+
+.recipe-description{
+    font-size: 30px;
+    margin: 10px 100px;
+}
+
+.ingredients-container{
+    display: flex;
+    justify-content: center;
+}
+
+.ingredient-list{
+   width: 40%;
+   height: 92vh;
+   font-size: 14px;
+   box-shadow: 1px 2px 1px 2px gray;
+}
+ 
+.ingredient{
+    padding: 20px;
+}
+
+.ingredient-img{
+    height: 92vh;
+    width: 40%;
+}
+
+.recipe{
+    margin: 20px 300px;
+    text-align:justify;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.input-1 {
+    width: 600px;  
+}
+
+.review-page{
+    margin: 20px auto;
+    width: 20%;
+}
