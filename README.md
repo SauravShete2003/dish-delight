@@ -15,4 +15,4 @@ This project is a simple recipe management system where users can read & and mak
 <img src="./src/assets/puran-poli-img.jpeg" alt="PuranPoli" width="300" height="200">
 
 ## Team Members
-<img src="./src/assets/team-member.png" alt="OurTeam" width="300" height="250">
+<img src="./src/assets/team-member.png" alt="OurTeam" >
