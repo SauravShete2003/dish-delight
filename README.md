@@ -1,18 +1,18 @@
 # Dish Delight
 
-A simple recipe management system built with react.
-This project is a simple recipe management system where user can read & and make special dishes to make holidays beautiful.
+A simple recipe management system built with React.
+This project is a simple recipe management system where users can read & and make special dishes to make holidays beautiful.
 
-![Categories](./src/assets/BreakFast.jpg)
+<img src="./src/assets/BreakFast.jpg" alt="Categories" width="300" height="200">
+
 ### Varieties
 
-![varieties](./src/assets/HomeImg/Dal%20Makhan.webp)
+<img src="./src/assets/HomeImg/Dal%20Makhan.webp" alt="varieties" width="300" height="200">
 
 ## Maharashtrian Special
 ### Puran Poli
 
-![PuranPoli](./src/assets/puran-poli-img.jpeg)
+<img src="./src/assets/puran-poli-img.jpeg" alt="PuranPoli" width="300" height="200">
 
 ## Team Members
-![OurTeam](./src/assets/team-member.png)
-
+<img src="./src/assets/team-member.png" alt="OurTeam" width="300" height="250">
