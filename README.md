@@ -5,6 +5,9 @@ This project is a simple recipe management system where users can read & and mak
 
 <img src="./src/assets/BreakFast.jpg" alt="Categories" width="300" height="200">
 
+<img src="./src/assets/BreakFast.jpg" alt="Categories" width="300" height="200">
+<img src="./src/assets/BreakFast.jpg" alt="Categories" width="300" height="200">
+
 ### Varieties
 
 <img src="./src/assets/HomeImg/Dal%20Makhan.webp" alt="varieties" width="300" height="200">
