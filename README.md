@@ -17,12 +17,16 @@ This project is a simple recipe management system where users can read & and mak
 
 ## Maharashtrian Special
 ### Puran Poli
-
 <table>
 <tr>
 <td><img src="./src/assets/puran-poli-img.jpeg" alt="puran poli" width="300" height="200"/>
 <img src="./src/assets/aamras.jpeg" width="300" height="200"/>
 </td>
+</tr>
+</table>
+
+## Our Team
 
 ## Team Members
 <img src="./src/assets/team-member.png" alt="OurTeam" >
+
