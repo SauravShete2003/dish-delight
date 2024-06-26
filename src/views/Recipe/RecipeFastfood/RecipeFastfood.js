@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react'
-import "./RecipeBreakfast.css"
+import "./RecipeFastfood.css"
 import Navbar from '../../../components/Navbar/Navbar'
 import Footer from '../../../components/Footer/Footer'
-import BreakfastData from '../../../data/CategoriesBreakfastdata'
+import FastfoodData from '../../../data/CategoriesFastfooddata'
 import { useParams } from 'react-router-dom'
 import Review from '../../../components/Review/Review'
 
-function RecipeBreakfast() {
+function RecipeFastfood() {
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -14,7 +14,7 @@ function RecipeBreakfast() {
 
   const { id } = useParams()
 
-  const selectedData = BreakfastData.find((dataObject)=> dataObject.id === id)
+  const selectedData = FastfoodData.find((dataObject)=> dataObject.id === id)
 
   return (<>
     <div>
@@ -65,4 +65,4 @@ function RecipeBreakfast() {
   )
 }
 
-export default RecipeBreakfast
+export default RecipeFastfood

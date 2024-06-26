@@ -43,7 +43,7 @@ function RecipeNonveg() {
         
       </div>
 
-      <h2 className='heading text-center text-white mt-5 mx-3 py-3 rounded-4 bg-secondary'> {selectedData.recipeName} Process</h2>
+      <h2 className='heading text-center text-white mt-5 mx-3 py-3 rounded-4 bg-secondary'> {selectedData.recipeName} PROCESS</h2>
 
       <div className='recipe bg-secondary text-white h5 p-4 rounded-3 mt-3 mb-3 mx-auto'>
         {selectedData.steps.map((element, i) => {

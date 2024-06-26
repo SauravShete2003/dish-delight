@@ -30,10 +30,8 @@ function App() {
             <div className="review-form review-page p-5 rounded-3 bg-secondary mx-auto">
                 <form onSubmit={handleSubmit}>
                     <label for="name ">Name : </label><br />
-                    <input className='text w-100 py-2 px-2' 
-                        type="text"
-                        id="name"
-                        name="name"
+                    <input className='text w-100 py-2 px-2 rounded-2' 
+                        type="text"                      
                         placeholder='Enter Name'
                         value={name}
                         onChange={(e) => setName(e.target.value)}
@@ -41,10 +39,7 @@ function App() {
                     /><br /><br />
                     
                     <label for="review">Review :</label><br />
-                    <textarea 
-                    className='text w-100 px-2'
-                        id="review"
-                        name="review"
+                    <textarea className='text w-100 px-2 rounded-2'        
                         placeholder='Comment'
                         rows="4"
                         value={review}
