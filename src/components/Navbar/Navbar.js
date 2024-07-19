@@ -30,7 +30,7 @@ function Navbar() {
           isMenuOpen ?
          <div className='menu-icon-container'>
             <Link to="/" className='menu-navbar-item'>Home</Link>
-            <Link to="/vegcard" className='menu-navbar-item'>Categories</Link>
+            <Link to="/categories/veg" className='menu-navbar-item'>Categories</Link>
     
             <Link to="/blog"className='menu-navbar-item'>Blog</Link>
             <Link to="/about" className='menu-navbar-item'>About</Link>
@@ -40,7 +40,7 @@ function Navbar() {
        
         <div className='nav-item-container '>
          <Link to="/" className='nav-item'>Home</Link>
-         <Link to="/vegcard"  className='nav-item'>Categories</Link>
+         <Link to="/veg"  className='nav-item'>Categories</Link>
          
          <Link to="/blog"className='nav-item'>Blog</Link>
          <Link to="/about" className='nav-item'>About</Link>

@@ -33,11 +33,11 @@ function CategoriesVeg() {
       <img src={headerimg} className="header-img" />
       <span className="head-title">Veg Delicious Food</span>
 
-        <div className=" search-container d-flex align-items-center mx-auto ">
+        <div className=" search-container d-flex align-items-center mx-auto w-75 ">
           <input 
             type="text" 
             placeholder="Search.." 
-            className="seachbar rounded-3 m-2 p-1 fs-6"
+            className="seachbar rounded-5 m-2 py-2 px-2 fw-bold fs-5 w-50 d-block mx-auto border border-primary border-3"
             value={searchText}
             onChange={(e)=>{
               setSearchText(e.target.value)

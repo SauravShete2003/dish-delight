@@ -22,6 +22,7 @@ import Dishcard from "./components/SpecialDish/Dishcard"
 import RecipeBreakfast from './views/Recipe/RecipeBreakfast/RecipeBreakfast';
 import Blog from './views/Blog/Blog';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 
-function CategoriesSection({ id, name, image, timing, }) {
+function CategoriesSection({ id, name, image,  }) {
 
   return (
     <>
@@ -15,7 +15,6 @@ function CategoriesSection({ id, name, image, timing, }) {
 
           <span className="category-name">{name}</span>
          
-          <span className="category-timing">{timing}</span>
         </div>
       </Link>
 
