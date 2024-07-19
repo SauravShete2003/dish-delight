@@ -3,33 +3,28 @@ const categoriesData = [
     id: 1,
     name: "BreakFast",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIMxqPl8UULMRhBrdKjXSSRi2ucjhx_3BXnw&usqp=CAU",
-    timing: "⏱️15 min",
-    rating: 4.0,
+      "https://www.twopeasandtheirpod.com/wp-content/uploads/2023/06/Breakfast-Sandwich-0015.jpg",
+
   },
   {
     id: 2,
     name: "Veg",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSiQq7nuYUSsNxP-_TAnEs922GM2_kRKI8Tg&usqp=CAU",
-    timing: "⏱️30 min",
-    rating: 4.0,
+      "https://shwetainthekitchen.com/wp-content/uploads/2023/06/veg-fried-rice.jpg",
   },
   {
     id: 3,
     name: "Non-Veg",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT6ElaEWHmkEtOuoVST0qe7yBdWtVsei47_g&usqp=CAU",
-    timing: "⏱️45 min",
-    rating: 4.0,
+      "https://static.toiimg.com/photo/104341747/104341747.jpg",
+
   },
   {
     id: 4,
     name: "FastFood",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQokbdL8CAYZaROmKL9aKy9p0gV-PRbGTz6zw&usqp=CAU",
-    timing: "⏱️20 min",
-    rating: 4.0,
+      "https://img.freepik.com/free-photo/photorealistic-burger-meal_23-2151432909.jpg",
+
   },
 ];
 
