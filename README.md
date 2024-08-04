@@ -7,7 +7,7 @@ This project is a simple recipe management system where users can read & and mak
   <tr>
     <td><img src="https://shwetainthekitchen.com/wp-content/uploads/2023/06/veg-fried-rice.jpg" alt="Categories" width="300" height="200"></td>
     <td><img src="https://static.toiimg.com/photo/104341747/104341747.jpg" alt="Categories" width="300" height="200"></td>
-    <td><img src="https://img.freepik.com/free-photo/photorealistic-burger-meal_23-2151432909.jpg" alt="Categories" width="300" height="200"></td>
+    <td><img src="https://img.freepik.com/free-photo/photorealistic-burger-meal_23-2151432909.jpg" alt="Categories" width="300" height="300"></td>
   </tr>
 </table>
 
