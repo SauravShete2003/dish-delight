@@ -31,11 +31,11 @@ function CategoriesBreakfast() {
       <img src={headerimg} className="header-img" />
       <span className="head-title">Rise And Dine its Breakfast Time.</span>
 
-      <div className=" search-container d-flex align-items-center mx-auto w-75 ">
+      <div className=" search-container">
         <input
           type="text"
           placeholder="Search.."
-          className="seachbar rounded-5 m-2 py-2 px-2 fw-bold fs-5 w-50 d-block mx-auto border border-primary border-3"
+          className="input-box"
           value={searchText}
           onChange={(e) => {
             setSearchText(e.target.value);
