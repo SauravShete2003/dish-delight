@@ -5,8 +5,6 @@ import menuicon from "./menu.png"
 import { useState } from 'react';
 
 
-
-
 function Navbar() {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
